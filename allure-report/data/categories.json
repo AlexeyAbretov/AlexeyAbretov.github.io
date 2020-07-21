@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"field-code\"])\n                Wait timed out after 60070ms",
+      "children" : [ {
+        "name" : "Пользователю отображается список вкладов с возможностью пополнения",
+        "uid" : "462679ab721674b7",
+        "parentUid" : "4c0341c8bdee36ab6f2f23db26cc0efe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595311477521,
+          "stop" : 1595311544976,
+          "duration" : 67455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "4c0341c8bdee36ab6f2f23db26cc0efe"
+    }, {
+      "name" : "TimeoutError: timeout: Timed out receiving message from renderer: -0.001\n                  (Session info: chrome=84.0.4147.89)",
+      "children" : [ {
+        "name" : "Пользователю отображается список вкладов с выплатой процентов на счет",
+        "uid" : "f4d2b3e7e8719669",
+        "parentUid" : "bf414637615b05c4d6840dbe0bc25433",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595311603731,
+          "stop" : 1595311626286,
+          "duration" : 22555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "bf414637615b05c4d6840dbe0bc25433"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

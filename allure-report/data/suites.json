@@ -1,0 +1,152 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Депозиты - Калькулятор - интеграционные тесты",
+    "children" : [ {
+      "name" : "Пользователю отображается список вкладов на основе выбранной валюты",
+      "uid" : "f1c2fded0e3ad380",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311317130,
+        "stop" : 1595311352247,
+        "duration" : 35117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов на основе выбранного срока",
+      "uid" : "346acdbb72de2be0",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311352247,
+        "stop" : 1595311423291,
+        "duration" : 71044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов на основе суммы вклада",
+      "uid" : "5e90e4d0afbd3d70",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311423291,
+        "stop" : 1595311451965,
+        "duration" : 28674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "30000" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов с возможностью частичного снятия",
+      "uid" : "8271a18c3537b7b9",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311451965,
+        "stop" : 1595311477521,
+        "duration" : 25556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов с возможностью пополнения",
+      "uid" : "462679ab721674b7",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "failed",
+      "time" : {
+        "start" : 1595311477521,
+        "stop" : 1595311544976,
+        "duration" : 67455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов установлены все условия",
+      "uid" : "1d59652b8a9efb12",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311544977,
+        "stop" : 1595311575240,
+        "duration" : 30263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов с выплатой процентов на вклад",
+      "uid" : "e47ff48d56230a06",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311575240,
+        "stop" : 1595311603731,
+        "duration" : 28491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов с выплатой процентов на счет",
+      "uid" : "f4d2b3e7e8719669",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "failed",
+      "time" : {
+        "start" : 1595311603731,
+        "stop" : 1595311626286,
+        "duration" : 22555
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов на основе набора параметров 1",
+      "uid" : "44b1ffa2bccf33c9",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311626286,
+        "stop" : 1595311659309,
+        "duration" : 33023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да", "91 день", "Да" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов на основе набора параметров 2",
+      "uid" : "41eee4c0b95bea6f",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311659309,
+        "stop" : 1595311689713,
+        "duration" : 30404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да", "366 дней", "Да" ]
+    }, {
+      "name" : "Пользователю отображается список вкладов на основе набора параметров 3",
+      "uid" : "7a7a054205a57d1e",
+      "parentUid" : "a899af74b7ec507c2f7f0342c3fdf296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595311689713,
+        "stop" : 1595311720879,
+        "duration" : 31166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да", "366 дней" ]
+    } ],
+    "uid" : "a899af74b7ec507c2f7f0342c3fdf296"
+  } ]
+}

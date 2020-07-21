@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "a899af74b7ec507c2f7f0342c3fdf296",
+    "name" : "Депозиты - Калькулятор - интеграционные тесты",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

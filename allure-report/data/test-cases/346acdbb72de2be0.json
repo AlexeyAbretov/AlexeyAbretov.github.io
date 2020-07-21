@@ -1,0 +1,512 @@
+{
+  "uid" : "346acdbb72de2be0",
+  "name" : "Пользователю отображается список вкладов на основе выбранного срока",
+  "fullName" : "Депозиты - Калькулятор - интеграционные тесты.Пользователю отображается список вкладов на основе выбранного срока",
+  "historyId" : "a597266a4cc4402893858f1f1489b9c7",
+  "time" : {
+    "start" : 1595311352247,
+    "stop" : 1595311423291,
+    "duration" : 71044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на форму депозитного калькулятора по прямой ссылке",
+      "time" : {
+        "start" : 1595311354387,
+        "stop" : 1595311366194,
+        "duration" : 11807
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1595311354387,
+          "stop" : 1595311362309,
+          "duration" : 7922
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1595311354387,
+            "stop" : 1595311357412,
+            "duration" : 3025
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "664af7f390a77123",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "664af7f390a77123.png",
+            "type" : "image/png",
+            "size" : 3366182
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1595311357412,
+            "stop" : 1595311362309,
+            "duration" : 4897
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "21d8c6c08a010d3",
+            "name" : "Подтверждение учетных данных",
+            "source" : "21d8c6c08a010d3.png",
+            "type" : "image/png",
+            "size" : 3388879
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "192b6887bb4d20db",
+        "name" : "Результат перехода на форму депозитного калькулятора",
+        "source" : "192b6887bb4d20db.png",
+        "type" : "image/png",
+        "size" : 429748
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта RUB",
+      "time" : {
+        "start" : 1595311366194,
+        "stop" : 1595311382466,
+        "duration" : 16272
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка списка депозитов - период 91 день",
+        "time" : {
+          "start" : 1595311366194,
+          "stop" : 1595311369831,
+          "duration" : 3637
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "33d86ac6f8dff165",
+          "name" : "Результат - список депозитов - период 91 день",
+          "source" : "33d86ac6f8dff165.png",
+          "type" : "image/png",
+          "size" : 283258
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 181 день",
+        "time" : {
+          "start" : 1595311369831,
+          "stop" : 1595311373015,
+          "duration" : 3184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3886a067ca6e78b5",
+          "name" : "Результат - список депозитов - период 181 день",
+          "source" : "3886a067ca6e78b5.png",
+          "type" : "image/png",
+          "size" : 420422
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 366 дней",
+        "time" : {
+          "start" : 1595311373015,
+          "stop" : 1595311376190,
+          "duration" : 3175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8717c60094674244",
+          "name" : "Результат - список депозитов - период 366 дней",
+          "source" : "8717c60094674244.png",
+          "type" : "image/png",
+          "size" : 432398
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 549 дней",
+        "time" : {
+          "start" : 1595311376191,
+          "stop" : 1595311379333,
+          "duration" : 3142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c0a30e75a7fb26f6",
+          "name" : "Результат - список депозитов - период 549 дней",
+          "source" : "c0a30e75a7fb26f6.png",
+          "type" : "image/png",
+          "size" : 356418
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 732 дня",
+        "time" : {
+          "start" : 1595311379333,
+          "stop" : 1595311382466,
+          "duration" : 3133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a245bdff3acdedb5",
+          "name" : "Результат - список депозитов - период 732 дня",
+          "source" : "a245bdff3acdedb5.png",
+          "type" : "image/png",
+          "size" : 355888
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта EUR",
+      "time" : {
+        "start" : 1595311382466,
+        "stop" : 1595311402980,
+        "duration" : 20514
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка списка депозитов - период 91 день",
+        "time" : {
+          "start" : 1595311386051,
+          "stop" : 1595311389770,
+          "duration" : 3719
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b788fda582d636d",
+          "name" : "Результат - список депозитов - период 91 день",
+          "source" : "3b788fda582d636d.png",
+          "type" : "image/png",
+          "size" : 235702
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 181 день",
+        "time" : {
+          "start" : 1595311389770,
+          "stop" : 1595311392855,
+          "duration" : 3085
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e2cae3d7ceff7b6e",
+          "name" : "Результат - список депозитов - период 181 день",
+          "source" : "e2cae3d7ceff7b6e.png",
+          "type" : "image/png",
+          "size" : 235986
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 366 дней",
+        "time" : {
+          "start" : 1595311392855,
+          "stop" : 1595311396175,
+          "duration" : 3320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "79fbe9da23fc8ce5",
+          "name" : "Результат - список депозитов - период 366 дней",
+          "source" : "79fbe9da23fc8ce5.png",
+          "type" : "image/png",
+          "size" : 236579
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 549 дней",
+        "time" : {
+          "start" : 1595311396175,
+          "stop" : 1595311399866,
+          "duration" : 3691
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fcd8a5736df54a5b",
+          "name" : "Результат - список депозитов - период 549 дней",
+          "source" : "fcd8a5736df54a5b.png",
+          "type" : "image/png",
+          "size" : 236377
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 732 дня",
+        "time" : {
+          "start" : 1595311399866,
+          "stop" : 1595311402979,
+          "duration" : 3113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "df23e7509e69506b",
+          "name" : "Результат - список депозитов - период 732 дня",
+          "source" : "df23e7509e69506b.png",
+          "type" : "image/png",
+          "size" : 235790
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта USD",
+      "time" : {
+        "start" : 1595311402980,
+        "stop" : 1595311422720,
+        "duration" : 19740
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка списка депозитов - период 91 день",
+        "time" : {
+          "start" : 1595311405678,
+          "stop" : 1595311409413,
+          "duration" : 3735
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "87dd2b3521eefa5a",
+          "name" : "Результат - список депозитов - период 91 день",
+          "source" : "87dd2b3521eefa5a.png",
+          "type" : "image/png",
+          "size" : 282613
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 181 день",
+        "time" : {
+          "start" : 1595311409414,
+          "stop" : 1595311412389,
+          "duration" : 2975
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ebb29f2012808156",
+          "name" : "Результат - список депозитов - период 181 день",
+          "source" : "ebb29f2012808156.png",
+          "type" : "image/png",
+          "size" : 353744
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 366 дней",
+        "time" : {
+          "start" : 1595311412389,
+          "stop" : 1595311415536,
+          "duration" : 3147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "78a252a6d44c1e72",
+          "name" : "Результат - список депозитов - период 366 дней",
+          "source" : "78a252a6d44c1e72.png",
+          "type" : "image/png",
+          "size" : 433041
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 549 дней",
+        "time" : {
+          "start" : 1595311415537,
+          "stop" : 1595311419638,
+          "duration" : 4101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7c265d24c3fc1c7e",
+          "name" : "Результат - список депозитов - период 549 дней",
+          "source" : "7c265d24c3fc1c7e.png",
+          "type" : "image/png",
+          "size" : 235580
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 732 дня",
+        "time" : {
+          "start" : 1595311419638,
+          "stop" : 1595311422720,
+          "duration" : 3082
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "393a0f77b61f6cf1",
+          "name" : "Результат - список депозитов - период 732 дня",
+          "source" : "393a0f77b61f6cf1.png",
+          "type" : "image/png",
+          "size" : 235010
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5006687434a4b4b5",
+      "name" : "Результат теста",
+      "source" : "5006687434a4b4b5.png",
+      "type" : "image/png",
+      "size" : 235010
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователю отображается список вкладов на основе выбранного срока"
+  }, {
+    "name" : "package",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "39219928499-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "346acdbb72de2be0.json",
+  "parameterValues" : [ "39219928499-1", "1234", "Basic", "1234" ]
+}
