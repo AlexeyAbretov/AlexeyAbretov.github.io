@@ -4,39 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"field-code\"])\n                Wait timed out after 60070ms",
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"DST_PAN-input\"])\n                Wait timed out after 20099ms",
       "children" : [ {
-        "name" : "Пользователю отображается список вкладов с возможностью пополнения",
-        "uid" : "462679ab721674b7",
-        "parentUid" : "4c0341c8bdee36ab6f2f23db26cc0efe",
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+        "uid" : "83cb3b610fd9fc0b",
+        "parentUid" : "3a01c5eb753d7e119f8e901be4e9cb8b",
         "status" : "failed",
         "time" : {
-          "start" : 1595311477521,
-          "stop" : 1595311544976,
-          "duration" : 67455
+          "start" : 1596009802631,
+          "stop" : 1596009857755,
+          "duration" : 55124
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+        "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Счет/карта получателя - 5160091290003130, Сумма - 77, Комментарий - test comment, Номер карты/счета - 42306810000690011013", "transfer_clientBank", "tab-menu-По номеру карты" ]
       } ],
-      "uid" : "4c0341c8bdee36ab6f2f23db26cc0efe"
+      "uid" : "3a01c5eb753d7e119f8e901be4e9cb8b"
     }, {
-      "name" : "TimeoutError: timeout: Timed out receiving message from renderer: -0.001\n                  (Session info: chrome=84.0.4147.89)",
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60016ms",
       "children" : [ {
-        "name" : "Пользователю отображается список вкладов с выплатой процентов на счет",
-        "uid" : "f4d2b3e7e8719669",
-        "parentUid" : "bf414637615b05c4d6840dbe0bc25433",
+        "name" : "Выгрузка квитанции в pdf со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "d4e49c3c58256655",
+        "parentUid" : "83508dcd9cc6c6dc4807477582af9135",
         "status" : "failed",
         "time" : {
-          "start" : 1595311603731,
-          "stop" : 1595311626286,
-          "duration" : 22555
+          "start" : 1596010284041,
+          "stop" : 1596010369099,
+          "duration" : 85058
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+        "parameters" : [ "5-D4S21-4", "1234", "Basic", "1234", "Номер карты/счета - источник - 40817978700730000086, Номер карты/счета - приемник - 40817810400166924178, Сумма - 20", "transfer_yourself", "" ]
       } ],
-      "uid" : "bf414637615b05c4d6840dbe0bc25433"
+      "uid" : "83508dcd9cc6c6dc4807477582af9135"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60094ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "e1ad597a55863191",
+        "parentUid" : "8539c2e0711d6a26379c24ae3ed302b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596010369099,
+          "stop" : 1596010457564,
+          "duration" : 88465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-D4S21-4", "1234", "Basic", "1234", "Номер карты/счета - источник - 40817978700730000086, Номер карты/счета - приемник - 40817810400166924178, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "8539c2e0711d6a26379c24ae3ed302b9"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60085ms",
+      "children" : [ {
+        "name" : "Проверить в ленте операций отображение операции перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "d7f6235496b8ec8f",
+        "parentUid" : "3df80227c763fb40549e783d20e2a787",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596010457564,
+          "stop" : 1596010542419,
+          "duration" : 84855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-D4S21-4", "1234", "Basic", "1234", "Номер карты/счета - источник - 40817978700730000086, Номер карты/счета - приемник - 40817810400166924178, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "3df80227c763fb40549e783d20e2a787"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

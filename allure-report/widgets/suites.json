@@ -1,15 +1,103 @@
 {
-  "total" : 1,
+  "total" : 9,
   "items" : [ {
-    "uid" : "a899af74b7ec507c2f7f0342c3fdf296",
-    "name" : "Депозиты - Калькулятор - интеграционные тесты",
+    "uid" : "e348cdf0dc2d9ffb7e6072c8ea9518aa",
+    "name" : "Переводы между своими счетами - интеграционные тесты",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 11
+      "total" : 3
+    }
+  }, {
+    "uid" : "89a2b047ebbf4105e5f8575b7ad51710",
+    "name" : "Переводы по номеру карты клиенту банка - интеграционные тесты",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "ab51ecee0e10e155eddabfcd51994555",
+    "name" : "Переводы по номеру карты - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "fd0e00409c58946eae6040715d655a02",
+    "name" : "Переводы в другой банк в бюджет - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "58705d0069c5c440448da924ce029e92",
+    "name" : "Переводы по номеру телефона клиенту банка - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "5d29a7fe81b3536c52e55d5988c0bb74",
+    "name" : "Переводы по номеру счета клиенту банка - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0fa413f20996d29bb98ff4b3e6bc7d4a",
+    "name" : "Переводы в другой банк физическим лицам - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7d141841e138831f7b701dca5d2833a1",
+    "name" : "Переводы в другой банк организациям - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e10991ee7efcc50877f3cc0d0a85b8d3",
+    "name" : "Переводы SWIFT - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   } ]
 }
