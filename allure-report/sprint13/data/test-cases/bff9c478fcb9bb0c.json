@@ -1,0 +1,242 @@
+{
+  "uid" : "bff9c478fcb9bb0c",
+  "name" : "Пользователю отображается список вкладов установлены все условия",
+  "fullName" : "Депозиты - Калькулятор - интеграционные тесты.Пользователю отображается список вкладов установлены все условия",
+  "historyId" : "937fe2ceb522a92ae3c07adabdbbb8c2",
+  "time" : {
+    "start" : 1596727196393,
+    "stop" : 1596727221793,
+    "duration" : 25400
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на форму депозитного калькулятора по прямой ссылке",
+      "time" : {
+        "start" : 1596727197978,
+        "stop" : 1596727208421,
+        "duration" : 10443
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1596727197978,
+          "stop" : 1596727205581,
+          "duration" : 7603
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1596727197978,
+            "stop" : 1596727201107,
+            "duration" : 3129
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fe45f127890892b1",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "fe45f127890892b1.png",
+            "type" : "image/png",
+            "size" : 3743850
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1596727201107,
+            "stop" : 1596727205581,
+            "duration" : 4474
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8d42b62a16da0bdb",
+            "name" : "Подтверждение учетных данных",
+            "source" : "8d42b62a16da0bdb.png",
+            "type" : "image/png",
+            "size" : 3742206
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ff3fc64ce8986beb",
+        "name" : "Результат перехода на форму депозитного калькулятора",
+        "source" : "ff3fc64ce8986beb.png",
+        "type" : "image/png",
+        "size" : 435237
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор всех условий",
+      "time" : {
+        "start" : 1596727208421,
+        "stop" : 1596727212016,
+        "duration" : 3595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5caad6df2df9e698",
+        "name" : "Результат выбора всех условий",
+        "source" : "5caad6df2df9e698.png",
+        "type" : "image/png",
+        "size" : 422005
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта RUB",
+      "time" : {
+        "start" : 1596727212016,
+        "stop" : 1596727215212,
+        "duration" : 3196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7617c04ae090c3f",
+        "name" : "Результат - список депозитов - валюта RUB",
+        "source" : "a7617c04ae090c3f.png",
+        "type" : "image/png",
+        "size" : 422005
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта USD",
+      "time" : {
+        "start" : 1596727215213,
+        "stop" : 1596727217968,
+        "duration" : 2755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa32cc287fca3b48",
+        "name" : "Результат - список депозитов - валюта USD",
+        "source" : "aa32cc287fca3b48.png",
+        "type" : "image/png",
+        "size" : 423532
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта EUR",
+      "time" : {
+        "start" : 1596727217968,
+        "stop" : 1596727221135,
+        "duration" : 3167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "481d0981229667f2",
+        "name" : "Результат - список депозитов - валюта EUR",
+        "source" : "481d0981229667f2.png",
+        "type" : "image/png",
+        "size" : 280817
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6e8f4d6961a87f51",
+      "name" : "Результат теста",
+      "source" : "6e8f4d6961a87f51.png",
+      "type" : "image/png",
+      "size" : 280817
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователю отображается список вкладов установлены все условия"
+  }, {
+    "name" : "package",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "39219928499-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Возможно пополнение",
+    "value" : "Да"
+  }, {
+    "name" : "Частичное снятие",
+    "value" : "Да"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bff9c478fcb9bb0c.json",
+  "parameterValues" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да" ]
+}

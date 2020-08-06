@@ -1,0 +1,721 @@
+[ {
+  "uid" : "efa2703885b8fb57",
+  "name" : "Пользователю отображается список вкладов на основе набора параметров 3",
+  "time" : {
+    "start" : 1596727321042,
+    "stop" : 1596727351856,
+    "duration" : 30814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "632c2c825f25e5c8",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+  "time" : {
+    "start" : 1596725494622,
+    "stop" : 1596725573497,
+    "duration" : 78875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffa0aca183f34cb2",
+  "name" : "should render errors with highest limits and button should be disabled",
+  "time" : {
+    "start" : 1596727785239,
+    "stop" : 1596727815172,
+    "duration" : 29933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78af25b916b2418f",
+  "name" : "should render no errors and button should be enabled",
+  "time" : {
+    "start" : 1596727815172,
+    "stop" : 1596727815172,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5f35fad063833e9d",
+  "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Бюджетным организациям",
+  "time" : {
+    "start" : 1596726071711,
+    "stop" : 1596726134036,
+    "duration" : 62325
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a3dcc85000b4395",
+  "name" : "Выгрузка квитанции в pdf со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+  "time" : {
+    "start" : 1596725441261,
+    "stop" : 1596725494622,
+    "duration" : 53361
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab249d47f74c729f",
+  "name" : "Не должна отображаться ошибка при вводе номера карты",
+  "time" : {
+    "start" : 1596724822439,
+    "stop" : 1596724842980,
+    "duration" : 20541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8503917b6705e794",
+  "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру счета (с CASH-кредита)",
+  "time" : {
+    "start" : 1596725396598,
+    "stop" : 1596725441238,
+    "duration" : 44640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90e1a60bb9c36925",
+  "name" : "Успешный перевод с неверифицированным номером телефона",
+  "time" : {
+    "start" : 1596724653993,
+    "stop" : 1596724730654,
+    "duration" : 76661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f00bd13a694351d3",
+  "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+  "time" : {
+    "start" : 1596725236973,
+    "stop" : 1596725280224,
+    "duration" : 43251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "835b7027f06a7254",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+  "time" : {
+    "start" : 1596725121674,
+    "stop" : 1596725236972,
+    "duration" : 115298
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "17c8625bca95375",
+  "name" : "Смена языка приложения должна пройти успешно",
+  "time" : {
+    "start" : 1596727815507,
+    "stop" : 1596727836510,
+    "duration" : 21003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e933a0ed279677b8",
+  "name" : "Установка email",
+  "time" : {
+    "start" : 1596727859153,
+    "stop" : 1596727859153,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3186e1862175024b",
+  "name" : "Не должна отображаться ошибка при вводе номера карты",
+  "time" : {
+    "start" : 1596724570787,
+    "stop" : 1596724590350,
+    "duration" : 19563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38b3d1fb6069933a",
+  "name" : "Перевод В другой банк - Бюджетным организациям должен выполнится успешно",
+  "time" : {
+    "start" : 1596726014770,
+    "stop" : 1596726071711,
+    "duration" : 56941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d603c26f71af50d",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру счета (с CASH-кредита)",
+  "time" : {
+    "start" : 1596725328245,
+    "stop" : 1596725396598,
+    "duration" : 68353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c58b4db70146836e",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Бюджетным организациям",
+  "time" : {
+    "start" : 1596726134036,
+    "stop" : 1596726207693,
+    "duration" : 73657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93aba87bbfa173e5",
+  "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру карты (со счета)",
+  "time" : {
+    "start" : 1596724982591,
+    "stop" : 1596725049656,
+    "duration" : 67065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9b735f6064701c6",
+  "name" : "Открытие накопительного счета в рублях c 0 рублей",
+  "time" : {
+    "start" : 1596727354676,
+    "stop" : 1596727393686,
+    "duration" : 39010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0eb0d274f0c6d6e",
+  "name" : "Должны отображаться паспортные данные",
+  "time" : {
+    "start" : 1596727836768,
+    "stop" : 1596727854576,
+    "duration" : 17808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5f522715e3b7fde",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+  "time" : {
+    "start" : 1596724897324,
+    "stop" : 1596724982591,
+    "duration" : 85267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bc77a9a93cfa06b",
+  "name" : "Должна отобразится ошибка с номером 1106",
+  "time" : {
+    "start" : 1596727859547,
+    "stop" : 1596727859547,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3f7fdce44c5b9e16",
+  "name" : "Открытие вклада Максимальный в рублях",
+  "time" : {
+    "start" : 1596727445585,
+    "stop" : 1596727512022,
+    "duration" : 66437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95d56daddbfccf48",
+  "name" : "Пользователю отображается список вкладов на основе суммы вклада",
+  "time" : {
+    "start" : 1596727123575,
+    "stop" : 1596727146526,
+    "duration" : 22951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dbf8aaa60538c9c",
+  "name" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+  "time" : {
+    "start" : 1596726653111,
+    "stop" : 1596726748436,
+    "duration" : 95325
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c784fb9714253a",
+  "name" : "Пользователю отображается список вкладов на основе набора параметров 1",
+  "time" : {
+    "start" : 1596727267817,
+    "stop" : 1596727293114,
+    "duration" : 25297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "187db1e609ed25bf",
+  "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Организациям",
+  "time" : {
+    "start" : 1596725935891,
+    "stop" : 1596726014750,
+    "duration" : 78859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e89242cd1dfff29",
+  "name" : "Проверить в ленте операций отображение операции перевода SWIFT (со счета)",
+  "time" : {
+    "start" : 1596726422742,
+    "stop" : 1596726478517,
+    "duration" : 55775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a03067ae205985c",
+  "name" : "Выгрузка квитанции на email со страницы успешного оплаты ЖКУ (с карты)",
+  "time" : {
+    "start" : 1596726748436,
+    "stop" : 1596726830968,
+    "duration" : 82532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a05790d530ed93c0",
+  "name" : "Успешное открытие квитанции платежа",
+  "time" : {
+    "start" : 1596726938936,
+    "stop" : 1596727028625,
+    "duration" : 89689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55dd52d7d157a0c0",
+  "name" : "Не должен отображаться выбор продукта при открытии накопительного счета в 0 рублей",
+  "time" : {
+    "start" : 1596727424677,
+    "stop" : 1596727445585,
+    "duration" : 20908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3c4645bbea9fae2",
+  "name" : "Выгрузка квитанции со страницы успешной оплаты Мобильной связи Yota (со счета)",
+  "time" : {
+    "start" : 1596726479844,
+    "stop" : 1596726531402,
+    "duration" : 51558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2816108cce0ed921",
+  "name" : "should not render links to old dbo",
+  "time" : {
+    "start" : 1596727854883,
+    "stop" : 1596727858948,
+    "duration" : 4065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2378891521d0804",
+  "name" : "Пользователю отображается список вкладов с возможностью частичного снятия",
+  "time" : {
+    "start" : 1596727146526,
+    "stop" : 1596727172216,
+    "duration" : 25690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97a2b29800da6294",
+  "name" : "Пользователю отображается список вкладов на основе выбранной валюты",
+  "time" : {
+    "start" : 1596727029795,
+    "stop" : 1596727058368,
+    "duration" : 28573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceaac02abcca36db",
+  "name" : "Выгрузка квитанции на email успешной оплаты Мобильной связи Yota (со счета)",
+  "time" : {
+    "start" : 1596726531402,
+    "stop" : 1596726603459,
+    "duration" : 72057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94ab2b4da8bc559a",
+  "name" : "Пользователю отображается список вкладов с возможностью пополнения",
+  "time" : {
+    "start" : 1596727172216,
+    "stop" : 1596727196393,
+    "duration" : 24177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b24502160902a7a",
+  "name" : "Выгрузка квитанции со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+  "time" : {
+    "start" : 1596724842980,
+    "stop" : 1596724897324,
+    "duration" : 54344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "380e1d90f5b91017",
+  "name" : "Пользователю отображается список вкладов с выплатой процентов на счет",
+  "time" : {
+    "start" : 1596727244477,
+    "stop" : 1596727267817,
+    "duration" : 23340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1bd057293c7d373",
+  "name" : "Должна отображаться ошибка при вводе номера карты",
+  "time" : {
+    "start" : 1596724551752,
+    "stop" : 1596724570787,
+    "duration" : 19035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96eec18360f4c8b3",
+  "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Людям",
+  "time" : {
+    "start" : 1596725628010,
+    "stop" : 1596725669496,
+    "duration" : 41486
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ab39d9d166441a8",
+  "name" : "Выгрузка квитанции со страницы успешного перевода Клиенту ОТП-банка по номеру счета (с CASH-кредита)",
+  "time" : {
+    "start" : 1596725280247,
+    "stop" : 1596725328244,
+    "duration" : 47997
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "14158576cfa8f989",
+  "name" : "Пользователю отображается список вкладов на основе выбранного срока",
+  "time" : {
+    "start" : 1596727058369,
+    "stop" : 1596727123575,
+    "duration" : 65206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3494152732b01",
+  "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Людям",
+  "time" : {
+    "start" : 1596725734318,
+    "stop" : 1596725811218,
+    "duration" : 76900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18ac2dc16a5f14f3",
+  "name" : "Открытие накопительного счета в евро с 0 евро",
+  "time" : {
+    "start" : 1596727424677,
+    "stop" : 1596727424677,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "84c51e2eea076fac",
+  "name" : "Создание пароля через профиль у клиента с неверефицированным номером телефона",
+  "time" : {
+    "start" : 1596727751566,
+    "stop" : 1596727784393,
+    "duration" : 32827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8576bde4c5f83c",
+  "name" : "Пользователю отображается список вкладов с выплатой процентов на вклад",
+  "time" : {
+    "start" : 1596727221793,
+    "stop" : 1596727244477,
+    "duration" : 22684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bff9c478fcb9bb0c",
+  "name" : "Пользователю отображается список вкладов установлены все условия",
+  "time" : {
+    "start" : 1596727196393,
+    "stop" : 1596727221793,
+    "duration" : 25400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3b7ab2a19cb247b",
+  "name" : "Должна отображаться корректная ошибка при изменении номера карты",
+  "time" : {
+    "start" : 1596724793952,
+    "stop" : 1596724822439,
+    "duration" : 28487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75ade0834840adba",
+  "name" : "Открытие вклада в Максимальный в долларах",
+  "time" : {
+    "start" : 1596727512022,
+    "stop" : 1596727553487,
+    "duration" : 41465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb70ee8ec67878f5",
+  "name" : "Проверить в ленте операций отображение оплаты ЖКУ (с карты)",
+  "time" : {
+    "start" : 1596726830968,
+    "stop" : 1596726886435,
+    "duration" : 55467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1d2c55f1a439fcf",
+  "name" : "Успешный перевод с верифицированным номером телефона",
+  "time" : {
+    "start" : 1596724590350,
+    "stop" : 1596724653992,
+    "duration" : 63642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a3bdaf94a9083f7",
+  "name" : "should render full progress bar after change limits(decreasing value)",
+  "time" : {
+    "start" : 1596727815172,
+    "stop" : 1596727815172,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "dfb8947a9d38c6ea",
+  "name" : "Проверить в ленте операций отображение оплаты Мобильной связи Yota (со счета)",
+  "time" : {
+    "start" : 1596726603459,
+    "stop" : 1596726653084,
+    "duration" : 49625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f69cdd425cbbc68c",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям",
+  "time" : {
+    "start" : 1596725669496,
+    "stop" : 1596725734318,
+    "duration" : 64822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c02f11592bfb39ef",
+  "name" : "Должны отображаться кнопки в нижней части развернутой транзакции в Истории операций",
+  "time" : {
+    "start" : 1596726887048,
+    "stop" : 1596726938936,
+    "duration" : 51888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a71c61ce8a1fe10e",
+  "name" : "Пользователю отображается список вкладов на основе набора параметров 2",
+  "time" : {
+    "start" : 1596727293114,
+    "stop" : 1596727321042,
+    "duration" : 27928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8b3efca243a42ed",
+  "name" : "Выгрузка квитанции со страницы успешного перевода SWIFT (со счета)",
+  "time" : {
+    "start" : 1596726280756,
+    "stop" : 1596726345629,
+    "duration" : 64873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "285a28ca1e00711f",
+  "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Организациям",
+  "time" : {
+    "start" : 1596725811243,
+    "stop" : 1596725862855,
+    "duration" : 51612
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a932ee6d6a93f305",
+  "name" : "Должна отображаться ошибка при вводе номера карты",
+  "time" : {
+    "start" : 1596724775641,
+    "stop" : 1596724793952,
+    "duration" : 18311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c39b17cff479eb0",
+  "name" : "Выгрузка квитанции со страницы успешного перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+  "time" : {
+    "start" : 1596725049692,
+    "stop" : 1596725121673,
+    "duration" : 71981
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "72a617670e0cf8c4",
+  "name" : "texts should have correct values",
+  "time" : {
+    "start" : 1596727554259,
+    "stop" : 1596727595837,
+    "duration" : 41578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf155be3df141564",
+  "name" : "Проверить в ленте операций отображение операции перевода Между своими счетами (со счета на карту) с конверсией",
+  "time" : {
+    "start" : 1596725573497,
+    "stop" : 1596725627988,
+    "duration" : 54491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89f62231deeda9c6",
+  "name" : "Изменение пароля через профиль у клиента с неверефицированным номером телефона",
+  "time" : {
+    "start" : 1596727694014,
+    "stop" : 1596727751566,
+    "duration" : 57552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e875daf8d40ed292",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Организациям",
+  "time" : {
+    "start" : 1596725862855,
+    "stop" : 1596725935891,
+    "duration" : 73036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65d13de0a6af3a88",
+  "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Бюджетным организациям",
+  "time" : {
+    "start" : 1596726207693,
+    "stop" : 1596726280723,
+    "duration" : 73030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20b27a09b5f3944c",
+  "name" : "Изменение типа нотификации должно проходить успешно",
+  "time" : {
+    "start" : 1596727595837,
+    "stop" : 1596727693126,
+    "duration" : 97289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "582b641d24c0d8ef",
+  "name" : "Должна отобаржаться ошибка при превышении лимита и успешно проходить платеж без превышения",
+  "time" : {
+    "start" : 1596724730654,
+    "stop" : 1596724775610,
+    "duration" : 44956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b027be9a62651b6",
+  "name" : "Смена номера телефона через email и повторная смена через телефон",
+  "time" : {
+    "start" : 1596727859346,
+    "stop" : 1596727859346,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "acb3b6aa9e903ea",
+  "name" : "Открытие накопительного счета в долларах с 0 долларов",
+  "time" : {
+    "start" : 1596727393688,
+    "stop" : 1596727424677,
+    "duration" : 30989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d205dab8717928e8",
+  "name" : "should go to DepositOpenForm when: there are hidden deposits and more button in aside",
+  "time" : {
+    "start" : 1596727445585,
+    "stop" : 1596727445585,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "162277cba7decf33",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода SWIFT (со счета)",
+  "time" : {
+    "start" : 1596726345629,
+    "stop" : 1596726422742,
+    "duration" : 77113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,164 @@
+{
+  "uid" : "c02f11592bfb39ef",
+  "name" : "Должны отображаться кнопки в нижней части развернутой транзакции в Истории операций",
+  "fullName" : "История операций - интеграционные тесты.Должны отображаться кнопки в нижней части развернутой транзакции в Истории операций",
+  "historyId" : "1cdb80a7cc43db011c57db3e91911a30",
+  "time" : {
+    "start" : 1596726887048,
+    "stop" : 1596726938936,
+    "duration" : 51888
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1596726888612,
+        "stop" : 1596726895808,
+        "duration" : 7196
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1596726888613,
+          "stop" : 1596726891760,
+          "duration" : 3147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "56304e6442f04e37",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "56304e6442f04e37.png",
+          "type" : "image/png",
+          "size" : 3743579
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1596726891760,
+          "stop" : 1596726895808,
+          "duration" : 4048
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6fe6373e9865b53b",
+          "name" : "Подтверждение учетных данных",
+          "source" : "6fe6373e9865b53b.png",
+          "type" : "image/png",
+          "size" : 3764841
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных о транзакции",
+      "time" : {
+        "start" : 1596726895809,
+        "stop" : 1596726938203,
+        "duration" : 42394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce9f829f38ed47bb",
+        "name" : "Список транзакций",
+        "source" : "ce9f829f38ed47bb.png",
+        "type" : "image/png",
+        "size" : 623067
+      }, {
+        "uid" : "d17b5468f6211708",
+        "name" : "Открытая транзакция",
+        "source" : "d17b5468f6211708.png",
+        "type" : "image/png",
+        "size" : 582184
+      }, {
+        "uid" : "d3078872a020f9c7",
+        "name" : "Открытая транзакция",
+        "source" : "d3078872a020f9c7.png",
+        "type" : "image/png",
+        "size" : 655360
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fe2e886d8eb411f3",
+      "name" : "Результат теста",
+      "source" : "fe2e886d8eb411f3.png",
+      "type" : "image/png",
+      "size" : 653538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "История операций - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "История операций - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должны отображаться кнопки в нижней части развернутой транзакции в Истории операций"
+  }, {
+    "name" : "package",
+    "value" : "История операций - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c02f11592bfb39ef.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234" ]
+}

@@ -1,0 +1,158 @@
+{
+  "uid" : "e0eb0d274f0c6d6e",
+  "name" : "Должны отображаться паспортные данные",
+  "fullName" : "DocumentsCard integration tests.Должны отображаться паспортные данные",
+  "historyId" : "e34ee8f00a23d7a4787ec1a7cb62492c",
+  "time" : {
+    "start" : 1596727836768,
+    "stop" : 1596727854576,
+    "duration" : 17808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1596727838623,
+        "stop" : 1596727848265,
+        "duration" : 9642
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1596727838623,
+          "stop" : 1596727842484,
+          "duration" : 3861
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "980c94d9c68088aa",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "980c94d9c68088aa.png",
+          "type" : "image/png",
+          "size" : 3743579
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1596727842485,
+          "stop" : 1596727848265,
+          "duration" : 5780
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bd0e21ab22c8ba76",
+          "name" : "Подтверждение учетных данных",
+          "source" : "bd0e21ab22c8ba76.png",
+          "type" : "image/png",
+          "size" : 3759471
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1596727848265,
+        "stop" : 1596727853811,
+        "duration" : 5546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0c6dfb457cf33df",
+        "name" : "Меню перехода в профиль",
+        "source" : "e0c6dfb457cf33df.png",
+        "type" : "image/png",
+        "size" : 220067
+      }, {
+        "uid" : "9b4d90592b0a8ab3",
+        "name" : "Результат перехода",
+        "source" : "9b4d90592b0a8ab3.png",
+        "type" : "image/png",
+        "size" : 268557
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "81d8877491a1f136",
+      "name" : "Результат теста",
+      "source" : "81d8877491a1f136.png",
+      "type" : "image/png",
+      "size" : 257166
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "DocumentsCard integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "DocumentsCard integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должны отображаться паспортные данные"
+  }, {
+    "name" : "package",
+    "value" : "DocumentsCard integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0eb0d274f0c6d6e.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234" ]
+}

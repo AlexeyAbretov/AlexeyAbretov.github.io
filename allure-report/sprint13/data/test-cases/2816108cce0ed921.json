@@ -1,0 +1,46 @@
+{
+  "uid" : "2816108cce0ed921",
+  "name" : "should not render links to old dbo",
+  "fullName" : "SignUpTemplate integration tests.should not render links to old dbo",
+  "historyId" : "ce5c929b1a70ba76be9dd7665ffbd01a",
+  "time" : {
+    "start" : 1596727854883,
+    "stop" : 1596727858948,
+    "duration" : 4065
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SignUpTemplate integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUpTemplate integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not render links to old dbo"
+  }, {
+    "name" : "package",
+    "value" : "SignUpTemplate integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2816108cce0ed921.json",
+  "parameterValues" : [ ]
+}

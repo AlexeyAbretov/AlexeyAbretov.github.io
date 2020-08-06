@@ -1,0 +1,280 @@
+{
+  "uid" : "285a28ca1e00711f",
+  "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Организациям",
+  "fullName" : "Переводы в другой банк организациям - интеграционные тесты.Выгрузка квитанции со страницы успешного перевода В другой банк - Организациям",
+  "historyId" : "56874d0751b5bfcb926f138fab382b7f",
+  "time" : {
+    "start" : 1596725811243,
+    "stop" : 1596725862855,
+    "duration" : 51612
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee26$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/src/forms/TransferForm/__tests__/TransferForm.ispec.js:893:24)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee26$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/src/forms/TransferForm/__tests__/TransferForm.ispec.js:893:24)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1596725812944,
+        "stop" : 1596725820821,
+        "duration" : 7877
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1596725816499,
+          "stop" : 1596725820821,
+          "duration" : 4322
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b5716e6022eead4c",
+          "name" : "Подтверждение учетных данных",
+          "source" : "b5716e6022eead4c.png",
+          "type" : "image/png",
+          "size" : 3768887
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6d229d028ddd5860",
+        "name" : "Заполнение учетных данных при входе через продукт",
+        "source" : "6d229d028ddd5860.png",
+        "type" : "image/png",
+        "size" : 3750353
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1596725820821,
+        "stop" : 1596725829129,
+        "duration" : 8308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1596725820821,
+          "stop" : 1596725822695,
+          "duration" : 1874
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ca75ed0ae3b0ab96",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "ca75ed0ae3b0ab96.png",
+          "type" : "image/png",
+          "size" : 4687
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1596725822695,
+          "stop" : 1596725829129,
+          "duration" : 6434
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "895c89f530094fc6",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "895c89f530094fc6.png",
+          "type" : "image/png",
+          "size" : 6192
+        }, {
+          "uid" : "ec707f0a0856bff1",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "ec707f0a0856bff1.png",
+          "type" : "image/png",
+          "size" : 2686
+        }, {
+          "uid" : "8afeedda1ef3e60c",
+          "name" : "Форма перевода",
+          "source" : "8afeedda1ef3e60c.png",
+          "type" : "image/png",
+          "size" : 213714
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1596725829129,
+        "stop" : 1596725834405,
+        "duration" : 5276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "833f606ee3320317",
+        "name" : "Заполненная формы перевода",
+        "source" : "833f606ee3320317.png",
+        "type" : "image/png",
+        "size" : 223128
+      }, {
+        "uid" : "725891a7e5260672",
+        "name" : "Заполненная формы перевода",
+        "source" : "725891a7e5260672.png",
+        "type" : "image/png",
+        "size" : 243206
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1596725834405,
+        "stop" : 1596725855147,
+        "duration" : 20742
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1596725836161,
+          "stop" : 1596725848293,
+          "duration" : 12132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b6f65650b43c17a0",
+          "name" : "Подтверждение платежа/перевода",
+          "source" : "b6f65650b43c17a0.png",
+          "type" : "image/png",
+          "size" : 184835
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a2d2b9ca769513f",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "a2d2b9ca769513f.png",
+        "type" : "image/png",
+        "size" : 239652
+      }, {
+        "uid" : "e157dd0f47393dab",
+        "name" : "Результат перевода",
+        "source" : "e157dd0f47393dab.png",
+        "type" : "image/png",
+        "size" : 148387
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b4acb8c736d3b886",
+      "name" : "Результат теста",
+      "source" : "b4acb8c736d3b886.png",
+      "type" : "image/png",
+      "size" : 148387
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы в другой банк организациям - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы в другой банк организациям - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Организациям"
+  }, {
+    "name" : "package",
+    "value" : "Переводы в другой банк организациям - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "9651 949130"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "9169701081"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Product"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Номер карты/счета - 40817810900709012947, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_internalBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-Организациям"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "285a28ca1e00711f.json",
+  "parameterValues" : [ "9651 949130", "9169701081", "Product", "1234", "Номер карты/счета - 40817810900709012947, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Организациям" ]
+}

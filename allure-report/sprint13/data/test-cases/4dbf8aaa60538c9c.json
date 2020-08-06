@@ -1,0 +1,289 @@
+{
+  "uid" : "4dbf8aaa60538c9c",
+  "name" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+  "fullName" : "PaymentForm - ЖКУ - integration tests.Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+  "historyId" : "43cedf88d4b22f7828353c75c6f5636a",
+  "time" : {
+    "start" : 1596726653111,
+    "stop" : 1596726748436,
+    "duration" : 95325
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee4$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/src/forms/PaymentForm/__tests__/PaymentForm.ispec.js:225:24)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee4$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/src/forms/PaymentForm/__tests__/PaymentForm.ispec.js:225:24)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1596726654667,
+        "stop" : 1596726662498,
+        "duration" : 7831
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1596726654667,
+          "stop" : 1596726657850,
+          "duration" : 3183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e69e75f8e3d6b891",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "e69e75f8e3d6b891.png",
+          "type" : "image/png",
+          "size" : 3745410
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1596726657850,
+          "stop" : 1596726662498,
+          "duration" : 4648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e1d68e03cf522e4d",
+          "name" : "Подтверждение учетных данных",
+          "source" : "e1d68e03cf522e4d.png",
+          "type" : "image/png",
+          "size" : 3766864
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1596726662498,
+        "stop" : 1596726677083,
+        "duration" : 14585
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1596726662498,
+          "stop" : 1596726664377,
+          "duration" : 1879
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "250669051c2d5c4d",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "250669051c2d5c4d.png",
+          "type" : "image/png",
+          "size" : 4687
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1596726664377,
+          "stop" : 1596726677083,
+          "duration" : 12706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "338ad9630d2bf5a0",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "338ad9630d2bf5a0.png",
+          "type" : "image/png",
+          "size" : 6811
+        }, {
+          "uid" : "cafad0d7f9f2fcf4",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "cafad0d7f9f2fcf4.png",
+          "type" : "image/png",
+          "size" : 7170
+        }, {
+          "uid" : "4ebb90b0a0b7a62e",
+          "name" : "Форма перевода",
+          "source" : "4ebb90b0a0b7a62e.png",
+          "type" : "image/png",
+          "size" : 201796
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1596726677083,
+        "stop" : 1596726679592,
+        "duration" : 2509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a78c8a9fcbfb61b6",
+        "name" : "Заполненная формы перевода",
+        "source" : "a78c8a9fcbfb61b6.png",
+        "type" : "image/png",
+        "size" : 234394
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1596726679592,
+        "stop" : 1596726740740,
+        "duration" : 61148
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1596726687838,
+          "stop" : 1596726699369,
+          "duration" : 11531
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7741351f017b5530",
+          "name" : "Подтверждение платежа/перевода",
+          "source" : "7741351f017b5530.png",
+          "type" : "image/png",
+          "size" : 168265
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2ad8bb25c99af465",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "2ad8bb25c99af465.png",
+        "type" : "image/png",
+        "size" : 233941
+      }, {
+        "uid" : "2dd2547ce39acf26",
+        "name" : "Результат перевода",
+        "source" : "2dd2547ce39acf26.png",
+        "type" : "image/png",
+        "size" : 151065
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5266faeed28b48de",
+      "name" : "Результат теста",
+      "source" : "5266faeed28b48de.png",
+      "type" : "image/png",
+      "size" : 151065
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)"
+  }, {
+    "name" : "package",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-5SX0VFX-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Лицевой счет - 0123456789, ФИО плательщика - ДВА ДВА ДВА, Адрес - НовоЕ ул. Полевая 44, Период - 08.2020, Сумма - 33, Номер карты/счета - 40817810300426662490"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "payment_2"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "favorite-payment-ТСЖ \\\"Пригородный-1\\\" - комм. услуги"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4dbf8aaa60538c9c.json",
+  "parameterValues" : [ "2-5SX0VFX-4", "1234", "Basic", "1234", "Лицевой счет - 0123456789, ФИО плательщика - ДВА ДВА ДВА, Адрес - НовоЕ ул. Полевая 44, Период - 08.2020, Сумма - 33, Номер карты/счета - 40817810300426662490", "1234", "payment_2", "favorite-payment-ТСЖ \\\"Пригородный-1\\\" - комм. услуги" ]
+}

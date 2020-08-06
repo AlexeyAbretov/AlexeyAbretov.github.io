@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "chrome" ],
+  "name" : "SELENIUM_BROWSER"
+}, {
+  "values" : [ "http://localhost:3000" ],
+  "name" : "REACT_APP_INTEGRATION_BASE_URL"
+} ]

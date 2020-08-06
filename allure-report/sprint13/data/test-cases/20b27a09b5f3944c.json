@@ -1,0 +1,407 @@
+{
+  "uid" : "20b27a09b5f3944c",
+  "name" : "Изменение типа нотификации должно проходить успешно",
+  "fullName" : "NotificationsForm integration tests.Изменение типа нотификации должно проходить успешно",
+  "historyId" : "2187e58b6852b5056110b12220a9f338",
+  "time" : {
+    "start" : 1596727595837,
+    "stop" : 1596727693126,
+    "duration" : 97289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1596727597655,
+        "stop" : 1596727604668,
+        "duration" : 7013
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1596727597655,
+          "stop" : 1596727600810,
+          "duration" : 3155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fdebb683634a7893",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "fdebb683634a7893.png",
+          "type" : "image/png",
+          "size" : 3744287
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1596727600810,
+          "stop" : 1596727604668,
+          "duration" : 3858
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2323ee2a2ddb93f",
+          "name" : "Подтверждение учетных данных",
+          "source" : "2323ee2a2ddb93f.png",
+          "type" : "image/png",
+          "size" : 3765382
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1596727604668,
+        "stop" : 1596727610468,
+        "duration" : 5800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8543f12c2449fc2a",
+        "name" : "Меню перехода в профиль",
+        "source" : "8543f12c2449fc2a.png",
+        "type" : "image/png",
+        "size" : 225521
+      }, {
+        "uid" : "337edbd9e5d5c63f",
+        "name" : "Результат перехода",
+        "source" : "337edbd9e5d5c63f.png",
+        "type" : "image/png",
+        "size" : 266740
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на закладку профиля Уведомления - tab-menu-/profile/notifications",
+      "time" : {
+        "start" : 1596727610468,
+        "stop" : 1596727620970,
+        "duration" : 10502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0f09c189ef049ca",
+        "name" : "Результат перехода на закладку профиля",
+        "source" : "b0f09c189ef049ca.png",
+        "type" : "image/png",
+        "size" : 375255
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение типа уведомлений для Карты - cards",
+      "time" : {
+        "start" : 1596727620971,
+        "stop" : 1596727643250,
+        "duration" : 22279
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение сохранения",
+        "time" : {
+          "start" : 1596727623172,
+          "stop" : 1596727624884,
+          "duration" : 1712
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9c56ad7dc8614b29",
+          "name" : "Результат подтверждения",
+          "source" : "9c56ad7dc8614b29.png",
+          "type" : "image/png",
+          "size" : 140947
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Получение сообщения об операции",
+        "time" : {
+          "start" : 1596727624884,
+          "stop" : 1596727631156,
+          "duration" : 6272
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a6e761e030a77e13",
+          "name" : "Сообщение об операции",
+          "source" : "a6e761e030a77e13.png",
+          "type" : "image/png",
+          "size" : 403477
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "85eec952883513a3",
+        "name" : "Первоначальное состояние типов уведомлений",
+        "source" : "85eec952883513a3.png",
+        "type" : "image/png",
+        "size" : 375255
+      }, {
+        "uid" : "32c025e379bac40c",
+        "name" : "Результат выбора типа уведомления из списка",
+        "source" : "32c025e379bac40c.png",
+        "type" : "image/png",
+        "size" : 372356
+      }, {
+        "uid" : "b3b76b6164b16ce6",
+        "name" : "Результат изменения типа уведомления",
+        "source" : "b3b76b6164b16ce6.png",
+        "type" : "image/png",
+        "size" : 358631
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение типа уведомлений для Кредиты - credits",
+      "time" : {
+        "start" : 1596727643251,
+        "stop" : 1596727665798,
+        "duration" : 22547
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение сохранения",
+        "time" : {
+          "start" : 1596727645806,
+          "stop" : 1596727648140,
+          "duration" : 2334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b28010cf5efcd0e0",
+          "name" : "Результат подтверждения",
+          "source" : "b28010cf5efcd0e0.png",
+          "type" : "image/png",
+          "size" : 244215
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Получение сообщения об операции",
+        "time" : {
+          "start" : 1596727648140,
+          "stop" : 1596727654088,
+          "duration" : 5948
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "351b8002c5728821",
+          "name" : "Сообщение об операции",
+          "source" : "351b8002c5728821.png",
+          "type" : "image/png",
+          "size" : 334941
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d5f78bc05c0d5e0e",
+        "name" : "Первоначальное состояние типов уведомлений",
+        "source" : "d5f78bc05c0d5e0e.png",
+        "type" : "image/png",
+        "size" : 297971
+      }, {
+        "uid" : "55a6d545297d633c",
+        "name" : "Результат выбора типа уведомления из списка",
+        "source" : "55a6d545297d633c.png",
+        "type" : "image/png",
+        "size" : 299811
+      }, {
+        "uid" : "eb6db79c404e4b27",
+        "name" : "Результат изменения типа уведомления",
+        "source" : "eb6db79c404e4b27.png",
+        "type" : "image/png",
+        "size" : 298314
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение типа уведомлений для Счета - accounts",
+      "time" : {
+        "start" : 1596727665798,
+        "stop" : 1596727687254,
+        "duration" : 21456
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение сохранения",
+        "time" : {
+          "start" : 1596727668483,
+          "stop" : 1596727671137,
+          "duration" : 2654
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6b477ef9df007931",
+          "name" : "Результат подтверждения",
+          "source" : "6b477ef9df007931.png",
+          "type" : "image/png",
+          "size" : 196434
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Получение сообщения об операции",
+        "time" : {
+          "start" : 1596727671137,
+          "stop" : 1596727674284,
+          "duration" : 3147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c2006acd1a627126",
+          "name" : "Сообщение об операции",
+          "source" : "c2006acd1a627126.png",
+          "type" : "image/png",
+          "size" : 338740
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "bb71e10087f0353",
+        "name" : "Первоначальное состояние типов уведомлений",
+        "source" : "bb71e10087f0353.png",
+        "type" : "image/png",
+        "size" : 295306
+      }, {
+        "uid" : "ae121276aa8d82ce",
+        "name" : "Результат выбора типа уведомления из списка",
+        "source" : "ae121276aa8d82ce.png",
+        "type" : "image/png",
+        "size" : 295610
+      }, {
+        "uid" : "f5138667f27638b4",
+        "name" : "Результат изменения типа уведомления",
+        "source" : "f5138667f27638b4.png",
+        "type" : "image/png",
+        "size" : 294634
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "16725c2a15cf10ca",
+      "name" : "Результат теста",
+      "source" : "16725c2a15cf10ca.png",
+      "type" : "image/png",
+      "size" : 290253
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Изменение типа нотификации должно проходить успешно"
+  }, {
+    "name" : "package",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-5FSQL3I-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Код подтверждения сохранения изменений уведомлений",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20b27a09b5f3944c.json",
+  "parameterValues" : [ "2-5FSQL3I-4", "1234", "Basic", "1234", "1234" ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "18ac2dc16a5f14f3",
+  "name" : "Открытие накопительного счета в евро с 0 евро",
+  "fullName" : "Открытие накопительного счета - интеграционные тесты.Открытие накопительного счета в евро с 0 евро",
+  "historyId" : "dd599168f39bcccd19eea7699bf48d8e",
+  "time" : {
+    "start" : 1596727424677,
+    "stop" : 1596727424677,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Открытие накопительного счета в евро с 0 евро"
+  }, {
+    "name" : "package",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18ac2dc16a5f14f3.json",
+  "parameterValues" : [ ]
+}
