@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "По номеру карты",
+    "uid" : "f5f498f31ae31d30",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598524931801,
+      "stop" : 1598525007989,
+      "duration" : 76188
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "tab-actions", "184287", "transfer_card", "card", "" ]
+  }, {
+    "name" : "Клиенту банка",
+    "uid" : "7c64cb95bbe5d1d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598525007989,
+      "stop" : 1598525087894,
+      "duration" : 79905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "tab-actions", "184287", "transfer_clientBank", "card", "", "tab-menu-По номеру карты", "tab-menu-По номеру счета,tab-menu-Счет" ]
+  }, {
+    "name" : "В другой банк",
+    "uid" : "3d5a648cb9a7ca56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598525087894,
+      "stop" : 1598525188782,
+      "duration" : 100888
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "tab-actions", "БИК - 044525000, Счет/карта получателя - 40101810045250010041, Имя получателя - УГИБДД ГУ МВД России по г. Москве, ИНН получателя - 7707089101, КПП получателя - 770731005, КБК - 18811630020016000140, ОКТМО - 45379000, UIN-input - 18207743196011463809, ИНН отправителя - 770014245454, Назначение платежа - тест, Номер документа - 4568456789", "184287", "transfer_internalBank", "card", "", "tab-menu-Бюджетным организациям", "tab-menu-Организациям" ]
+  } ]
+}

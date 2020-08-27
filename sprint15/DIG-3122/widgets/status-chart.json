@@ -1,0 +1,31 @@
+[ {
+  "uid" : "7c64cb95bbe5d1d0",
+  "name" : "Клиенту банка",
+  "time" : {
+    "start" : 1598525007989,
+    "stop" : 1598525087894,
+    "duration" : 79905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5f498f31ae31d30",
+  "name" : "По номеру карты",
+  "time" : {
+    "start" : 1598524931801,
+    "stop" : 1598525007989,
+    "duration" : 76188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d5a648cb9a7ca56",
+  "name" : "В другой банк",
+  "time" : {
+    "start" : 1598525087894,
+    "stop" : 1598525188782,
+    "duration" : 100888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
