@@ -1,0 +1,57 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "По номеру карты",
+    "uid" : "bd796dd278376bbf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1598856332279,
+      "stop" : 1598856332280,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "При переходе по кнопке \"Назад\" в форме перевода не должен сбрасывать выбранный продукт",
+    "uid" : "5e4731c0fd7e60f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598856332286,
+      "stop" : 1598856388081,
+      "duration" : 55795
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "tab-actions", "184287", "transfer_card", "transfer_clientBank", "card", "", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "В другой банк",
+    "uid" : "42b9dbf525336d69",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1598856332280,
+      "stop" : 1598856332280,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Клиенту банка",
+    "uid" : "d5725d56303c276c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1598856332280,
+      "stop" : 1598856332280,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

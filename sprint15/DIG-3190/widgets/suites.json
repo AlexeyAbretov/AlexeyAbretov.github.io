@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "845f219a5a4392055eec3734e0ad599a",
+    "name" : "Проведение переводов через продукт",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a8be3cb60d7de5cb27992b8fa4c2df26",
+    "name" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 3,
+      "total" : 3
+    }
+  } ]
+}

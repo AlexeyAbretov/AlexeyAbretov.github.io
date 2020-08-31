@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе",
+    "children" : [ {
+      "name" : "По номеру карты",
+      "uid" : "bd796dd278376bbf",
+      "parentUid" : "a8be3cb60d7de5cb27992b8fa4c2df26",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1598856332279,
+        "stop" : 1598856332280,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "В другой банк",
+      "uid" : "42b9dbf525336d69",
+      "parentUid" : "a8be3cb60d7de5cb27992b8fa4c2df26",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1598856332280,
+        "stop" : 1598856332280,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Клиенту банка",
+      "uid" : "d5725d56303c276c",
+      "parentUid" : "a8be3cb60d7de5cb27992b8fa4c2df26",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1598856332280,
+        "stop" : 1598856332280,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a8be3cb60d7de5cb27992b8fa4c2df26"
+  }, {
+    "name" : "Проведение переводов через продукт",
+    "children" : [ {
+      "name" : "При переходе по кнопке \"Назад\" в форме перевода не должен сбрасывать выбранный продукт",
+      "uid" : "5e4731c0fd7e60f9",
+      "parentUid" : "845f219a5a4392055eec3734e0ad599a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598856332286,
+        "stop" : 1598856388081,
+        "duration" : 55795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "tab-actions", "184287", "transfer_card", "transfer_clientBank", "card", "", "tab-menu-По номеру карты" ]
+    } ],
+    "uid" : "845f219a5a4392055eec3734e0ad599a"
+  } ]
+}

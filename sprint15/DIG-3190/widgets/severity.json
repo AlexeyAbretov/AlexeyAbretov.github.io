@@ -1,0 +1,41 @@
+[ {
+  "uid" : "5e4731c0fd7e60f9",
+  "name" : "При переходе по кнопке \"Назад\" в форме перевода не должен сбрасывать выбранный продукт",
+  "time" : {
+    "start" : 1598856332286,
+    "stop" : 1598856388081,
+    "duration" : 55795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5725d56303c276c",
+  "name" : "Клиенту банка",
+  "time" : {
+    "start" : 1598856332280,
+    "stop" : 1598856332280,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "bd796dd278376bbf",
+  "name" : "По номеру карты",
+  "time" : {
+    "start" : 1598856332279,
+    "stop" : 1598856332280,
+    "duration" : 1
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "42b9dbf525336d69",
+  "name" : "В другой банк",
+  "time" : {
+    "start" : 1598856332280,
+    "stop" : 1598856332280,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+} ]
