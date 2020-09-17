@@ -1,0 +1,48 @@
+{
+  "uid" : "3261e70f5754ef67",
+  "name" : "block should work correctly",
+  "fullName" : "Blocking card temporary integration tests.block should work correctly",
+  "historyId" : "d404fae7bdd3bbbb7c5c8cedc8be3105",
+  "time" : {
+    "start" : 1600344590874,
+    "stop" : 1600344590875,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Blocking card temporary integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Blocking card temporary integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "block should work correctly"
+  }, {
+    "name" : "package",
+    "value" : "Blocking card temporary integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3261e70f5754ef67.json",
+  "parameterValues" : [ ]
+}

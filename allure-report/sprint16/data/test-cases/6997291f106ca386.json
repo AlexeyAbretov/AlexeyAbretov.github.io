@@ -1,0 +1,48 @@
+{
+  "uid" : "6997291f106ca386",
+  "name" : "Disable notifications should work correctly",
+  "fullName" : "Set notifications integration tests.Disable notifications should work correctly",
+  "historyId" : "7a8a81508b339031d67e4e46e1bd923d",
+  "time" : {
+    "start" : 1600344590107,
+    "stop" : 1600344590108,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Set notifications integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Set notifications integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Disable notifications should work correctly"
+  }, {
+    "name" : "package",
+    "value" : "Set notifications integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6997291f106ca386.json",
+  "parameterValues" : [ ]
+}

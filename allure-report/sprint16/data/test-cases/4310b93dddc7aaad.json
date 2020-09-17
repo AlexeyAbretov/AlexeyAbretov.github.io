@@ -1,0 +1,48 @@
+{
+  "uid" : "4310b93dddc7aaad",
+  "name" : "Отклик на предложение \"Мне интересно\"",
+  "fullName" : "Проверка карточек продуктов-призраков по Вкладам.Отклик на предложение \"Мне интересно\"",
+  "historyId" : "377a6c80ed7ba617ba29ef541237d9e5",
+  "time" : {
+    "start" : 1600344434710,
+    "stop" : 1600344434710,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testMethod",
+    "value" : "Отклик на предложение \"Мне интересно\""
+  }, {
+    "name" : "package",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4310b93dddc7aaad.json",
+  "parameterValues" : [ ]
+}

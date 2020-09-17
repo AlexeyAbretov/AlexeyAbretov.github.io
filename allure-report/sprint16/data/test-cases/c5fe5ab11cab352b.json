@@ -1,0 +1,326 @@
+{
+  "uid" : "c5fe5ab11cab352b",
+  "name" : "Создание пароля через профиль у клиента с неверефицированным номером телефона",
+  "fullName" : "Security integration tests.Создание пароля через профиль у клиента с неверефицированным номером телефона",
+  "historyId" : "32733f5d41fd9fdcfc3a10d565ff8868",
+  "time" : {
+    "start" : 1600344488215,
+    "stop" : 1600344521692,
+    "duration" : 33477
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600344492630,
+        "stop" : 1600344499546,
+        "duration" : 6916
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600344492630,
+          "stop" : 1600344494653,
+          "duration" : 2023
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a3d3564e363f1d99",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "a3d3564e363f1d99.png",
+          "type" : "image/png",
+          "size" : 2200625
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600344494653,
+          "stop" : 1600344499546,
+          "duration" : 4893
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "47ca2e39f05f07e",
+          "name" : "Подтверждение учетных данных",
+          "source" : "47ca2e39f05f07e.png",
+          "type" : "image/png",
+          "size" : 2227874
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку Изменить пароль",
+      "time" : {
+        "start" : 1600344500569,
+        "stop" : 1600344502226,
+        "duration" : 1657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b87ccd8f3b06ebde",
+        "name" : "Результат нажатия на кнопку Изменить пароль",
+        "source" : "b87ccd8f3b06ebde.png",
+        "type" : "image/png",
+        "size" : 255399
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы",
+      "time" : {
+        "start" : 1600344502226,
+        "stop" : 1600344503284,
+        "duration" : 1058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7430bb9977d8df53",
+        "name" : "Результат заполнения формы",
+        "source" : "7430bb9977d8df53.png",
+        "type" : "image/png",
+        "size" : 251279
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку Сохранить",
+      "time" : {
+        "start" : 1600344503284,
+        "stop" : 1600344504912,
+        "duration" : 1628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbb04befd93c9e40",
+        "name" : "Результат нажатия на кнопку Сохранить",
+        "source" : "fbb04befd93c9e40.png",
+        "type" : "image/png",
+        "size" : 232439
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение смены пароля",
+      "time" : {
+        "start" : 1600344504912,
+        "stop" : 1600344506574,
+        "duration" : 1662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fdb7a445366e0c1",
+        "name" : "Подтверждение смены пароля",
+        "source" : "3fdb7a445366e0c1.png",
+        "type" : "image/png",
+        "size" : 237843
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1600344506574,
+        "stop" : 1600344507440,
+        "duration" : 866
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbf829b0dd659f7d",
+        "name" : "Сообщение об операции",
+        "source" : "bbf829b0dd659f7d.png",
+        "type" : "image/png",
+        "size" : 302579
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выход из приложения",
+      "time" : {
+        "start" : 1600344507448,
+        "stop" : 1600344513394,
+        "duration" : 5946
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ccbd7864ac57241",
+        "name" : "Меню профиля",
+        "source" : "ccbd7864ac57241.png",
+        "type" : "image/png",
+        "size" : 304960
+      }, {
+        "uid" : "93fe24e1f1ed25a1",
+        "name" : "Результат выхода",
+        "source" : "93fe24e1f1ed25a1.png",
+        "type" : "image/png",
+        "size" : 2196191
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600344513394,
+        "stop" : 1600344519170,
+        "duration" : 5776
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600344513394,
+          "stop" : 1600344515198,
+          "duration" : 1804
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "45d7a6ff5756764f",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "45d7a6ff5756764f.png",
+          "type" : "image/png",
+          "size" : 2200751
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600344515198,
+          "stop" : 1600344519170,
+          "duration" : 3972
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c34e9ccbd921cc02",
+          "name" : "Подтверждение учетных данных",
+          "source" : "c34e9ccbd921cc02.png",
+          "type" : "image/png",
+          "size" : 2227777
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "efb16377a623647b",
+      "name" : "Результат теста",
+      "source" : "efb16377a623647b.png",
+      "type" : "image/png",
+      "size" : 266293
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Security integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Security integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Создание пароля через профиль у клиента с неверефицированным номером телефона"
+  }, {
+    "name" : "package",
+    "value" : "Security integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-DJPRB-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "pW123456"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Код подтверждения смены пароля`",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5fe5ab11cab352b.json",
+  "parameterValues" : [ "5-DJPRB-4", "1234", "pW123456", "Basic", "1234", "1234" ]
+}

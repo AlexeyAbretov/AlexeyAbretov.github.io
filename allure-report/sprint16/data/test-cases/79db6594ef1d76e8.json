@@ -1,0 +1,290 @@
+{
+  "uid" : "79db6594ef1d76e8",
+  "name" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+  "fullName" : "PaymentForm - ЖКУ - integration tests.Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+  "historyId" : "3252dbc92db7726b8343a309a64bf5b1",
+  "time" : {
+    "start" : 1600344015622,
+    "stop" : 1600344166891,
+    "duration" : 151269
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600344018727,
+        "stop" : 1600344080620,
+        "duration" : 61893
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600344018727,
+          "stop" : 1600344020617,
+          "duration" : 1890
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bddb171e7117c682",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "bddb171e7117c682.png",
+          "type" : "image/png",
+          "size" : 2131297
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600344020617,
+          "stop" : 1600344080620,
+          "duration" : 60003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1600344080620,
+        "stop" : 1600344093559,
+        "duration" : 12939
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1600344080620,
+          "stop" : 1600344082465,
+          "duration" : 1845
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d522cbc663948ee0",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "d522cbc663948ee0.png",
+          "type" : "image/png",
+          "size" : 4368
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1600344082465,
+          "stop" : 1600344093559,
+          "duration" : 11094
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "97f9f93e8177bbbd",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "97f9f93e8177bbbd.png",
+          "type" : "image/png",
+          "size" : 7067
+        }, {
+          "uid" : "19f18c6d06d3d67a",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "19f18c6d06d3d67a.png",
+          "type" : "image/png",
+          "size" : 7362
+        }, {
+          "uid" : "3b001a9616156eec",
+          "name" : "Форма перевода",
+          "source" : "3b001a9616156eec.png",
+          "type" : "image/png",
+          "size" : 174146
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1600344093559,
+        "stop" : 1600344096418,
+        "duration" : 2859
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84a7938f1384e1b1",
+        "name" : "Заполненная формы перевода",
+        "source" : "84a7938f1384e1b1.png",
+        "type" : "image/png",
+        "size" : 217245
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1600344096418,
+        "stop" : 1600344162008,
+        "duration" : 65590
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1600344101401,
+          "stop" : 1600344161431,
+          "duration" : 60030
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e3956db4a0077eb5",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "e3956db4a0077eb5.png",
+        "type" : "image/png",
+        "size" : 214907
+      }, {
+        "uid" : "ad153c97d1636aee",
+        "name" : "Результат перевода",
+        "source" : "ad153c97d1636aee.png",
+        "type" : "image/png",
+        "size" : 134590
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход по ссылке",
+      "time" : {
+        "start" : 1600344162145,
+        "stop" : 1600344166390,
+        "duration" : 4245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37a23c17f7a97d74",
+        "name" : "Результат переход по ссылке",
+        "source" : "37a23c17f7a97d74.png",
+        "type" : "image/png",
+        "size" : 233896
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1264ec2e382ebe02",
+      "name" : "Результат теста",
+      "source" : "1264ec2e382ebe02.png",
+      "type" : "image/png",
+      "size" : 218845
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)"
+  }, {
+    "name" : "package",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-1Q1LFU3-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "payment_2"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "favorite-payment-2020"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79db6594ef1d76e8.json",
+  "parameterValues" : [ "2-1Q1LFU3-4", "1234", "Basic", "1234", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+}

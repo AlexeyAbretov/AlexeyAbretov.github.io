@@ -1,0 +1,296 @@
+{
+  "uid" : "a79f4b9605fdd9d9",
+  "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+  "fullName" : "Переводы по номеру телефона клиенту банка - интеграционные тесты.Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+  "historyId" : "fe3471ff1a789d067be69eadd9c2c087",
+  "time" : {
+    "start" : 1600341230228,
+    "stop" : 1600341383666,
+    "duration" : 153438
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600341233565,
+        "stop" : 1600341295910,
+        "duration" : 62345
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600341233565,
+          "stop" : 1600341235747,
+          "duration" : 2182
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9c832aa61493c4fa",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "9c832aa61493c4fa.png",
+          "type" : "image/png",
+          "size" : 2201237
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600341235747,
+          "stop" : 1600341295910,
+          "duration" : 60163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1600341295910,
+        "stop" : 1600341307490,
+        "duration" : 11580
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1600341295910,
+          "stop" : 1600341297861,
+          "duration" : 1951
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2f0a4e2a3b1eabc8",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "2f0a4e2a3b1eabc8.png",
+          "type" : "image/png",
+          "size" : 4368
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1600341297861,
+          "stop" : 1600341307490,
+          "duration" : 9629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a7ff815d93333a69",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "a7ff815d93333a69.png",
+          "type" : "image/png",
+          "size" : 7311
+        }, {
+          "uid" : "52f7ea1668c32fc7",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "52f7ea1668c32fc7.png",
+          "type" : "image/png",
+          "size" : 3575
+        }, {
+          "uid" : "14e46b6426682710",
+          "name" : "Форма перевода",
+          "source" : "14e46b6426682710.png",
+          "type" : "image/png",
+          "size" : 187223
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1600341307490,
+        "stop" : 1600341309419,
+        "duration" : 1929
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9dfd071642a21519",
+        "name" : "Заполненная формы перевода",
+        "source" : "9dfd071642a21519.png",
+        "type" : "image/png",
+        "size" : 223873
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1600341309419,
+        "stop" : 1600341375393,
+        "duration" : 65974
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1600341314248,
+          "stop" : 1600341374482,
+          "duration" : 60234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "dd1c84ca3e10b0b1",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "dd1c84ca3e10b0b1.png",
+        "type" : "image/png",
+        "size" : 228564
+      }, {
+        "uid" : "be00c07605f8968d",
+        "name" : "Результат перевода",
+        "source" : "be00c07605f8968d.png",
+        "type" : "image/png",
+        "size" : 136564
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных о транзакции",
+      "time" : {
+        "start" : 1600341376950,
+        "stop" : 1600341383042,
+        "duration" : 6092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bcadfe1d0119ee1",
+        "name" : "Список транзакций",
+        "source" : "8bcadfe1d0119ee1.png",
+        "type" : "image/png",
+        "size" : 339587
+      }, {
+        "uid" : "a8ff4a113bbad1ed",
+        "name" : "Открытая транзакция",
+        "source" : "a8ff4a113bbad1ed.png",
+        "type" : "image/png",
+        "size" : 502152
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5cc6d8839218cb7f",
+      "name" : "Результат теста",
+      "source" : "5cc6d8839218cb7f.png",
+      "type" : "image/png",
+      "size" : 502152
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы по номеру телефона клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы по номеру телефона клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру телефона (с карты)"
+  }, {
+    "name" : "package",
+    "value" : "Переводы по номеру телефона клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-3T1DK4C-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Телефон - 9167586441, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810200206467850"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_clientBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-По номеру телефона"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a79f4b9605fdd9d9.json",
+  "parameterValues" : [ "2-3T1DK4C-4", "1234", "Basic", "1234", "Телефон - 9167586441, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810200206467850", "1234", "transfer_clientBank", "tab-menu-По номеру телефона" ]
+}

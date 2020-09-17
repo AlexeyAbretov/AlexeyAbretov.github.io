@@ -1,0 +1,114 @@
+{
+  "total" : 30,
+  "items" : [ {
+    "uid" : "e348cdf0dc2d9ffb7e6072c8ea9518aa",
+    "name" : "Переводы между своими счетами - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a8be3cb60d7de5cb27992b8fa4c2df26",
+    "name" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c6882c04a8ff32156c0ebf45986de0ed",
+    "name" : "PaymentForm - Rapida - integration tests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "16d915cd6b65634dec8d840dc1bb76e7",
+    "name" : "PaymentForm - ЖКУ - integration tests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "845f219a5a4392055eec3734e0ad599a",
+    "name" : "Проведение переводов через продукт",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a899af74b7ec507c2f7f0342c3fdf296",
+    "name" : "Депозиты - Калькулятор - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "89a2b047ebbf4105e5f8575b7ad51710",
+    "name" : "Переводы по номеру карты клиенту банка - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "2175817a0e75333d2e306fe9397c5305",
+    "name" : "Открытие накопительного счета - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "ab51ecee0e10e155eddabfcd51994555",
+    "name" : "Переводы по номеру карты - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "fd0e00409c58946eae6040715d655a02",
+    "name" : "Переводы в другой банк в бюджет - интеграционные тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

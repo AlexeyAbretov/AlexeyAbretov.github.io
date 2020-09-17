@@ -1,0 +1,115 @@
+{
+  "uid" : "26eef5d8fcb48889",
+  "name" : "В другой банк",
+  "fullName" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе.В другой банк",
+  "historyId" : "675c7a2aa3dbbb738a90483d1f8bd600",
+  "time" : {
+    "start" : 1600344786372,
+    "stop" : 1600344816227,
+    "duration" : 29855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"login-form-enter-button\"])\n                Wait timed out after 20014ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"login-form-enter-button\"])\n                Wait timed out after 20014ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"login-form-enter-button\"])\n                Wait timed out after 20014ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"login-form-enter-button\"])\n                Wait timed out after 20014ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600344791549,
+        "stop" : 1600344815513,
+        "duration" : 23964
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600344791549,
+          "stop" : 1600344815513,
+          "duration" : 23964
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d5beee78b084d090",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "d5beee78b084d090.png",
+          "type" : "image/png",
+          "size" : 2199092
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5f7b5e734dc8b1be",
+      "name" : "Результат теста",
+      "source" : "5f7b5e734dc8b1be.png",
+      "type" : "image/png",
+      "size" : 24215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "testClass",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "testMethod",
+    "value" : "В другой банк"
+  }, {
+    "name" : "package",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "26eef5d8fcb48889.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic" ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "5d93c58e1060e45d",
+  "name" : "unblock should work correctly",
+  "fullName" : "Unblocking card integration tests.unblock should work correctly",
+  "historyId" : "b71b9afd55911df2b67fdd6d53f1931f",
+  "time" : {
+    "start" : 1600344591200,
+    "stop" : 1600344591200,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Unblocking card integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Unblocking card integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "unblock should work correctly"
+  }, {
+    "name" : "package",
+    "value" : "Unblocking card integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d93c58e1060e45d.json",
+  "parameterValues" : [ ]
+}

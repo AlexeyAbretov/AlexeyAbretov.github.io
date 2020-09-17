@@ -1,0 +1,259 @@
+{
+  "uid" : "277f3a2b4fe4e1b0",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+  "fullName" : "Переводы между своими счетами - интеграционные тесты.Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+  "historyId" : "40d3d9585e012452b0dbb39c71ec75e4",
+  "time" : {
+    "start" : 1600341762204,
+    "stop" : 1600341847186,
+    "duration" : 84982
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60167ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60167ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60167ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60167ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600341766019,
+        "stop" : 1600341772934,
+        "duration" : 6915
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600341766019,
+          "stop" : 1600341768234,
+          "duration" : 2215
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "96cfa83114bae3e0",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "96cfa83114bae3e0.png",
+          "type" : "image/png",
+          "size" : 2199229
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600341768234,
+          "stop" : 1600341772934,
+          "duration" : 4700
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1a6434612a63fb21",
+          "name" : "Подтверждение учетных данных",
+          "source" : "1a6434612a63fb21.png",
+          "type" : "image/png",
+          "size" : 2228194
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1600341772934,
+        "stop" : 1600341782160,
+        "duration" : 9226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1600341772934,
+          "stop" : 1600341776336,
+          "duration" : 3402
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aaa2e5b62bfa838e",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "aaa2e5b62bfa838e.png",
+          "type" : "image/png",
+          "size" : 4368
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1600341776336,
+          "stop" : 1600341782160,
+          "duration" : 5824
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6456c22267b27042",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "6456c22267b27042.png",
+          "type" : "image/png",
+          "size" : 8811
+        }, {
+          "uid" : "c558efa2adcf843a",
+          "name" : "Форма перевода",
+          "source" : "c558efa2adcf843a.png",
+          "type" : "image/png",
+          "size" : 152002
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1600341782160,
+        "stop" : 1600341783398,
+        "duration" : 1238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29a990bd6a0ef62b",
+        "name" : "Заполненная формы перевода",
+        "source" : "29a990bd6a0ef62b.png",
+        "type" : "image/png",
+        "size" : 216346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1600341783398,
+        "stop" : 1600341846696,
+        "duration" : 63298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a4e2b7be4ec41cf",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "3a4e2b7be4ec41cf.png",
+        "type" : "image/png",
+        "size" : 219686
+      }, {
+        "uid" : "fdc84c2fd421b041",
+        "name" : "Результат перевода",
+        "source" : "fdc84c2fd421b041.png",
+        "type" : "image/png",
+        "size" : 115911
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3b316e9e03eeffed",
+      "name" : "Результат теста",
+      "source" : "3b316e9e03eeffed.png",
+      "type" : "image/png",
+      "size" : 115911
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы между своими счетами - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы между своими счетами - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией"
+  }, {
+    "name" : "package",
+    "value" : "Переводы между своими счетами - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "070744-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_yourself"
+  }, {
+    "name" : "Форма перевода",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "277f3a2b4fe4e1b0.json",
+  "parameterValues" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "87ecd808d795bc75",
+  "name" : "По номеру карты",
+  "fullName" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе.По номеру карты",
+  "historyId" : "b0b3d7d17cdbcf1e28c544266d4e0c46",
+  "time" : {
+    "start" : 1600344596653,
+    "stop" : 1600344691074,
+    "duration" : 94421
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"SRC_ACCOUNT-select\"][data-test-cardid=\"184287\"])\n                Wait timed out after 60034ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"SRC_ACCOUNT-select\"][data-test-cardid=\"184287\"])\n                Wait timed out after 60034ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"SRC_ACCOUNT-select\"][data-test-cardid=\"184287\"])\n                Wait timed out after 60034ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"SRC_ACCOUNT-select\"][data-test-cardid=\"184287\"])\n                Wait timed out after 60034ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600344599879,
+        "stop" : 1600344607111,
+        "duration" : 7232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600344599879,
+          "stop" : 1600344602287,
+          "duration" : 2408
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fb516e831b7e1435",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "fb516e831b7e1435.png",
+          "type" : "image/png",
+          "size" : 2200354
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600344602287,
+          "stop" : 1600344607111,
+          "duration" : 4824
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cb4877d070edcac8",
+          "name" : "Подтверждение учетных данных",
+          "source" : "cb4877d070edcac8.png",
+          "type" : "image/png",
+          "size" : 2228321
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1600344607111,
+        "stop" : 1600344623231,
+        "duration" : 16120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажатие на закладку",
+        "time" : {
+          "start" : 1600344620932,
+          "stop" : 1600344623231,
+          "duration" : 2299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "390fab22c6334bf",
+          "name" : "Результат нажатия на закладку",
+          "source" : "390fab22c6334bf.png",
+          "type" : "image/png",
+          "size" : 508443
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b644761ac617e402",
+        "name" : "Переход на страницу продукта",
+        "source" : "b644761ac617e402.png",
+        "type" : "image/png",
+        "size" : 401287
+      }, {
+        "uid" : "51e7e87c8ebde438",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "51e7e87c8ebde438.png",
+        "type" : "image/png",
+        "size" : 508124
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на действие Оплатить",
+      "time" : {
+        "start" : 1600344623231,
+        "stop" : 1600344623499,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7ba57f0be69149c",
+        "name" : "Ссылка",
+        "source" : "c7ba57f0be69149c.png",
+        "type" : "image/png",
+        "size" : 3446
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка выбранного продукта на первой закладке",
+      "time" : {
+        "start" : 1600344623500,
+        "stop" : 1600344630545,
+        "duration" : 7045
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1600344623500,
+          "stop" : 1600344630545,
+          "duration" : 7045
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ee103fa63699ea54",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "ee103fa63699ea54.png",
+          "type" : "image/png",
+          "size" : 6509
+        }, {
+          "uid" : "b85a09b49587b2c8",
+          "name" : "Форма перевода",
+          "source" : "b85a09b49587b2c8.png",
+          "type" : "image/png",
+          "size" : 113239
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2732f5a77cddbc51",
+      "name" : "Результат теста",
+      "source" : "2732f5a77cddbc51.png",
+      "type" : "image/png",
+      "size" : 113239
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "testClass",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "testMethod",
+    "value" : "По номеру карты"
+  }, {
+    "name" : "package",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Закладка",
+    "value" : "tab-actions"
+  }, {
+    "name" : "Ид. продукта",
+    "value" : "184287"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_card"
+  }, {
+    "name" : "Тип продукта",
+    "value" : "card"
+  }, {
+    "name" : "Форма перевода",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "87ecd808d795bc75.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "tab-actions", "184287", "transfer_card", "card", "" ]
+}

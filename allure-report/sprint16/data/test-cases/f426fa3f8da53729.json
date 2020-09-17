@@ -1,0 +1,48 @@
+{
+  "uid" : "f426fa3f8da53729",
+  "name" : "Установка email",
+  "fullName" : "ChangeEmailForm integration test.Установка email",
+  "historyId" : "17b4c6dfb99e84fdf66ff5368520de5a",
+  "time" : {
+    "start" : 1600345118101,
+    "stop" : 1600345118102,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ChangeEmailForm integration test"
+  }, {
+    "name" : "testClass",
+    "value" : "ChangeEmailForm integration test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Установка email"
+  }, {
+    "name" : "package",
+    "value" : "ChangeEmailForm integration test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f426fa3f8da53729.json",
+  "parameterValues" : [ ]
+}

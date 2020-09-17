@@ -1,0 +1,48 @@
+{
+  "uid" : "b8c9dbddac49b99d",
+  "name" : "replenish should display correctly",
+  "fullName" : "Replenish card integration tests.replenish should display correctly",
+  "historyId" : "b3525b0e9584247127b3eb5472474d95",
+  "time" : {
+    "start" : 1600344590531,
+    "stop" : 1600344590531,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Replenish card integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Replenish card integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "replenish should display correctly"
+  }, {
+    "name" : "package",
+    "value" : "Replenish card integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8c9dbddac49b99d.json",
+  "parameterValues" : [ ]
+}

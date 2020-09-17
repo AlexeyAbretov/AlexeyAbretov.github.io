@@ -1,0 +1,62 @@
+{
+  "uid" : "e5de96f683a4b46d",
+  "name" : "should not render links to old dbo",
+  "fullName" : "SignUpTemplate integration tests.should not render links to old dbo",
+  "historyId" : "ce5c929b1a70ba76be9dd7665ffbd01a",
+  "time" : {
+    "start" : 1600344591413,
+    "stop" : 1600344596325,
+    "duration" : 4912
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e879f811661903b",
+      "name" : "Результат теста",
+      "source" : "4e879f811661903b.png",
+      "type" : "image/png",
+      "size" : 2203587
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SignUpTemplate integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUpTemplate integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not render links to old dbo"
+  }, {
+    "name" : "package",
+    "value" : "SignUpTemplate integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5de96f683a4b46d.json",
+  "parameterValues" : [ ]
+}

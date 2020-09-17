@@ -1,0 +1,226 @@
+{
+  "uid" : "78dcd9588f12a8bc",
+  "name" : "Проверить в ленте операций отображение оплаты ЖКУ (с карты)",
+  "fullName" : "PaymentForm - ЖКУ - integration tests.Проверить в ленте операций отображение оплаты ЖКУ (с карты)",
+  "historyId" : "3f66a081642bfeccad9ff4cba7447bc7",
+  "time" : {
+    "start" : 1600344336899,
+    "stop" : 1600344432923,
+    "duration" : 96024
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"f28251-input\"])\n                Wait timed out after 20097ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"f28251-input\"])\n                Wait timed out after 20097ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"f28251-input\"])\n                Wait timed out after 20097ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"f28251-input\"])\n                Wait timed out after 20097ms\n                    at /Users/abretovaa/work/merge/frontend_sbp/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600344340814,
+        "stop" : 1600344403207,
+        "duration" : 62393
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600344340814,
+          "stop" : 1600344343016,
+          "duration" : 2202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "28ad1af50459b334",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "28ad1af50459b334.png",
+          "type" : "image/png",
+          "size" : 2200787
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600344343016,
+          "stop" : 1600344403207,
+          "duration" : 60191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1600344403207,
+        "stop" : 1600344412345,
+        "duration" : 9138
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1600344403207,
+          "stop" : 1600344405048,
+          "duration" : 1841
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c53520b316cbfbbd",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "c53520b316cbfbbd.png",
+          "type" : "image/png",
+          "size" : 4368
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1600344405048,
+          "stop" : 1600344412345,
+          "duration" : 7297
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "16f7733d2f8392a6",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "16f7733d2f8392a6.png",
+          "type" : "image/png",
+          "size" : 7067
+        }, {
+          "uid" : "c30942b28057c31",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "c30942b28057c31.png",
+          "type" : "image/png",
+          "size" : 7362
+        }, {
+          "uid" : "3bc49171920389f",
+          "name" : "Форма перевода",
+          "source" : "3bc49171920389f.png",
+          "type" : "image/png",
+          "size" : 117039
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1600344412345,
+        "stop" : 1600344432442,
+        "duration" : 20097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b02eca203727e52d",
+      "name" : "Результат теста",
+      "source" : "b02eca203727e52d.png",
+      "type" : "image/png",
+      "size" : 117039
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверить в ленте операций отображение оплаты ЖКУ (с карты)"
+  }, {
+    "name" : "package",
+    "value" : "PaymentForm - ЖКУ - integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-1Q1LFU3-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "payment_2"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "favorite-payment-2020"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "78dcd9588f12a8bc.json",
+  "parameterValues" : [ "2-1Q1LFU3-4", "1234", "Basic", "1234", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "payment_2", "favorite-payment-2020" ]
+}

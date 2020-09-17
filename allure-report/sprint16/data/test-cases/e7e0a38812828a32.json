@@ -1,0 +1,48 @@
+{
+  "uid" : "e7e0a38812828a32",
+  "name" : "Отказ от предложения с выбором причины \"Мешает просмотру\"",
+  "fullName" : "Проверка карточек продуктов-призраков по Вкладам.Отказ от предложения с выбором причины \"Мешает просмотру\"",
+  "historyId" : "a3a7c8fcc07e90cf5b71039cc577ba66",
+  "time" : {
+    "start" : 1600344434710,
+    "stop" : 1600344434710,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testMethod",
+    "value" : "Отказ от предложения с выбором причины \"Мешает просмотру\""
+  }, {
+    "name" : "package",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7e0a38812828a32.json",
+  "parameterValues" : [ ]
+}

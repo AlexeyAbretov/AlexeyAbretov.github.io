@@ -1,0 +1,200 @@
+{
+  "uid" : "18ebc73a0149e6d1",
+  "name" : "Смена языка приложения должна пройти успешно",
+  "fullName" : "LanguageForm integration tests.Смена языка приложения должна пройти успешно",
+  "historyId" : "bade869e775cbe5df87633b3cb88acca",
+  "time" : {
+    "start" : 1600345118315,
+    "stop" : 1600345138488,
+    "duration" : 20173
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1600345121093,
+        "stop" : 1600345128113,
+        "duration" : 7020
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1600345121094,
+          "stop" : 1600345123470,
+          "duration" : 2376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2558791d6d552614",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "2558791d6d552614.png",
+          "type" : "image/png",
+          "size" : 2200435
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1600345123471,
+          "stop" : 1600345128113,
+          "duration" : 4642
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e9cee10e7ad93744",
+          "name" : "Подтверждение учетных данных",
+          "source" : "e9cee10e7ad93744.png",
+          "type" : "image/png",
+          "size" : 2228110
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1600345128113,
+        "stop" : 1600345134720,
+        "duration" : 6607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26c853a99a2a19ff",
+        "name" : "Меню перехода в профиль",
+        "source" : "26c853a99a2a19ff.png",
+        "type" : "image/png",
+        "size" : 215344
+      }, {
+        "uid" : "2212477596035c72",
+        "name" : "Результат перехода",
+        "source" : "2212477596035c72.png",
+        "type" : "image/png",
+        "size" : 217904
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Смена языка на en",
+      "time" : {
+        "start" : 1600345134720,
+        "stop" : 1600345136326,
+        "duration" : 1606
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9024beab26f7b44e",
+        "name" : "Результат смены языка",
+        "source" : "9024beab26f7b44e.png",
+        "type" : "image/png",
+        "size" : 234397
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Смена языка на ru",
+      "time" : {
+        "start" : 1600345136361,
+        "stop" : 1600345137934,
+        "duration" : 1573
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "21d08003b71d72e6",
+        "name" : "Результат смены языка",
+        "source" : "21d08003b71d72e6.png",
+        "type" : "image/png",
+        "size" : 235720
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8cc792c3e350394b",
+      "name" : "Результат теста",
+      "source" : "8cc792c3e350394b.png",
+      "type" : "image/png",
+      "size" : 231413
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LanguageForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "LanguageForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Смена языка приложения должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "LanguageForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "085745-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18ebc73a0149e6d1.json",
+  "parameterValues" : [ "085745-1", "1234", "Basic", "1234" ]
+}
