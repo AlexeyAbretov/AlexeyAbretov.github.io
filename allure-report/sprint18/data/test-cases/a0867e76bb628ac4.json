@@ -1,0 +1,52 @@
+{
+  "uid" : "a0867e76bb628ac4",
+  "name" : "Ошибка при входе по продукту - неверный продукт, но верный телефон",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - неверный продукт, но верный телефон",
+  "historyId" : "aed84357cf00c8d42e3b8c881a357bf2",
+  "time" : {
+    "start" : 1603167505526,
+    "stop" : 1603167505535,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Server terminated early with status 1",
+  "statusTrace" : "Error: Server terminated early with status 1\n                    at /Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/remote/index.js:251:52\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - неверный продукт, но верный телефон"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a0867e76bb628ac4.json",
+  "parameterValues" : [ ]
+}

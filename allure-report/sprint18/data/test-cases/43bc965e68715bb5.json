@@ -1,0 +1,232 @@
+{
+  "uid" : "43bc965e68715bb5",
+  "name" : "Активация карты должна проходить успешно",
+  "fullName" : "Активация карты - интеграционные тесты.Активация карты должна проходить успешно",
+  "historyId" : "341bdd56958a8162d019d04078efcc4b",
+  "time" : {
+    "start" : 1603167626414,
+    "stop" : 1603167649215,
+    "duration" : 22801
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee$ (/Users/abretovaa/work/temp/sprint18/src/modules/products/__tests__/CardActivation/CardActivation.ispec.js:79:31)\n                    at tryCatch (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee$ (/Users/abretovaa/work/temp/sprint18/src/modules/products/__tests__/CardActivation/CardActivation.ispec.js:79:31)\n                    at tryCatch (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603167628944,
+        "stop" : 1603167635222,
+        "duration" : 6278
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603167628944,
+          "stop" : 1603167631289,
+          "duration" : 2345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "986febd1576c5f92",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "986febd1576c5f92.png",
+          "type" : "image/png",
+          "size" : 2240849
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603167631289,
+          "stop" : 1603167635222,
+          "duration" : 3933
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "20425e767fbd9276",
+          "name" : "Подтверждение учетных данных",
+          "source" : "20425e767fbd9276.png",
+          "type" : "image/png",
+          "size" : 2326773
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603167635222,
+        "stop" : 1603167643660,
+        "duration" : 8438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8905c41d684e377f",
+        "name" : "Переход на страницу продукта",
+        "source" : "8905c41d684e377f.png",
+        "type" : "image/png",
+        "size" : 358461
+      }, {
+        "uid" : "3ffdc189e09bc5b",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "3ffdc189e09bc5b.png",
+        "type" : "image/png",
+        "size" : 436200
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Форма активации карты",
+      "time" : {
+        "start" : 1603167644180,
+        "stop" : 1603167644680,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8636b6d5536609f",
+        "name" : "Ввод ОТП-кода",
+        "source" : "c8636b6d5536609f.png",
+        "type" : "image/png",
+        "size" : 387063
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение активации карты",
+      "time" : {
+        "start" : 1603167644680,
+        "stop" : 1603167646307,
+        "duration" : 1627
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "388ffe74afcc8157",
+        "name" : "Подтверждение активации карты",
+        "source" : "388ffe74afcc8157.png",
+        "type" : "image/png",
+        "size" : 387244
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Форма результата активации",
+      "time" : {
+        "start" : 1603167648690,
+        "stop" : 0,
+        "duration" : -1603167648690
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c822133f9248d88",
+        "name" : "Результат теста",
+        "source" : "2c822133f9248d88.png",
+        "type" : "image/png",
+        "size" : 402673
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Активация карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Активация карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Активация карты должна проходить успешно"
+  }, {
+    "name" : "package",
+    "value" : "Активация карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-TY34V0-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "5. Код подтверждения активации",
+    "value" : "1234"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "1446277"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "43bc965e68715bb5.json",
+  "parameterValues" : [ "2-TY34V0-4", "1234", "Basic", "1234", "Карты", "1234", "1446277" ]
+}

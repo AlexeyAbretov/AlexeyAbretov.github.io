@@ -1,0 +1,320 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60126ms",
+      "children" : [ {
+        "name" : "Успешный перевод с верифицированным номером телефона",
+        "uid" : "175caca7d4b4c2e3",
+        "parentUid" : "86b849057f1af496bbb9faed26a140bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603163217923,
+          "stop" : 1603163319608,
+          "duration" : 101685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - 40817810700096570376, Счет/карта получателя - 4093980004499250, Сумма - 20", "1234", "transfer_card", "" ]
+      } ],
+      "uid" : "86b849057f1af496bbb9faed26a140bd"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60190ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции в pdf со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "9659de4897b5b5f8",
+        "parentUid" : "b2eaa4b5f9a00ff23dfa50a2a776e323",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603164435785,
+          "stop" : 1603164519409,
+          "duration" : 83624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "b2eaa4b5f9a00ff23dfa50a2a776e323"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60000ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "145e8b980c3574d5",
+        "parentUid" : "cf38d0f066e3a0ba395032a2d2e52615",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603164519409,
+          "stop" : 1603164602945,
+          "duration" : 83536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "cf38d0f066e3a0ba395032a2d2e52615"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60075ms",
+      "children" : [ {
+        "name" : "Проверить в ленте операций отображение операции перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "b8212b2c103b0617",
+        "parentUid" : "e53fbf29561816f50364697a5b2275d3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603164602945,
+          "stop" : 1603164686896,
+          "duration" : 83951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "e53fbf29561816f50364697a5b2275d3"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60051ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Людям",
+        "uid" : "8a67d78bd6b8207",
+        "parentUid" : "03d9f742bf82b41e708012db1fd67c2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603164686912,
+          "stop" : 1603164834439,
+          "duration" : 147527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42305810700690008178, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Людям" ]
+      } ],
+      "uid" : "03d9f742bf82b41e708012db1fd67c2b"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60028ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям",
+        "uid" : "3ec258e9de12c8f5",
+        "parentUid" : "fdc650866ca7ba0b86b2b1a62a68bb23",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603164834439,
+          "stop" : 1603164979642,
+          "duration" : 145203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42305810700690008178, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Людям" ]
+      } ],
+      "uid" : "fdc650866ca7ba0b86b2b1a62a68bb23"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60130ms",
+      "children" : [ {
+        "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Людям",
+        "uid" : "c0c84094caed7476",
+        "parentUid" : "a8020fca98f52002c3abcdb3a78d7dd6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603164979643,
+          "stop" : 1603165127963,
+          "duration" : 148320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42305810700690008178, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Людям" ]
+      } ],
+      "uid" : "a8020fca98f52002c3abcdb3a78d7dd6"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60144ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+        "uid" : "a0b59bc590d93c5e",
+        "parentUid" : "9001af613704826e8eb1f9229a161c5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603166301304,
+          "stop" : 1603166446847,
+          "duration" : 145543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-1Q1LFU3-4", "1234", "Basic", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+      }, {
+        "name" : "Проверить в ленте операций отображение оплаты ЖКУ (с карты)",
+        "uid" : "f1130bd8e9b015c4",
+        "parentUid" : "9001af613704826e8eb1f9229a161c5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603166593625,
+          "stop" : 1603166737473,
+          "duration" : 143848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-1Q1LFU3-4", "1234", "Basic", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+      } ],
+      "uid" : "9001af613704826e8eb1f9229a161c5f"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60208ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции на email со страницы успешного оплаты ЖКУ (с карты)",
+        "uid" : "d477afac03a95bd5",
+        "parentUid" : "a772888892b1bf55842f397c88ab431d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603166446847,
+          "stop" : 1603166593625,
+          "duration" : 146778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-1Q1LFU3-4", "1234", "Basic", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+      } ],
+      "uid" : "a772888892b1bf55842f397c88ab431d"
+    }, {
+      "name" : "Error: Server terminated early with status 1",
+      "children" : [ {
+        "name" : "Ошибка при входе по продукту - нет продукта и телефона",
+        "uid" : "e06dca7b82bc6cdc",
+        "parentUid" : "6fed8394c2e3afbfb3a8f7c0ec3d1b19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167505491,
+          "stop" : 1603167505526,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ошибка при входе по продукту - неверный продукт, но верный телефон",
+        "uid" : "a0867e76bb628ac4",
+        "parentUid" : "6fed8394c2e3afbfb3a8f7c0ec3d1b19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167505526,
+          "stop" : 1603167505535,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fed8394c2e3afbfb3a8f7c0ec3d1b19"
+    }, {
+      "name" : "NoSuchSessionError: invalid session id",
+      "children" : [ {
+        "name" : "Ошибка при входе по продукту - верный продукт, не верный телефон",
+        "uid" : "5681271393ac5133",
+        "parentUid" : "7993ebbf2bd5e8ea23275bab0604158e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167505535,
+          "stop" : 1603167513824,
+          "duration" : 8289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7993ebbf2bd5e8ea23275bab0604158e"
+    }, {
+      "name" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20171ms",
+      "children" : [ {
+        "name" : "Вклад должен отображаться корректно",
+        "uid" : "69a0e7524d79671",
+        "parentUid" : "d2d0d9d59ebd733f7f7fff627291eaf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167560139,
+          "stop" : 1603167594424,
+          "duration" : 34285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "86527" ]
+      } ],
+      "uid" : "d2d0d9d59ebd733f7f7fff627291eaf7"
+    }, {
+      "name" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20156ms",
+      "children" : [ {
+        "name" : "Закрытие вклада должно отрабатываться корректно",
+        "uid" : "622792eb8722df51",
+        "parentUid" : "8cf666090384b863f1eb044775828918",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167594788,
+          "stop" : 1603167626234,
+          "duration" : 31446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "86527" ]
+      } ],
+      "uid" : "8cf666090384b863f1eb044775828918"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+      "children" : [ {
+        "name" : "Активация карты должна проходить успешно",
+        "uid" : "43bc965e68715bb5",
+        "parentUid" : "d5268c301f1695d6ec7b991aeaa285fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167626414,
+          "stop" : 1603167649215,
+          "duration" : 22801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-TY34V0-4", "1234", "Basic", "1234", "Карты", "1234", "1446277" ]
+      }, {
+        "name" : "Временная блокировка карты должна пройти успешно",
+        "uid" : "e37b99d81f842d23",
+        "parentUid" : "d5268c301f1695d6ec7b991aeaa285fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167649577,
+          "stop" : 1603167668735,
+          "duration" : 19158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "940462" ]
+      } ],
+      "uid" : "d5268c301f1695d6ec7b991aeaa285fb"
+    }, {
+      "name" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: chrome=86.0.4240.80)",
+      "children" : [ {
+        "name" : "Изменение типа нотификации должно проходить успешно",
+        "uid" : "f6cd73fe8e560dbc",
+        "parentUid" : "e6c86fb3fa53cb87b624522d098e1356",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167718877,
+          "stop" : 1603167749454,
+          "duration" : 30577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-5FSQL3I-4", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "e6c86fb3fa53cb87b624522d098e1356"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"set-password-note-popup\"])\n                Wait timed out after 20032ms",
+      "children" : [ {
+        "name" : "Создание пароля через профиль у клиента с неверефицированным номером телефона",
+        "uid" : "a2e0d4f84594dc03",
+        "parentUid" : "5c483607dfbcacec8f2fbecf3193bd8c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603167810250,
+          "stop" : 1603167839815,
+          "duration" : 29565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-1KY974T5-4", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "5c483607dfbcacec8f2fbecf3193bd8c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

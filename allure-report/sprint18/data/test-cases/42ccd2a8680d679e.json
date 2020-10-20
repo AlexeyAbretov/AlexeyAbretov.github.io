@@ -1,0 +1,48 @@
+{
+  "uid" : "42ccd2a8680d679e",
+  "name" : "Смена номера телефона через email и повторная смена через телефон",
+  "fullName" : "ChangePhoneForm integration test.Смена номера телефона через email и повторная смена через телефон",
+  "historyId" : "3a460c796d0d0a82ffade85bf2033a50",
+  "time" : {
+    "start" : 1603168296013,
+    "stop" : 1603168296013,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ChangePhoneForm integration test"
+  }, {
+    "name" : "testClass",
+    "value" : "ChangePhoneForm integration test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Смена номера телефона через email и повторная смена через телефон"
+  }, {
+    "name" : "package",
+    "value" : "ChangePhoneForm integration test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42ccd2a8680d679e.json",
+  "parameterValues" : [ ]
+}

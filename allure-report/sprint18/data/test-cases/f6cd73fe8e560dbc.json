@@ -1,0 +1,208 @@
+{
+  "uid" : "f6cd73fe8e560dbc",
+  "name" : "Изменение типа нотификации должно проходить успешно",
+  "fullName" : "NotificationsForm integration tests.Изменение типа нотификации должно проходить успешно",
+  "historyId" : "8f68eb52a90cf0c03dad5920993e135a",
+  "time" : {
+    "start" : 1603167718877,
+    "stop" : 1603167749454,
+    "duration" : 30577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: chrome=86.0.4240.80)",
+  "statusTrace" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: chrome=86.0.4240.80)\n                    at Object.throwDecodedError (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: chrome=86.0.4240.80)",
+    "statusTrace" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: chrome=86.0.4240.80)\n                    at Object.throwDecodedError (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603167721379,
+        "stop" : 1603167727605,
+        "duration" : 6226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603167721379,
+          "stop" : 1603167723762,
+          "duration" : 2383
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "588557d4b88a5a69",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "588557d4b88a5a69.png",
+          "type" : "image/png",
+          "size" : 2241081
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603167723762,
+          "stop" : 1603167727605,
+          "duration" : 3843
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7e01e27c361c3c61",
+          "name" : "Подтверждение учетных данных",
+          "source" : "7e01e27c361c3c61.png",
+          "type" : "image/png",
+          "size" : 2326860
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1603167727605,
+        "stop" : 1603167732778,
+        "duration" : 5173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0328c8156afc7ca",
+        "name" : "Меню перехода в профиль",
+        "source" : "a0328c8156afc7ca.png",
+        "type" : "image/png",
+        "size" : 216788
+      }, {
+        "uid" : "516e74d5e3f9c070",
+        "name" : "Результат перехода",
+        "source" : "516e74d5e3f9c070.png",
+        "type" : "image/png",
+        "size" : 212356
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на закладку профиля Уведомления - tab-menu-/profile/notifications",
+      "time" : {
+        "start" : 1603167732778,
+        "stop" : 1603167748324,
+        "duration" : 15546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1dac55097e685af8",
+        "name" : "Результат перехода на закладку профиля",
+        "source" : "1dac55097e685af8.png",
+        "type" : "image/png",
+        "size" : 319551
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение типа уведомлений для Карты - cards",
+      "time" : {
+        "start" : 1603167748324,
+        "stop" : 0,
+        "duration" : -1603167748324
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27d20dd5b6ed25ef",
+        "name" : "Первоначальное состояние типов уведомлений",
+        "source" : "27d20dd5b6ed25ef.png",
+        "type" : "image/png",
+        "size" : 319551
+      }, {
+        "uid" : "73c3d6606079a91b",
+        "name" : "Результат теста",
+        "source" : "73c3d6606079a91b.png",
+        "type" : "image/png",
+        "size" : 319551
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Изменение типа нотификации должно проходить успешно"
+  }, {
+    "name" : "package",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-5FSQL3I-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f6cd73fe8e560dbc.json",
+  "parameterValues" : [ "2-5FSQL3I-4", "1234", "Basic", "1234" ]
+}

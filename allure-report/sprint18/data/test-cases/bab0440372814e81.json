@@ -1,0 +1,212 @@
+{
+  "uid" : "bab0440372814e81",
+  "name" : "Успешное открытие квитанции платежа",
+  "fullName" : "История операций - интеграционные тесты.Успешное открытие квитанции платежа",
+  "historyId" : "38fabdbd86606fb26f4471a8cdbd0f",
+  "time" : {
+    "start" : 1603168207807,
+    "stop" : 1603168252151,
+    "duration" : 44344
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603168212044,
+        "stop" : 1603168218254,
+        "duration" : 6210
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603168212044,
+          "stop" : 1603168214924,
+          "duration" : 2880
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6976ccfe5db9254e",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "6976ccfe5db9254e.png",
+          "type" : "image/png",
+          "size" : 2239605
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603168214925,
+          "stop" : 1603168218254,
+          "duration" : 3329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b3b5515c3b866007",
+          "name" : "Подтверждение учетных данных",
+          "source" : "b3b5515c3b866007.png",
+          "type" : "image/png",
+          "size" : 2327014
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных о транзакции",
+      "time" : {
+        "start" : 1603168218254,
+        "stop" : 1603168239870,
+        "duration" : 21616
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30f94bb947238615",
+        "name" : "Список транзакций",
+        "source" : "30f94bb947238615.png",
+        "type" : "image/png",
+        "size" : 580728
+      }, {
+        "uid" : "9cf548b4bc12f25e",
+        "name" : "Открытая транзакция",
+        "source" : "9cf548b4bc12f25e.png",
+        "type" : "image/png",
+        "size" : 535563
+      }, {
+        "uid" : "821d5dc99b9eedbf",
+        "name" : "Открытая транзакция",
+        "source" : "821d5dc99b9eedbf.png",
+        "type" : "image/png",
+        "size" : 602321
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие подробной информации о транзакции",
+      "time" : {
+        "start" : 1603168239870,
+        "stop" : 1603168242074,
+        "duration" : 2204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18561125a9440f09",
+        "name" : "Подробная информация о транзакции",
+        "source" : "18561125a9440f09.png",
+        "type" : "image/png",
+        "size" : 309936
+      }, {
+        "uid" : "68ee782c70521081",
+        "name" : "Подробная информация о транзакции",
+        "source" : "68ee782c70521081.png",
+        "type" : "image/png",
+        "size" : 224923
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход по ссылке",
+      "time" : {
+        "start" : 1603168249160,
+        "stop" : 1603168251649,
+        "duration" : 2489
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7589302107bfa949",
+        "name" : "Результат переход по ссылке",
+        "source" : "7589302107bfa949.png",
+        "type" : "image/png",
+        "size" : 291994
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d2090d0022bd878d",
+      "name" : "Результат теста",
+      "source" : "d2090d0022bd878d.png",
+      "type" : "image/png",
+      "size" : 291994
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "История операций - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "История операций - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Успешное открытие квитанции платежа"
+  }, {
+    "name" : "package",
+    "value" : "История операций - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bab0440372814e81.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234" ]
+}

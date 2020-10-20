@@ -1,0 +1,275 @@
+{
+  "uid" : "96c3da4dee1d4613",
+  "name" : "Успешный перевод с неверифицированным номером телефона",
+  "fullName" : "Переводы по номеру карты - интеграционные тесты.Успешный перевод с неверифицированным номером телефона",
+  "historyId" : "edaa1ff3f4c1fd53b69a8cff10146d98",
+  "time" : {
+    "start" : 1603163319608,
+    "stop" : 1603163371858,
+    "duration" : 52250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603163323064,
+        "stop" : 1603163329606,
+        "duration" : 6542
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603163323064,
+          "stop" : 1603163325473,
+          "duration" : 2409
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e1e566ca57caa699",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "e1e566ca57caa699.png",
+          "type" : "image/png",
+          "size" : 2239633
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603163325473,
+          "stop" : 1603163329606,
+          "duration" : 4133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f04be2b61c5d99fe",
+          "name" : "Подтверждение учетных данных",
+          "source" : "f04be2b61c5d99fe.png",
+          "type" : "image/png",
+          "size" : 2327140
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1603163329606,
+        "stop" : 1603163343768,
+        "duration" : 14162
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1603163329606,
+          "stop" : 1603163331412,
+          "duration" : 1806
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2b951033f07a268",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "f2b951033f07a268.png",
+          "type" : "image/png",
+          "size" : 4368
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1603163331412,
+          "stop" : 1603163343768,
+          "duration" : 12356
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7e623243c51f7f48",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "7e623243c51f7f48.png",
+          "type" : "image/png",
+          "size" : 6509
+        }, {
+          "uid" : "1f97627a58fb1d86",
+          "name" : "Форма перевода",
+          "source" : "1f97627a58fb1d86.png",
+          "type" : "image/png",
+          "size" : 161932
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1603163343768,
+        "stop" : 1603163345401,
+        "duration" : 1633
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20eea002de7b71fe",
+        "name" : "Заполненная формы перевода",
+        "source" : "20eea002de7b71fe.png",
+        "type" : "image/png",
+        "size" : 188767
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1603163345402,
+        "stop" : 1603163371364,
+        "duration" : 25962
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1603163351329,
+          "stop" : 1603163358820,
+          "duration" : 7491
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "18abc3309bdff3cc",
+          "name" : "Подтверждение платежа/перевода",
+          "source" : "18abc3309bdff3cc.png",
+          "type" : "image/png",
+          "size" : 139460
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f2a2a140b324bc63",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "f2a2a140b324bc63.png",
+        "type" : "image/png",
+        "size" : 190120
+      }, {
+        "uid" : "441d447b36fa3e85",
+        "name" : "Результат перевода",
+        "source" : "441d447b36fa3e85.png",
+        "type" : "image/png",
+        "size" : 137551
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4c50b1f4acd92e79",
+      "name" : "Результат теста",
+      "source" : "4c50b1f4acd92e79.png",
+      "type" : "image/png",
+      "size" : 137551
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы по номеру карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы по номеру карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Успешный перевод с неверифицированным номером телефона"
+  }, {
+    "name" : "package",
+    "value" : "Переводы по номеру карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Номер карты/счета - SRC_ACCOUNT-select-option-1, Счет/карта получателя - 4093980004499250, Сумма - 20"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_card"
+  }, {
+    "name" : "Форма перевода",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96c3da4dee1d4613.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Номер карты/счета - SRC_ACCOUNT-select-option-1, Счет/карта получателя - 4093980004499250, Сумма - 20", "1234", "transfer_card", "" ]
+}

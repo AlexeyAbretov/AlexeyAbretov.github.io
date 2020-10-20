@@ -1,0 +1,48 @@
+{
+  "uid" : "e1d403630a84bff1",
+  "name" : "Должна отобразится ошибка с номером 1106",
+  "fullName" : "Интеграционные тесты входа в приложение.Должна отобразится ошибка с номером 1106",
+  "historyId" : "685e4ae6f929604ca10c572fef5583f8",
+  "time" : {
+    "start" : 1603167402197,
+    "stop" : 1603167402197,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должна отобразится ошибка с номером 1106"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1d403630a84bff1.json",
+  "parameterValues" : [ ]
+}

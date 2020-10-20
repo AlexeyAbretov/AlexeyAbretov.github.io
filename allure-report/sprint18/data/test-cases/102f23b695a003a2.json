@@ -1,0 +1,48 @@
+{
+  "uid" : "102f23b695a003a2",
+  "name" : "Ошибка при входе по логину/паролю - неверный код подтверждения",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по логину/паролю - неверный код подтверждения",
+  "historyId" : "b9c0a5a093228a634b005e47afb87a76",
+  "time" : {
+    "start" : 1603167489738,
+    "stop" : 1603167489738,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по логину/паролю - неверный код подтверждения"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "102f23b695a003a2.json",
+  "parameterValues" : [ ]
+}

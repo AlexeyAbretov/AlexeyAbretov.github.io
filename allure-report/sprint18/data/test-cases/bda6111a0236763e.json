@@ -1,0 +1,48 @@
+{
+  "uid" : "bda6111a0236763e",
+  "name" : "should render no errors and button should be enabled",
+  "fullName" : "LimitsForm integration tests.should render no errors and button should be enabled",
+  "historyId" : "89aa7e87d309ebb350e2e41ce04ea264",
+  "time" : {
+    "start" : 1603167559945,
+    "stop" : 1603167559945,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should render no errors and button should be enabled"
+  }, {
+    "name" : "package",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bda6111a0236763e.json",
+  "parameterValues" : [ ]
+}

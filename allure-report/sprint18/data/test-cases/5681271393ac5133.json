@@ -1,0 +1,82 @@
+{
+  "uid" : "5681271393ac5133",
+  "name" : "Ошибка при входе по продукту - верный продукт, не верный телефон",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - верный продукт, не верный телефон",
+  "historyId" : "e6bc3b358a98fe36f880029be632bc3f",
+  "time" : {
+    "start" : 1603167505535,
+    "stop" : 1603167513824,
+    "duration" : 8289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchSessionError: invalid session id",
+  "statusTrace" : "NoSuchSessionError: invalid session id\n                    at Object.throwDecodedError (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchSessionError: invalid session id",
+    "statusTrace" : "NoSuchSessionError: invalid session id\n                    at Object.throwDecodedError (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a94e87f435a0861b",
+      "name" : "Результат теста",
+      "source" : "a94e87f435a0861b.png",
+      "type" : "image/png",
+      "size" : 2241745
+    }, {
+      "uid" : "7d866ce8c38c8f59",
+      "name" : "Заполнение учетных данных при входе через продукт",
+      "source" : "7d866ce8c38c8f59.png",
+      "type" : "image/png",
+      "size" : 2248892
+    }, {
+      "uid" : "aac18ebd5d14d22f",
+      "name" : "Результат теста",
+      "source" : "aac18ebd5d14d22f.png",
+      "type" : "image/png",
+      "size" : 190875
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - верный продукт, не верный телефон"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5681271393ac5133.json",
+  "parameterValues" : [ ]
+}

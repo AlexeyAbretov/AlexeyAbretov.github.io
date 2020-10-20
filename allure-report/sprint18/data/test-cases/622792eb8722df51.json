@@ -1,0 +1,160 @@
+{
+  "uid" : "622792eb8722df51",
+  "name" : "Закрытие вклада должно отрабатываться корректно",
+  "fullName" : "Закрытие вклада - интеграционные тесты.Закрытие вклада должно отрабатываться корректно",
+  "historyId" : "b4efda0e3b824b01fbd4ce9715292777",
+  "time" : {
+    "start" : 1603167594788,
+    "stop" : 1603167626234,
+    "duration" : 31446
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20156ms",
+  "statusTrace" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20156ms\n                    at /Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20156ms",
+    "statusTrace" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20156ms\n                    at /Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603167597350,
+        "stop" : 1603167603617,
+        "duration" : 6267
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603167597351,
+          "stop" : 1603167599653,
+          "duration" : 2302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "62b8b64abc512493",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "62b8b64abc512493.png",
+          "type" : "image/png",
+          "size" : 2240493
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603167599654,
+          "stop" : 1603167603617,
+          "duration" : 3963
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "abc989caa837009",
+          "name" : "Подтверждение учетных данных",
+          "source" : "abc989caa837009.png",
+          "type" : "image/png",
+          "size" : 2325544
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603167603617,
+        "stop" : 0,
+        "duration" : -1603167603617
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "744fd7863361f3ad",
+        "name" : "Результат теста",
+        "source" : "744fd7863361f3ad.png",
+        "type" : "image/png",
+        "size" : 494765
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Закрытие вклада должно отрабатываться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "063447-9"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Вклады"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "86527"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "622792eb8722df51.json",
+  "parameterValues" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "86527" ]
+}

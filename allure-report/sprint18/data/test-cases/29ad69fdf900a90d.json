@@ -1,0 +1,236 @@
+{
+  "uid" : "29ad69fdf900a90d",
+  "name" : "Разблокировка должна пройти успешно",
+  "fullName" : "Разблокировка карты - интеграционные тесты.Разблокировка должна пройти успешно",
+  "historyId" : "151f8e7d0ce9fa2758421da9cf0c14ad",
+  "time" : {
+    "start" : 1603168344593,
+    "stop" : 1603168367098,
+    "duration" : 22505
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603168347898,
+        "stop" : 1603168354495,
+        "duration" : 6597
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603168347898,
+          "stop" : 1603168350371,
+          "duration" : 2473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "73c952f1642dd214",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "73c952f1642dd214.png",
+          "type" : "image/png",
+          "size" : 2241040
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603168350371,
+          "stop" : 1603168354495,
+          "duration" : 4124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bf499555b54187eb",
+          "name" : "Подтверждение учетных данных",
+          "source" : "bf499555b54187eb.png",
+          "type" : "image/png",
+          "size" : 2326446
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603168354496,
+        "stop" : 1603168359689,
+        "duration" : 5193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd69185810b14e8c",
+        "name" : "Переход на страницу продукта",
+        "source" : "dd69185810b14e8c.png",
+        "type" : "image/png",
+        "size" : 365581
+      }, {
+        "uid" : "124ff2b7f725323",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "124ff2b7f725323.png",
+        "type" : "image/png",
+        "size" : 378636
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603168359689,
+        "stop" : 1603168362584,
+        "duration" : 2895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "356a72e96451eb16",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "356a72e96451eb16.png",
+        "type" : "image/png",
+        "size" : 415211
+      }, {
+        "uid" : "86e4f77ad1f98b4f",
+        "name" : "Переход на форму ",
+        "source" : "86e4f77ad1f98b4f.png",
+        "type" : "image/png",
+        "size" : 433833
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение разблокировки карты",
+      "time" : {
+        "start" : 1603168362584,
+        "stop" : 1603168364290,
+        "duration" : 1706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73e504186acb1859",
+        "name" : "Подтверждение разблокировки карты",
+        "source" : "73e504186acb1859.png",
+        "type" : "image/png",
+        "size" : 435642
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1603168364290,
+        "stop" : 1603168366537,
+        "duration" : 2247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bde8f17fb3cd07af",
+        "name" : "Сообщение об операции",
+        "source" : "bde8f17fb3cd07af.png",
+        "type" : "image/png",
+        "size" : 413891
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "40f26c67b9b1179e",
+      "name" : "Результат теста",
+      "source" : "40f26c67b9b1179e.png",
+      "type" : "image/png",
+      "size" : 413246
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Разблокировка карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Разблокировка карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Разблокировка должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Разблокировка карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-3455RZ3-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "5. Код подтверждения разблокировки",
+    "value" : "1234"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "940462"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29ad69fdf900a90d.json",
+  "parameterValues" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "1234", "940462" ]
+}

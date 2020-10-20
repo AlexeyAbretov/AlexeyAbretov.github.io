@@ -1,0 +1,160 @@
+{
+  "uid" : "69a0e7524d79671",
+  "name" : "Вклад должен отображаться корректно",
+  "fullName" : "Отображение вклада до востребования - интеграционные тесты.Вклад должен отображаться корректно",
+  "historyId" : "5c1b9456320a11bd0cef2d769341c3a7",
+  "time" : {
+    "start" : 1603167560139,
+    "stop" : 1603167594424,
+    "duration" : 34285
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20171ms",
+  "statusTrace" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20171ms\n                    at /Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20171ms",
+    "statusTrace" : "TimeoutError: Waiting until element is visible\n                Wait timed out after 20171ms\n                    at /Users/abretovaa/work/temp/sprint18/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603167562547,
+        "stop" : 1603167568768,
+        "duration" : 6221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603167562547,
+          "stop" : 1603167564855,
+          "duration" : 2308
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8fb3790136f2dc5e",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "8fb3790136f2dc5e.png",
+          "type" : "image/png",
+          "size" : 2240493
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603167564855,
+          "stop" : 1603167568768,
+          "duration" : 3913
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b63f43d31e5605d1",
+          "name" : "Подтверждение учетных данных",
+          "source" : "b63f43d31e5605d1.png",
+          "type" : "image/png",
+          "size" : 2325728
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603167568769,
+        "stop" : 0,
+        "duration" : -1603167568769
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc1c27e7bb596f7c",
+        "name" : "Результат теста",
+        "source" : "fc1c27e7bb596f7c.png",
+        "type" : "image/png",
+        "size" : 494765
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Отображение вклада до востребования - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Отображение вклада до востребования - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Вклад должен отображаться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Отображение вклада до востребования - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "063447-9"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Вклады"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "86527"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "69a0e7524d79671.json",
+  "parameterValues" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "86527" ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "e37b99d81f842d23",
+  "name" : "Временная блокировка карты должна пройти успешно",
+  "fullName" : "Блокировка карты временная - интеграционные тесты.Временная блокировка карты должна пройти успешно",
+  "historyId" : "fe4f2fbd34483e1497486ace2f07dc90",
+  "time" : {
+    "start" : 1603167649577,
+    "stop" : 1603167668735,
+    "duration" : 19158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee3$ (/Users/abretovaa/work/temp/sprint18/src/__tests__/Products/Products.steps.js:203:8)\n                    at tryCatch (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee3$ (/Users/abretovaa/work/temp/sprint18/src/__tests__/Products/Products.steps.js:203:8)\n                    at tryCatch (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/temp/sprint18/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/temp/sprint18/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603167652087,
+        "stop" : 1603167658276,
+        "duration" : 6189
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603167652088,
+          "stop" : 1603167654336,
+          "duration" : 2248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e158ee52110fcf96",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "e158ee52110fcf96.png",
+          "type" : "image/png",
+          "size" : 2241040
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603167654336,
+          "stop" : 1603167658276,
+          "duration" : 3940
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9ad2b1888205f7ae",
+          "name" : "Подтверждение учетных данных",
+          "source" : "9ad2b1888205f7ae.png",
+          "type" : "image/png",
+          "size" : 2326511
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603167658276,
+        "stop" : 1603167667422,
+        "duration" : 9146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "885ba91660b238a9",
+        "name" : "Переход на страницу продукта",
+        "source" : "885ba91660b238a9.png",
+        "type" : "image/png",
+        "size" : 365581
+      }, {
+        "uid" : "26fbb4a91fcf3527",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "26fbb4a91fcf3527.png",
+        "type" : "image/png",
+        "size" : 378708
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603167667422,
+        "stop" : 0,
+        "duration" : -1603167667422
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f5aac18aa7b2dd9",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "8f5aac18aa7b2dd9.png",
+        "type" : "image/png",
+        "size" : 415212
+      }, {
+        "uid" : "7d3c700b28d697ad",
+        "name" : "Результат теста",
+        "source" : "7d3c700b28d697ad.png",
+        "type" : "image/png",
+        "size" : 415212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Временная блокировка карты должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-3455RZ3-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "940462"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e37b99d81f842d23.json",
+  "parameterValues" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "940462" ]
+}

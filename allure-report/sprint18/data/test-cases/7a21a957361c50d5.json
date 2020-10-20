@@ -1,0 +1,185 @@
+{
+  "uid" : "7a21a957361c50d5",
+  "name" : "Клиент с платежом и общей задолженностью",
+  "fullName" : "Платеж и общая задолженность - интеграционные тесты.Клиент с платежом и общей задолженностью",
+  "historyId" : "47afcc08839b8be0c6851e13533fa24b",
+  "time" : {
+    "start" : 1603168443339,
+    "stop" : 1603168462043,
+    "duration" : 18704
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1603168446668,
+        "stop" : 1603168453430,
+        "duration" : 6762
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1603168446668,
+          "stop" : 1603168449259,
+          "duration" : 2591
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "42ea6d6c828e958c",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "42ea6d6c828e958c.png",
+          "type" : "image/png",
+          "size" : 2240505
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1603168449259,
+          "stop" : 1603168453430,
+          "duration" : 4171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "56bdc9b180e5dc9a",
+          "name" : "Подтверждение учетных данных",
+          "source" : "56bdc9b180e5dc9a.png",
+          "type" : "image/png",
+          "size" : 2326402
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1603168453430,
+        "stop" : 1603168459950,
+        "duration" : 6520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0c6f0b3955c5efa",
+        "name" : "Переход на страницу продукта",
+        "source" : "d0c6f0b3955c5efa.png",
+        "type" : "image/png",
+        "size" : 290410
+      }, {
+        "uid" : "d6b4e985b0ad84e2",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "d6b4e985b0ad84e2.png",
+        "type" : "image/png",
+        "size" : 349532
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Платёж\"",
+      "time" : {
+        "start" : 1603168459951,
+        "stop" : 1603168460815,
+        "duration" : 864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30be03211f48946f",
+        "name" : "Содержимое вкладки \"Платёж\"",
+        "source" : "30be03211f48946f.png",
+        "type" : "image/png",
+        "size" : 381927
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ce0f171bd2177bd",
+      "name" : "Результат теста",
+      "source" : "ce0f171bd2177bd.png",
+      "type" : "image/png",
+      "size" : 418645
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Платеж и общая задолженность - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Платеж и общая задолженность - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Клиент с платежом и общей задолженностью"
+  }, {
+    "name" : "package",
+    "value" : "Платеж и общая задолженность - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-3DYTGIL-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "519833"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a21a957361c50d5.json",
+  "parameterValues" : [ "2-3DYTGIL-4", "1234", "Basic", "1234", "Карты", "519833" ]
+}
