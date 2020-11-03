@@ -1,0 +1,334 @@
+{
+  "uid" : "2ecd3bc5bc039157",
+  "name" : "Создание пароля через профиль у клиента с неверефицированным номером телефона",
+  "fullName" : "Security integration tests.Создание пароля через профиль у клиента с неверефицированным номером телефона",
+  "historyId" : "7c912a21e874e7ea7871124851c40942",
+  "time" : {
+    "start" : 1604309004541,
+    "stop" : 1604309036347,
+    "duration" : 31806
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee4$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/src/ui/templates/Profile/SecurityTemplate/__tests__/SecurityTemplate.ispec.js:218:12)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee4$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/src/ui/templates/Profile/SecurityTemplate/__tests__/SecurityTemplate.ispec.js:218:12)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604309007615,
+        "stop" : 1604309012862,
+        "duration" : 5247
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604309007616,
+          "stop" : 1604309009563,
+          "duration" : 1947
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8f7f240a3f57ce4e",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "8f7f240a3f57ce4e.png",
+          "type" : "image/png",
+          "size" : 2252440
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604309009563,
+          "stop" : 1604309012862,
+          "duration" : 3299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "480c23e92ff0da82",
+          "name" : "Подтверждение учетных данных",
+          "source" : "480c23e92ff0da82.png",
+          "type" : "image/png",
+          "size" : 2277600
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку Изменить пароль",
+      "time" : {
+        "start" : 1604309015434,
+        "stop" : 1604309017133,
+        "duration" : 1699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "247bb177c9e18d8c",
+        "name" : "Результат нажатия на кнопку Изменить пароль",
+        "source" : "247bb177c9e18d8c.png",
+        "type" : "image/png",
+        "size" : 258923
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы",
+      "time" : {
+        "start" : 1604309017133,
+        "stop" : 1604309018232,
+        "duration" : 1099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1947b1522deb84da",
+        "name" : "Результат заполнения формы",
+        "source" : "1947b1522deb84da.png",
+        "type" : "image/png",
+        "size" : 254888
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на кнопку Сохранить",
+      "time" : {
+        "start" : 1604309018233,
+        "stop" : 1604309019753,
+        "duration" : 1520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cf23e32685e3083",
+        "name" : "Результат нажатия на кнопку Сохранить",
+        "source" : "6cf23e32685e3083.png",
+        "type" : "image/png",
+        "size" : 236041
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение смены пароля",
+      "time" : {
+        "start" : 1604309019753,
+        "stop" : 1604309021391,
+        "duration" : 1638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bdd695000c7f04a",
+        "name" : "Подтверждение смены пароля",
+        "source" : "bdd695000c7f04a.png",
+        "type" : "image/png",
+        "size" : 241022
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1604309021391,
+        "stop" : 1604309022080,
+        "duration" : 689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5846cc4e48b7e0b",
+        "name" : "Сообщение об операции",
+        "source" : "d5846cc4e48b7e0b.png",
+        "type" : "image/png",
+        "size" : 299585
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выход из приложения",
+      "time" : {
+        "start" : 1604309022088,
+        "stop" : 1604309028090,
+        "duration" : 6002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f398f65eb49fc0fd",
+        "name" : "Меню профиля",
+        "source" : "f398f65eb49fc0fd.png",
+        "type" : "image/png",
+        "size" : 307667
+      }, {
+        "uid" : "d68b29db3dfe27e0",
+        "name" : "Результат выхода",
+        "source" : "d68b29db3dfe27e0.png",
+        "type" : "image/png",
+        "size" : 2245397
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604309028090,
+        "stop" : 1604309033027,
+        "duration" : 4937
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604309028090,
+          "stop" : 1604309029863,
+          "duration" : 1773
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "34b17e5c5d73e11",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "34b17e5c5d73e11.png",
+          "type" : "image/png",
+          "size" : 2249380
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604309029863,
+          "stop" : 1604309033027,
+          "duration" : 3164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2b6f793a307e93d9",
+          "name" : "Подтверждение учетных данных",
+          "source" : "2b6f793a307e93d9.png",
+          "type" : "image/png",
+          "size" : 2277081
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "818e7dbb24c57497",
+      "name" : "Результат теста",
+      "source" : "818e7dbb24c57497.png",
+      "type" : "image/png",
+      "size" : 2278307
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Security integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Security integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Создание пароля через профиль у клиента с неверефицированным номером телефона"
+  }, {
+    "name" : "package",
+    "value" : "Security integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-1NDBLCBH-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "pW123456"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Код подтверждения смены пароля`",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2ecd3bc5bc039157.json",
+  "parameterValues" : [ "2-1NDBLCBH-4", "1234", "pW123456", "Basic", "1234", "1234" ]
+}

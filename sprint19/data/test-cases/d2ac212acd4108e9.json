@@ -1,0 +1,82 @@
+{
+  "uid" : "d2ac212acd4108e9",
+  "name" : "Ошибка при входе по продукту - неверный продукт, но верный телефон",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - неверный продукт, но верный телефон",
+  "historyId" : "aed84357cf00c8d42e3b8c881a357bf2",
+  "time" : {
+    "start" : 1604304163933,
+    "stop" : 1604304172141,
+    "duration" : 8208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchSessionError: invalid session id",
+  "statusTrace" : "NoSuchSessionError: invalid session id\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchSessionError: invalid session id",
+    "statusTrace" : "NoSuchSessionError: invalid session id\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "291627e0cfa19509",
+      "name" : "Результат теста",
+      "source" : "291627e0cfa19509.png",
+      "type" : "image/png",
+      "size" : 2218791
+    }, {
+      "uid" : "8053ff9518e869a6",
+      "name" : "Заполнение учетных данных при входе через продукт",
+      "source" : "8053ff9518e869a6.png",
+      "type" : "image/png",
+      "size" : 2185517
+    }, {
+      "uid" : "b671d33a266fc20b",
+      "name" : "Результат теста",
+      "source" : "b671d33a266fc20b.png",
+      "type" : "image/png",
+      "size" : 189276
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - неверный продукт, но верный телефон"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d2ac212acd4108e9.json",
+  "parameterValues" : [ ]
+}

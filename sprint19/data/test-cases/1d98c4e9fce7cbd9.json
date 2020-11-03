@@ -1,0 +1,48 @@
+{
+  "uid" : "1d98c4e9fce7cbd9",
+  "name" : "Оформление карты с витрины карт",
+  "fullName" : "Витрина карт.Оформление карты с витрины карт",
+  "historyId" : "533914472dee1d8ea4eda28825f83769",
+  "time" : {
+    "start" : 1604309607741,
+    "stop" : 1604309607741,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testMethod",
+    "value" : "Оформление карты с витрины карт"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d98c4e9fce7cbd9.json",
+  "parameterValues" : [ ]
+}

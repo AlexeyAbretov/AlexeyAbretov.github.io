@@ -1,0 +1,395 @@
+{
+  "uid" : "df38c705a70818fd",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+  "fullName" : "Переводы по номеру карты клиенту банка - интеграционные тесты.Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+  "historyId" : "ae41a8206ee4727d065f3e3b0cf18bf3",
+  "time" : {
+    "start" : 1604304719281,
+    "stop" : 1604304836156,
+    "duration" : 116875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604304721833,
+        "stop" : 1604304728290,
+        "duration" : 6457
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604304721833,
+          "stop" : 1604304724086,
+          "duration" : 2253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3f701760b8b6e0e2",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "3f701760b8b6e0e2.png",
+          "type" : "image/png",
+          "size" : 2253804
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604304724086,
+          "stop" : 1604304728290,
+          "duration" : 4204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5e83467c28677fd4",
+          "name" : "Подтверждение учетных данных",
+          "source" : "5e83467c28677fd4.png",
+          "type" : "image/png",
+          "size" : 2277679
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1604304728290,
+        "stop" : 1604304745306,
+        "duration" : 17016
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1604304728290,
+          "stop" : 1604304730556,
+          "duration" : 2266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d3e32d2c623770db",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "d3e32d2c623770db.png",
+          "type" : "image/png",
+          "size" : 4500
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1604304730556,
+          "stop" : 1604304745306,
+          "duration" : 14750
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d7312654b2488403",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "d7312654b2488403.png",
+          "type" : "image/png",
+          "size" : 7284
+        }, {
+          "uid" : "4cbb7b149ee94867",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "4cbb7b149ee94867.png",
+          "type" : "image/png",
+          "size" : 2560
+        }, {
+          "uid" : "10a214bb6a5c2",
+          "name" : "Форма перевода",
+          "source" : "10a214bb6a5c2.png",
+          "type" : "image/png",
+          "size" : 204317
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1604304745306,
+        "stop" : 1604304747262,
+        "duration" : 1956
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d81ea7bc9512da5",
+        "name" : "Заполненная формы перевода",
+        "source" : "9d81ea7bc9512da5.png",
+        "type" : "image/png",
+        "size" : 223547
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1604304747263,
+        "stop" : 1604304813237,
+        "duration" : 65974
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1604304752686,
+          "stop" : 1604304812764,
+          "duration" : 60078
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e93526876d2cb44c",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "e93526876d2cb44c.png",
+        "type" : "image/png",
+        "size" : 228242
+      }, {
+        "uid" : "a847db5e3edf7a12",
+        "name" : "Результат перевода",
+        "source" : "a847db5e3edf7a12.png",
+        "type" : "image/png",
+        "size" : 140447
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Отправка квитанции на эл. почту",
+      "time" : {
+        "start" : 1604304813251,
+        "stop" : 1604304816377,
+        "duration" : 3126
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка эл. почты из формы",
+        "time" : {
+          "start" : 1604304813415,
+          "stop" : 1604304816377,
+          "duration" : 2962
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a936b98d44c47969",
+          "name" : "Отправка эл. почты из формы",
+          "source" : "a936b98d44c47969.png",
+          "type" : "image/png",
+          "size" : 127566
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1604304816378,
+        "stop" : 1604304818174,
+        "duration" : 1796
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c5b2b976360cf06",
+        "name" : "Сообщение об операции",
+        "source" : "7c5b2b976360cf06.png",
+        "type" : "image/png",
+        "size" : 194628
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Вход в почтовый ящик",
+      "time" : {
+        "start" : 1604304821192,
+        "stop" : 1604304825724,
+        "duration" : 4532
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c870d100e53a441",
+        "name" : "Ввод логина",
+        "source" : "3c870d100e53a441.png",
+        "type" : "image/png",
+        "size" : 101011
+      }, {
+        "uid" : "53f9cdc6a7c0bc1e",
+        "name" : "Ввод пароля",
+        "source" : "53f9cdc6a7c0bc1e.png",
+        "type" : "image/png",
+        "size" : 78763
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных о письме с квитанцией",
+      "time" : {
+        "start" : 1604304828735,
+        "stop" : 1604304835651,
+        "duration" : 6916
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "907937eb08c3386d",
+        "name" : "Список писем",
+        "source" : "907937eb08c3386d.png",
+        "type" : "image/png",
+        "size" : 347650
+      }, {
+        "uid" : "3f66c09c65f5aab8",
+        "name" : "Письмо с квитанцией",
+        "source" : "3f66c09c65f5aab8.png",
+        "type" : "image/png",
+        "size" : 252892
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e698c565af501cd3",
+      "name" : "Результат теста",
+      "source" : "e698c565af501cd3.png",
+      "type" : "image/png",
+      "size" : 252892
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)"
+  }, {
+    "name" : "package",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Счет/карта получателя - 5521409990176234, Сумма - 77, Комментарий - test comment, Номер карты/счета - 42306810000690011013"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Логин почтового ящика",
+    "value" : "otp.at.mailbox@gmail.com"
+  }, {
+    "name" : "Пароль почтового ящика",
+    "value" : "sa123456_1"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_clientBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-По номеру карты"
+  }, {
+    "name" : "Эл. почта",
+    "value" : "otp.at.mailbox@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df38c705a70818fd.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Счет/карта получателя - 5521409990176234, Сумма - 77, Комментарий - test comment, Номер карты/счета - 42306810000690011013", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_clientBank", "tab-menu-По номеру карты", "otp.at.mailbox@gmail.com" ]
+}

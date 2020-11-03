@@ -1,0 +1,70 @@
+{
+  "uid" : "17fc19afdae6bdb5",
+  "name" : "Ошибка при входе по продукту - без телефона",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - без телефона",
+  "historyId" : "716a0a1a3a60f0e9616b05dbc0f7f8da",
+  "time" : {
+    "start" : 1604304163878,
+    "stop" : 1604304163923,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Server terminated early with status 1",
+  "statusTrace" : "Error: Server terminated early with status 1\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/remote/index.js:251:52\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Server terminated early with status 1",
+    "statusTrace" : "Error: Server terminated early with status 1\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/remote/index.js:251:52\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "acbe772765315588",
+      "name" : "Результат теста",
+      "source" : "acbe772765315588.png",
+      "type" : "image/png",
+      "size" : 2255424
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - без телефона"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "17fc19afdae6bdb5.json",
+  "parameterValues" : [ ]
+}

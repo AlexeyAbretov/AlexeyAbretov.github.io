@@ -1,0 +1,1604 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Ошибка при входе по продукту - нет продукта и телефона",
+    "uid" : "dbe4cc68cfe6cb92",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304163923,
+      "stop" : 1604304163932,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка при входе по продукту - неверный код подтверждения",
+    "uid" : "c801543691bca461",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604304196200,
+      "stop" : 1604304196200,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Открытие вклада в Максимальный в долларах",
+    "uid" : "bcfb6ceaf209ca69",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307699525,
+      "stop" : 1604307751038,
+      "duration" : 51513
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-T16UKV-4", "1234", "Basic", "1234", "USD", "1234", "amount-input - 300, period-select - period-option-0, payoutTarget-select - payoutTarget-option-0, card-select - 40817840400730000236, bankPhilial-select - bankPhilial-option-0", "Максимальный", "На вклад", "91 день", "40817840400730000236", "300", "АО ОТП Банк" ]
+  }, {
+    "name" : "Выключение уведомлений должно работать корректно",
+    "uid" : "9f9cefbf70378138",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309137727,
+      "stop" : 1604309220088,
+      "duration" : 82361
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-DA1MP-4", "1234", "Basic", "1234", "Карты", "134004", "1234" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+    "uid" : "8f9c4d5e06af8f02",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304664548,
+      "stop" : 1604304719280,
+      "duration" : 54732
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Счет/карта получателя - 5521409990176234, Сумма - 77, Комментарий - test comment, Номер карты/счета - 42306810000690011013", "transfer_clientBank", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "Успешная оплата мобильноя связи Мегафон",
+    "uid" : "c41d028f6ee53486",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604308326111,
+      "stop" : 1604308471068,
+      "duration" : 144957
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Телефон - 9254297577, Сумма - 10, Номер карты/счета - 40820810400490000085", "1234", "payment_7", "favorite-payment-1695" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов с выплатой процентов на вклад",
+    "uid" : "4e06c3661e9642ff",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307180859,
+      "stop" : 1604307200631,
+      "duration" : 19772
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру карты (со счета)",
+    "uid" : "df38c705a70818fd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304719281,
+      "stop" : 1604304836156,
+      "duration" : 116875
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Счет/карта получателя - 5521409990176234, Сумма - 77, Комментарий - test comment, Номер карты/счета - 42306810000690011013", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_clientBank", "tab-menu-По номеру карты", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Создание пароля через профиль у клиента с неверефицированным номером телефона",
+    "uid" : "2ecd3bc5bc039157",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604309004541,
+      "stop" : 1604309036347,
+      "duration" : 31806
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1NDBLCBH-4", "1234", "pW123456", "Basic", "1234", "1234" ]
+  }, {
+    "name" : "Должна отобразится ошибка с номером 1106",
+    "uid" : "69b4b6c0e4cd8b59",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304051461,
+      "stop" : 1604304059761,
+      "duration" : 8300
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверить в ленте операций отображение оплаты Мобильной связи Yota (со счета)",
+    "uid" : "815e291d3636b4b1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308233053,
+      "stop" : 1604308326111,
+      "duration" : 93058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Телефон - 9254297577, Сумма - 33, Номер карты/счета - 40820810400490000085", "1234", "payment_7", "favorite-payment-1272" ]
+  }, {
+    "name" : "Успешный вход по логину/паролю",
+    "uid" : "e65a327b233633ab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304059769,
+      "stop" : 1604304071750,
+      "duration" : 11981
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1GJ67KS-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Должны отображаться паспортные данные",
+    "uid" : "5c0918b938af6383",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308920075,
+      "stop" : 1604308934974,
+      "duration" : 14899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного оплаты ЖКУ (с карты)",
+    "uid" : "625ffa6f6394365b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604308620241,
+      "stop" : 1604308771946,
+      "duration" : 151705
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1Q1LFU3-4", "1234", "Basic", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+  }, {
+    "name" : "Ошибка при входе по продукту - блокировка при превышении попыток ввода неверного кода подтверждения",
+    "uid" : "8995cfe617b97295",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604304196200,
+      "stop" : 1604304196200,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Клиент с платежом и общей задолженностью",
+    "uid" : "1247dbd42df0f86b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308896041,
+      "stop" : 1604308919040,
+      "duration" : 22999
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-3DYTGIL-4", "1234", "Basic", "1234", "Карты", "519833" ]
+  }, {
+    "name" : "Установка ПИН-кода должна работать корректно",
+    "uid" : "a6342d0f41f1ddfe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309536743,
+      "stop" : 1604309565936,
+      "duration" : 29193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1-41632-4", "1234", "Basic", "1234", "Карты", "1234", "15646" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов на основе суммы вклада",
+    "uid" : "8c3ab24dfeef70b6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307102511,
+      "stop" : 1604307121941,
+      "duration" : 19430
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "30000" ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Людям",
+    "uid" : "f0cae77a6d501ffc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306002737,
+      "stop" : 1604306096841,
+      "duration" : 94104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Людям" ]
+  }, {
+    "name" : "Активация карты должна проходить успешно",
+    "uid" : "200ebee7b192e35e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604309354976,
+      "stop" : 1604309354976,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Успешный перевод с неверифицированным номером телефона",
+    "uid" : "853dec6874a0cb3c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304348472,
+      "stop" : 1604304480851,
+      "duration" : 132379
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Номер карты/счета - 40817810100406330450, Счет/карта получателя - 4093980004499250, Сумма - 20", "1234", "transfer_card", "" ]
+  }, {
+    "name" : "Документ выписки должен успешно выгрузится",
+    "uid" : "7870171a10f7d062",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309644034,
+      "stop" : 1604309671203,
+      "duration" : 27169
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5048202890", "9679702227", "Product", "1234", "Карты", "15700" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного оплаты ЖКУ (с карты)",
+    "uid" : "37602724ea3f1d55",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308471104,
+      "stop" : 1604308620241,
+      "duration" : 149137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1Q1LFU3-4", "1234", "Basic", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+  }, {
+    "name" : "Не должен отображаться выбор продукта при открытии накопительного счета в 0 рублей",
+    "uid" : "3e657888c6b1fb00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307553227,
+      "stop" : 1604307572165,
+      "duration" : 18938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1ULEJMV-4", "1234", "Basic", "1234", "RUB", "Накопительный%20счет", "0" ]
+  }, {
+    "name" : "Должна отображаться ошибка при вводе номера карты",
+    "uid" : "8601b01b9f3c11e1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304583201,
+      "stop" : 1604304605929,
+      "duration" : 22728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 5160091290003131, Сумма - ", "transfer_clientBank", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру счета (с CASH-кредита)",
+    "uid" : "13e79ee55ab942ab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305447647,
+      "stop" : 1604305537358,
+      "duration" : 89711
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Z-Z1-340918-4", "1234", "Basic", "1234", "Счет/карта получателя - 40817810900206272002, Имя получателя - ДВАПЯТЬ ПЯТЬПЯТЬ ТРИОДИН, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810309020002157", "1234", "transfer_clientBank", "tab-menu-По номеру счета,tab-menu-Счет" ]
+  }, {
+    "name" : "Ошибка при входе по продукту - не верный формат телефона",
+    "uid" : "311bf49e043bf0e7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304186967,
+      "stop" : 1604304196200,
+      "duration" : 9233
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Смена номера телефона через email и повторная смена через телефон",
+    "uid" : "a311820fb0f19bfc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604309459979,
+      "stop" : 1604309459979,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Должна отобаржаться ошибка при превышении лимита и успешно проходить платеж без превышения",
+    "uid" : "51d1219ae974547",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304480851,
+      "stop" : 1604304583158,
+      "duration" : 102307
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - 40817810700096570376, Счет/карта получателя - 4093980004499250, Сумма - 500100", "1234", "transfer_card", "" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+    "uid" : "5b34415904ba23c7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304952245,
+      "stop" : 1604305053357,
+      "duration" : 101112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-3T1DK4C-4", "1234", "Basic", "Телефон - 9035791024, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810200206467850", "1234", "transfer_clientBank", "tab-menu-По номеру телефона" ]
+  }, {
+    "name" : "Ошибка при входе по продукту - не верный продукт/телефон",
+    "uid" : "9185e0359ff652e2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304179587,
+      "stop" : 1604304186967,
+      "duration" : 7380
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру карты (со счета)",
+    "uid" : "ea46790fa947a6bd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304836156,
+      "stop" : 1604304952200,
+      "duration" : 116044
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Счет/карта получателя - 5521409990176234, Сумма - 77, Комментарий - test comment, Номер карты/счета - 42306810000690011013", "1234", "transfer_clientBank", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "Должны отображаться кнопки в нижней части развернутой транзакции в Истории операций",
+    "uid" : "52edebaccc671ee1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309251439,
+      "stop" : 1604309281518,
+      "duration" : 30079
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Отклик на предложение \"Мне интересно\"",
+    "uid" : "50a80f87c099904",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604308919820,
+      "stop" : 1604308919820,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода SWIFT (со счета)",
+    "uid" : "fd2b82cf3d5fbc5e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306978482,
+      "stop" : 1604307034384,
+      "duration" : 55902
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "Номер карты/счета - 42301978100690000573, БИК - TICSRUMMXXX, Имя получателя - 40101810045250010041, Тип получателя - lbmsl_LEGALORNATURALPERSON-option-0, Счет/карта получателя - 40702978910000001189, Страна - RU, Адрес - Moscow, Shabolovka, Назначение платежа - тестовый перевод, Комиссия - COMISSION-option-0, Сумма - 2.35", "1234", "transfer_currency", "" ]
+  }, {
+    "name" : "Манипуляции с документом должны пройти успешно",
+    "uid" : "3f7e69b29141cc27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308934974,
+      "stop" : 1604308954996,
+      "duration" : 20022
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-2ASGKKQ-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода Между своими счетами (со счета на карту) с конверсией",
+    "uid" : "13cee7b14cb6264f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604305703682,
+      "stop" : 1604305787824,
+      "duration" : 84142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+  }, {
+    "name" : "Открытие накопительного счета в рублях c 0 рублей",
+    "uid" : "bd1d5a5c40c5796a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307450828,
+      "stop" : 1604307527521,
+      "duration" : 76693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1ULEJMV-4", "1234", "Basic", "1234", "RUB", "1234", "Накопительный%20счет", "На вклад", "0", "АО ОТП Банк" ]
+  }, {
+    "name" : "Успешный вход по продукту через карту/телефон",
+    "uid" : "9d28e9ae6b51f6e0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304098409,
+      "stop" : 1604304111508,
+      "duration" : 13099
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5521409990176234", "9266329877", "Product", "1234" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Организациям",
+    "uid" : "7e7c5288e6dda500",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604306189965,
+      "stop" : 1604306317902,
+      "duration" : 127937
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-CIP4P-4", "1234", "Basic", "1234", "Номер карты/счета - 40817810000340001822, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_internalBank", "tab-menu-Организациям", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода SWIFT (со счета)",
+    "uid" : "14ccce736f11940b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306910023,
+      "stop" : 1604306978482,
+      "duration" : 68459
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "Номер карты/счета - 42301978100690000573, БИК - TICSRUMMXXX, Имя получателя - 40101810045250010041, Тип получателя - lbmsl_LEGALORNATURALPERSON-option-0, Счет/карта получателя - 40702978910000001189, Страна - RU, Адрес - Moscow, Shabolovka, Назначение платежа - тестовый перевод, Комиссия - COMISSION-option-0, Сумма - 2.35", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_currency", "", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "should not render links to old dbo",
+    "uid" : "bb055b14ca190c82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309698229,
+      "stop" : 1604309702373,
+      "duration" : 4144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "В другой банк",
+    "uid" : "337d5c79ae85ad3d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307905445,
+      "stop" : 1604307980015,
+      "duration" : 74570
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Карты", "184287", "tab-link-actions", "БИК - 044525000, Счет/карта получателя - 40101810045250010041, Имя получателя - УГИБДД ГУ МВД России по г. Москве, ИНН получателя - 7707089101, КПП получателя - 770731005, КБК - 18811630020016000140, ОКТМО - 45379000, UIN-input - 18207743196011463809, ИНН отправителя - 770014245454, Назначение платежа - тест, Номер документа - 4568456789", "transfer_internalBank", "", "tab-menu-Бюджетным организациям", "tab-menu-Организациям" ]
+  }, {
+    "name" : "should render no errors and button should be enabled",
+    "uid" : "166e1ef017744063",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604308895670,
+      "stop" : 1604308895671,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователю отображается список вкладов с возможностью частичного снятия",
+    "uid" : "7f13b8f4223745ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307121942,
+      "stop" : 1604307141173,
+      "duration" : 19231
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - блокировка при превышении попыток ввода неверного пароля",
+    "uid" : "7ec991f227ed608",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604304155984,
+      "stop" : 1604304155984,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Изменение пароля через профиль у клиента с неверефицированным номером телефона",
+    "uid" : "6de7f9dfa8457ed3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308955279,
+      "stop" : 1604309004541,
+      "duration" : 49262
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1M6XISVU-4", "1234", "pW123456", "pW1234561", "Basic", "1234", "1234" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - без пароля",
+    "uid" : "3292dfb5e9b2f9a7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304132326,
+      "stop" : 1604304140412,
+      "duration" : 8086
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка при входе по продукту - неверный продукт, но верный телефон",
+    "uid" : "d2ac212acd4108e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304163933,
+      "stop" : 1604304172141,
+      "duration" : 8208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Организациям",
+    "uid" : "75a3768b58344aed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306317902,
+      "stop" : 1604306415129,
+      "duration" : 97227
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-CIP4P-4", "1234", "Basic", "1234", "Номер карты/счета - 40817810000340001822, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Организациям" ]
+  }, {
+    "name" : "Ошибка при входе по продукту - верный продукт, не верный телефон",
+    "uid" : "13aaf818aef0e10",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304172141,
+      "stop" : 1604304179587,
+      "duration" : 7446
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Пользователю отображается список вкладов на основе выбранного срока",
+    "uid" : "f56639d8cd33a961",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307057062,
+      "stop" : 1604307102511,
+      "duration" : 45449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов на основе набора параметров 2",
+    "uid" : "260c7308006ef29",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307241467,
+      "stop" : 1604307263199,
+      "duration" : 21732
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да", "366 дней", "Да" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Организациям",
+    "uid" : "1e1657e3aefb2242",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306096860,
+      "stop" : 1604306189965,
+      "duration" : 93105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-CIP4P-4", "1234", "Basic", "1234", "Номер карты/счета - 40817810000340001822, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Организациям" ]
+  }, {
+    "name" : "Отказ от предложения с выбором причины \"Хочу другие условия\"",
+    "uid" : "63af9929d05e12cf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604308919820,
+      "stop" : 1604308919820,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Успешный перевод с верифицированным номером телефона",
+    "uid" : "8fe89a20668b380e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304242532,
+      "stop" : 1604304348472,
+      "duration" : 105940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - 40817810700096570376, Счет/карта получателя - 4093980004499250, Сумма - 20", "1234", "transfer_card", "" ]
+  }, {
+    "name" : "Кредитная карта должна отображаться корректно",
+    "uid" : "df1a72d8bd9b678",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309608253,
+      "stop" : 1604309643747,
+      "duration" : 35494
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-4CRG7D-4", "1234", "Basic", "1234", "Карты", "343945" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - без логина",
+    "uid" : "4253d1d678c7e02c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304124350,
+      "stop" : 1604304132326,
+      "duration" : 7976
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Открытие вклада Максимальный в рублях",
+    "uid" : "34142dfd04d6edd3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307572165,
+      "stop" : 1604307699525,
+      "duration" : 127360
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-2RL5W62-4", "1234", "Basic", "1234", "RUB", "1234", "amount-input - 30000, period-select - period-option-0, payoutTarget-select - payoutTarget-option-0, card-select - 40817810100690009131, bankPhilial-select - bankPhilial-option-0", "Максимальный", "На вклад", "91 день", "40817810100690009131", "30000", "АО ОТП Банк" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+    "uid" : "c6a49d72787149c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305053357,
+      "stop" : 1604305165527,
+      "duration" : 112170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-3T1DK4C-4", "1234", "Basic", "Телефон - 9035791024, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810200206467850", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_clientBank", "tab-menu-По номеру телефона", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Изменение типа нотификации должно проходить успешно",
+    "uid" : "106f75ce9daa86de",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307343101,
+      "stop" : 1604307450085,
+      "duration" : 106984
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-5FSQL3I-4", "1234", "Basic", "1234", "1234" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Бюджетным организациям",
+    "uid" : "814f9af82b58fd92",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306604886,
+      "stop" : 1604306721489,
+      "duration" : 116603
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "БИК - 044525000, Счет/карта получателя - 40101810045250010041, Имя получателя - УГИБДД ГУ МВД России по г. Москве, ИНН получателя - 7707089101, КПП получателя - 770731005, КБК - 18811630020016000140, ОКТМО - 45379000, UIN-input - 18207743196011463809, ИНН отправителя - 770014245454, Назначение платежа - тест, Номер документа - 4568456789", "Номер карты/счета - 42306810000690011013, Сумма - 632", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_internalBank", "tab-menu-Бюджетным организациям", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Разблокировка должна пройти успешно",
+    "uid" : "c2aa8192505cab64",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309566222,
+      "stop" : 1604309590915,
+      "duration" : 24693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "1234", "940462" ]
+  }, {
+    "name" : "Перевод В другой банк - Бюджетным организациям должен выполнится успешно",
+    "uid" : "e689b1e19d9e37d3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306415148,
+      "stop" : 1604306508014,
+      "duration" : 92866
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "БИК - 044525000, Счет/карта получателя - 40101810045250010041, Имя получателя - УГИБДД ГУ МВД России по г. Москве, ИНН получателя - 7707089101, КПП получателя - 770731005, КБК - 18811630020016000140, ОКТМО - 45379000, UIN-input - 18207743196011463809, ИНН отправителя - 770014245454, Назначение платежа - тест, Номер документа - 4568456789", "Номер карты/счета - 42306810000690011013, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Бюджетным организациям" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - блокировка при превышении попыток ввода неверного кода подтверждения",
+    "uid" : "c8725f802851fd06",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604304155984,
+      "stop" : 1604304155984,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Не должна отображаться ошибка при вводе номера карты",
+    "uid" : "f4d79ccbbbd481a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304638094,
+      "stop" : 1604304664548,
+      "duration" : 26454
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 5521409990176234, Сумма - ", "transfer_clientBank", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - неверный код подтверждения",
+    "uid" : "35e558499a15dabf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604304155984,
+      "stop" : 1604304155984,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Клиенту банка",
+    "uid" : "e34723d9ce84192e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307863297,
+      "stop" : 1604307905445,
+      "duration" : 42148
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Карты", "184287", "tab-link-actions", "transfer_clientBank", "", "tab-menu-По номеру карты", "tab-menu-По номеру счета,tab-menu-Счет" ]
+  }, {
+    "name" : "Успешный вход по продукту через счет/телефон",
+    "uid" : "f9a820e097b0d11f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304111508,
+      "stop" : 1604304124350,
+      "duration" : 12842
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "40817810500690007872", "9266329877", "Product", "1234" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - верный логин, но неверный пароль",
+    "uid" : "b80b3b62b0f46132",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604304155984,
+      "stop" : 1604304155984,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Отказ от предложения с выбором причины \"Мешает просмотру\"",
+    "uid" : "188414df5e4ba9f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604308919819,
+      "stop" : 1604308919819,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should render full progress bar after change limits(decreasing value)",
+    "uid" : "7266ecf79bf7d596",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604308895671,
+      "stop" : 1604308895671,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Не должна отображаться ошибка при вводе номера карты",
+    "uid" : "7a07f6d53a71e572",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304221414,
+      "stop" : 1604304242532,
+      "duration" : 21118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 5521409990176234, Сумма - ", "transfer_card", "tab-menu-На карту" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - нет пароля и логина",
+    "uid" : "7af6ed6204ecb3f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304140412,
+      "stop" : 1604304148293,
+      "duration" : 7881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Временная блокировка карты должна пройти успешно",
+    "uid" : "bb5c9bc3a39097d3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309395497,
+      "stop" : 1604309438731,
+      "duration" : 43234
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "940462", "1234" ]
+  }, {
+    "name" : "Перманентная блокировка карты должна пройти успешно",
+    "uid" : "9830592903cf561b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604309354736,
+      "stop" : 1604309354736,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверить в ленте операций отображение оплаты ЖКУ (с карты)",
+    "uid" : "240d852d5bde6fe0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308771946,
+      "stop" : 1604308864762,
+      "duration" : 92816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1Q1LFU3-4", "1234", "Basic", "f28251-input - 123456789, f28255-input - 123456789, f28252-input - Иванов Иван Иванович, f28253-input - НовоЕ ул. Полевая 44, SUM-input - 100, Номер карты/счета - 40817810100206271968", "1234", "payment_2", "favorite-payment-2020" ]
+  }, {
+    "name" : "Установка email",
+    "uid" : "b835b66bc37d389e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604309322649,
+      "stop" : 1604309322649,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Смена языка приложения должна пройти успешно",
+    "uid" : "c5e33458f87cc485",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309439025,
+      "stop" : 1604309459405,
+      "duration" : 20380
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов с выплатой процентов на счет",
+    "uid" : "62973fa23546f0e6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307200631,
+      "stop" : 1604307220139,
+      "duration" : 19508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+  }, {
+    "name" : "Открытие накопительного счета в долларах с 0 долларов",
+    "uid" : "43260ca0e2ea482d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307527521,
+      "stop" : 1604307553226,
+      "duration" : 25705
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1ULEJMV-4", "1234", "Basic", "1234", "USD", "1234", "Накопительный%20счет", "На вклад", "0", "АО ОТП Банк" ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода Клиенту ОТП-банка по номеру телефона (с карты)",
+    "uid" : "6424af6e3b585a6f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305165527,
+      "stop" : 1604305258282,
+      "duration" : 92755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-3T1DK4C-4", "1234", "Basic", "Телефон - 9035791024, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810200206467850", "1234", "transfer_clientBank", "tab-menu-По номеру телефона" ]
+  }, {
+    "name" : "Ошибка при входе по логину/паролю - неверный логин, но верный пароль",
+    "uid" : "6dcf72d444091b25",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304148293,
+      "stop" : 1604304155984,
+      "duration" : 7691
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "При переходе по кнопке \"Назад\" в форме перевода не должен сбрасывать выбранный продукт",
+    "uid" : "fe8ee797cc082b19",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307980053,
+      "stop" : 1604308035269,
+      "duration" : 55216
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Карты", "184287", "tab-link-actions", "transfer_card", "transfer_clientBank", "", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "Открытие вклада растущий процент в рублях",
+    "uid" : "f48b7268714a1c6c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307751071,
+      "stop" : 1604307824164,
+      "duration" : 73093
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "RUB", "1234", "amount-input - 10000, card-select - 40817810900206271896, bankPhilial-select - bankPhilial-option-0", "Растущий%20процент", "40817810900206271896", "10000", "АО ОТП Банк" ]
+  }, {
+    "name" : "Закрытие вклада должно отрабатываться корректно",
+    "uid" : "ea581c6a90892842",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309355194,
+      "stop" : 1604309395011,
+      "duration" : 39817
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "3770701", "1234" ]
+  }, {
+    "name" : "Должна отображаться корректная ошибка при изменении номера карты",
+    "uid" : "ea87f54edba9b33",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304605929,
+      "stop" : 1604304638094,
+      "duration" : 32165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 4817760129962672, Сумма - ", "Номер карты/счета - 4817760129962670, Сумма - ", "transfer_clientBank", "tab-menu-По номеру карты" ]
+  }, {
+    "name" : "Успешное открытие квитанции платежа",
+    "uid" : "33a39f8b27f749bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309281518,
+      "stop" : 1604309322254,
+      "duration" : 40736
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Баланс должен упешно отобразиться",
+    "uid" : "c84df5fe682f0cac",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309677559,
+      "stop" : 1604309687728,
+      "duration" : 10169
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "136383-1", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Включение уведомлений должно работать корректно",
+    "uid" : "89c47a1521bc26da",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309036956,
+      "stop" : 1604309137727,
+      "duration" : 100771
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-DA1MP-4", "1234", "Basic", "1234", "Карты", "134004", "1234" ]
+  }, {
+    "name" : "Вставка номера телефона из буфера обмена",
+    "uid" : "8bc94a97ca21b1d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309671685,
+      "stop" : 1604309677278,
+      "duration" : 5593
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Баланс должен быть числом",
+    "uid" : "d932fc7d2803f6ed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309687728,
+      "stop" : 1604309697861,
+      "duration" : 10133
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "136383-1", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Бюджетным организациям",
+    "uid" : "170a61e29db14eba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306721489,
+      "stop" : 1604306833624,
+      "duration" : 112135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "БИК - 044525000, Счет/карта получателя - 40101810045250010041, Имя получателя - УГИБДД ГУ МВД России по г. Москве, ИНН получателя - 7707089101, КПП получателя - 770731005, КБК - 18811630020016000140, ОКТМО - 45379000, UIN-input - 18207743196011463809, ИНН отправителя - 770014245454, Назначение платежа - тест, Номер документа - 4568456789", "Номер карты/счета - 42306810000690011013, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Бюджетным организациям" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода Клиенту ОТП-банка по номеру счета (с CASH-кредита)",
+    "uid" : "88a39b2ea39f1c3f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305258311,
+      "stop" : 1604305343721,
+      "duration" : 85410
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Z-Z1-340918-4", "1234", "Basic", "1234", "Счет/карта получателя - 40817810900206272002, Имя получателя - ДВАПЯТЬ ПЯТЬПЯТЬ ТРИОДИН, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810309020002157", "1234", "transfer_clientBank", "tab-menu-По номеру счета,tab-menu-Счет" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов с возможностью пополнения",
+    "uid" : "b04f1811b627719a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307141173,
+      "stop" : 1604307160675,
+      "duration" : 19502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+  }, {
+    "name" : "Оформление карты с витрины карт",
+    "uid" : "1d98c4e9fce7cbd9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604309607741,
+      "stop" : 1604309607741,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should go to DepositOpenForm when: there are hidden deposits and more button in aside",
+    "uid" : "5bc7159601f4d049",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604307572165,
+      "stop" : 1604307572165,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Должна отображаться ошибка при вводе номера карты",
+    "uid" : "1242d16e3f0fb79a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304197901,
+      "stop" : 1604304221414,
+      "duration" : 23513
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 5521409990176230, Сумма - ", "transfer_card", "tab-menu-На карту" ]
+  }, {
+    "name" : "POS кредит должен отображаться корректно",
+    "uid" : "e71d20a43e82df3e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309220472,
+      "stop" : 1604309251025,
+      "duration" : 30553
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-18LHFMK6-4", "1234", "Basic", "1234", "Кредиты", "1326129" ]
+  }, {
+    "name" : "texts should have correct values",
+    "uid" : "5e03b1b02bd3cb61",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307285546,
+      "stop" : 1604307343101,
+      "duration" : 57555
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-A44XM-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Ошибка при входе по продукту - без телефона",
+    "uid" : "17fc19afdae6bdb5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604304163878,
+      "stop" : 1604304163923,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям",
+    "uid" : "501e1a44ace3ba4e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305886633,
+      "stop" : 1604306002737,
+      "duration" : 116104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_internalBank", "tab-menu-Людям", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+    "uid" : "53bdb69fdb2aa745",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604305619417,
+      "stop" : 1604305703681,
+      "duration" : 84264
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов на основе набора параметров 1",
+    "uid" : "f4b73c5740db5184",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307220139,
+      "stop" : 1604307241467,
+      "duration" : 21328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да", "91 день", "Да" ]
+  }, {
+    "name" : "Просмотр витрины карт - витрина не пустая",
+    "uid" : "960e2e310fd08606",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309591599,
+      "stop" : 1604309607741,
+      "duration" : 16142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-1ULEJMV-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Отказ от предложения с выбором причины \"Мне не интересно\"",
+    "uid" : "63c6abd7bea0cf43",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604308919819,
+      "stop" : 1604308919819,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should render errors with highest limits and button should be disabled",
+    "uid" : "2f127816d5618d82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308865978,
+      "stop" : 1604308895670,
+      "duration" : 29692
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-PMFQ96H-4", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Ошибка при входе по продукту - без продукта",
+    "uid" : "c7a848df7b2625b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304155984,
+      "stop" : 1604304163877,
+      "duration" : 7893
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Людям",
+    "uid" : "7e7e00e346238786",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305787841,
+      "stop" : 1604305886633,
+      "duration" : 98792
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Людям" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов на основе выбранной валюты",
+    "uid" : "104af31714e2e9a1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307035621,
+      "stop" : 1604307057062,
+      "duration" : 21441
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234" ]
+  }, {
+    "name" : "Успешный вход по логину/паролю без ввода кода подтверждения",
+    "uid" : "a7fbaba0d8c959a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304071750,
+      "stop" : 1604304080411,
+      "duration" : 8661
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "По номеру карты",
+    "uid" : "ceb39b2905b1bc04",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307824976,
+      "stop" : 1604307863297,
+      "duration" : 38321
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Карты", "184287", "tab-link-actions", "transfer_card", "" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Бюджетным организациям",
+    "uid" : "15f2654e97cd5647",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306508014,
+      "stop" : 1604306604886,
+      "duration" : 96872
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "БИК - 044525000, Счет/карта получателя - 40101810045250010041, Имя получателя - УГИБДД ГУ МВД России по г. Москве, ИНН получателя - 7707089101, КПП получателя - 770731005, КБК - 18811630020016000140, ОКТМО - 45379000, UIN-input - 18207743196011463809, ИНН отправителя - 770014245454, Назначение платежа - тест, Номер документа - 4568456789", "Номер карты/счета - 42306810000690011013, Сумма - 632", "1234", "transfer_internalBank", "tab-menu-Бюджетным организациям" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешного перевода SWIFT (со счета)",
+    "uid" : "d1b31296aaf92c65",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604306833656,
+      "stop" : 1604306910023,
+      "duration" : 76367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "Номер карты/счета - 42301978100690000573, БИК - TICSRUMMXXX, Имя получателя - 40101810045250010041, Тип получателя - lbmsl_LEGALORNATURALPERSON-option-0, Счет/карта получателя - 40702978910000001189, Страна - RU, Адрес - Moscow, Shabolovka, Назначение платежа - тестовый перевод, Комиссия - COMISSION-option-0, Сумма - 2.35", "1234", "transfer_currency", "" ]
+  }, {
+    "name" : "Успешный вход по продукту через паспорт/телефон",
+    "uid" : "8d350be6514a1e76",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604304080411,
+      "stop" : 1604304098409,
+      "duration" : 17998
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2444 275313", "9266329877", "Product", "1234" ]
+  }, {
+    "name" : "Выгрузка квитанции в pdf со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+    "uid" : "84f41e8dbcb02cf6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604305537382,
+      "stop" : 1604305619417,
+      "duration" : 82035
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+  }, {
+    "name" : "Выгрузка квитанции на email со страницы успешного перевода Клиенту ОТП-банка по номеру счета (с CASH-кредита)",
+    "uid" : "931c90c62a3159a5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604305343721,
+      "stop" : 1604305447647,
+      "duration" : 103926
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Z-Z1-340918-4", "1234", "Basic", "1234", "Счет/карта получателя - 40817810900206272002, Имя получателя - ДВАПЯТЬ ПЯТЬПЯТЬ ТРИОДИН, Сумма - 77, Комментарий - test comment, Номер карты/счета - 40817810309020002157", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "transfer_clientBank", "tab-menu-По номеру счета,tab-menu-Счет", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Выгрузка квитанции со страницы успешной оплаты Мобильной связи Yota (со счета)",
+    "uid" : "f18cd6c8a047244e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308035893,
+      "stop" : 1604308124461,
+      "duration" : 88568
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Телефон - 9254297577, Сумма - 33, Номер карты/счета - 40820810400490000085", "1234", "payment_7", "favorite-payment-1272" ]
+  }, {
+    "name" : "Выгрузка квитанции на email успешной оплаты Мобильной связи Yota (со счета)",
+    "uid" : "89de759da2a96e76",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604308124462,
+      "stop" : 1604308233053,
+      "duration" : 108591
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "085745-1", "1234", "Basic", "1234", "Телефон - 9254297577, Сумма - 33, Номер карты/счета - 40820810400490000085", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "payment_7", "favorite-payment-1272", "otp.at.mailbox@gmail.com" ]
+  }, {
+    "name" : "Форма должна работать корректно",
+    "uid" : "f9ba91b2688dfc52",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604309322899,
+      "stop" : 1604309354463,
+      "duration" : 31564
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "000020-6", "1234", "Basic", "1234", "Карты", "1711561" ]
+  }, {
+    "name" : "Вклад должен отображаться корректно",
+    "uid" : "e5245e74dd0e7eb9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604309460189,
+      "stop" : 1604309536211,
+      "duration" : 76022
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "3770701" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов установлены все условия",
+    "uid" : "85b088e3f0f0662b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307160675,
+      "stop" : 1604307180859,
+      "duration" : 20184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да" ]
+  }, {
+    "name" : "Пользователю отображается список вкладов на основе набора параметров 3",
+    "uid" : "b7fd8c0574f3009",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604307263199,
+      "stop" : 1604307284740,
+      "duration" : 21541
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "39219928499-1", "1234", "Basic", "1234", "Да", "Да", "366 дней" ]
+  } ]
+}

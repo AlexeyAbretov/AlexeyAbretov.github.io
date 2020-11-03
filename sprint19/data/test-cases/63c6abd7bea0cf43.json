@@ -1,0 +1,48 @@
+{
+  "uid" : "63c6abd7bea0cf43",
+  "name" : "Отказ от предложения с выбором причины \"Мне не интересно\"",
+  "fullName" : "Проверка карточек продуктов-призраков по Вкладам.Отказ от предложения с выбором причины \"Мне не интересно\"",
+  "historyId" : "585c72e6bcd078f26bb465e9978af1b5",
+  "time" : {
+    "start" : 1604308919819,
+    "stop" : 1604308919819,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testMethod",
+    "value" : "Отказ от предложения с выбором причины \"Мне не интересно\""
+  }, {
+    "name" : "package",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63c6abd7bea0cf43.json",
+  "parameterValues" : [ ]
+}

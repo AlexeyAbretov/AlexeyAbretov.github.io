@@ -1,0 +1,160 @@
+{
+  "uid" : "e5245e74dd0e7eb9",
+  "name" : "Вклад должен отображаться корректно",
+  "fullName" : "Отображение вклада до востребования - интеграционные тесты.Вклад должен отображаться корректно",
+  "historyId" : "6d53c4894239b68e8ee04768361c7945",
+  "time" : {
+    "start" : 1604309460189,
+    "stop" : 1604309536211,
+    "duration" : 76022
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposits-id-3770701\"])\n                Wait timed out after 60024ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposits-id-3770701\"])\n                Wait timed out after 60024ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposits-id-3770701\"])\n                Wait timed out after 60024ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposits-id-3770701\"])\n                Wait timed out after 60024ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604309463021,
+        "stop" : 1604309469945,
+        "duration" : 6924
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604309463022,
+          "stop" : 1604309465293,
+          "duration" : 2271
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "df19a673fbee0f40",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "df19a673fbee0f40.png",
+          "type" : "image/png",
+          "size" : 2254366
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604309465293,
+          "stop" : 1604309469945,
+          "duration" : 4652
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ae1a366f8ae10274",
+          "name" : "Подтверждение учетных данных",
+          "source" : "ae1a366f8ae10274.png",
+          "type" : "image/png",
+          "size" : 2276577
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1604309469945,
+        "stop" : 0,
+        "duration" : -1604309469945
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a76a880527b6eddd",
+        "name" : "Результат теста",
+        "source" : "a76a880527b6eddd.png",
+        "type" : "image/png",
+        "size" : 555374
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Отображение вклада до востребования - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Отображение вклада до востребования - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Вклад должен отображаться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Отображение вклада до востребования - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "063447-9"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Вклады"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "3770701"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e5245e74dd0e7eb9.json",
+  "parameterValues" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "3770701" ]
+}

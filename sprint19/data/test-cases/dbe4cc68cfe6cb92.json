@@ -1,0 +1,52 @@
+{
+  "uid" : "dbe4cc68cfe6cb92",
+  "name" : "Ошибка при входе по продукту - нет продукта и телефона",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - нет продукта и телефона",
+  "historyId" : "50e19b172a0f1a900c84e6988e46800",
+  "time" : {
+    "start" : 1604304163923,
+    "stop" : 1604304163932,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Server terminated early with status 1",
+  "statusTrace" : "Error: Server terminated early with status 1\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend/node_modules/selenium-webdriver/remote/index.js:251:52\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - нет продукта и телефона"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dbe4cc68cfe6cb92.json",
+  "parameterValues" : [ ]
+}

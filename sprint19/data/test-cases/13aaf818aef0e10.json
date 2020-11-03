@@ -1,0 +1,68 @@
+{
+  "uid" : "13aaf818aef0e10",
+  "name" : "Ошибка при входе по продукту - верный продукт, не верный телефон",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - верный продукт, не верный телефон",
+  "historyId" : "e6bc3b358a98fe36f880029be632bc3f",
+  "time" : {
+    "start" : 1604304172141,
+    "stop" : 1604304179587,
+    "duration" : 7446
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aacf6fcaf8738bee",
+      "name" : "Заполнение учетных данных при входе через продукт",
+      "source" : "aacf6fcaf8738bee.png",
+      "type" : "image/png",
+      "size" : 2255099
+    }, {
+      "uid" : "8251136afe7213dc",
+      "name" : "Результат теста",
+      "source" : "8251136afe7213dc.png",
+      "type" : "image/png",
+      "size" : 190875
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - верный продукт, не верный телефон"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13aaf818aef0e10.json",
+  "parameterValues" : [ ]
+}

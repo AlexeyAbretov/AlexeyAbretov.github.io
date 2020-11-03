@@ -1,0 +1,257 @@
+{
+  "uid" : "f48b7268714a1c6c",
+  "name" : "Открытие вклада растущий процент в рублях",
+  "fullName" : "Открытие вклада Рустащий процент - интеграционные тесты.Открытие вклада растущий процент в рублях",
+  "historyId" : "39115f04cb5b9c34d14b95cf3d45f52e",
+  "time" : {
+    "start" : 1604307751071,
+    "stop" : 1604307824164,
+    "duration" : 73093
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на форму открытия Растущий%20процент по прямой ссылке",
+      "time" : {
+        "start" : 1604307753597,
+        "stop" : 1604307766777,
+        "duration" : 13180
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1604307753598,
+          "stop" : 1604307759366,
+          "duration" : 5768
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1604307753598,
+            "stop" : 1604307755919,
+            "duration" : 2321
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "cd385bbd13e7e5dc",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "cd385bbd13e7e5dc.png",
+            "type" : "image/png",
+            "size" : 2248473
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1604307755919,
+            "stop" : 1604307759366,
+            "duration" : 3447
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ef447b482508badd",
+            "name" : "Подтверждение учетных данных",
+            "source" : "ef447b482508badd.png",
+            "type" : "image/png",
+            "size" : 2276669
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f23502fa28bd122a",
+        "name" : "Результат перехода форму открытия вклада Растущий%20процент по прямой ссылке",
+        "source" : "f23502fa28bd122a.png",
+        "type" : "image/png",
+        "size" : 193703
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы",
+      "time" : {
+        "start" : 1604307766777,
+        "stop" : 1604307774797,
+        "duration" : 8020
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнение формы открытия вклада",
+        "time" : {
+          "start" : 1604307766777,
+          "stop" : 1604307774213,
+          "duration" : 7436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c3df0c498ac41dcc",
+          "name" : "Заполнение формы - 4",
+          "source" : "c3df0c498ac41dcc.png",
+          "type" : "image/png",
+          "size" : 214217
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "532503ac4f7690fe",
+        "name" : "Заполнение формы - 4",
+        "source" : "532503ac4f7690fe.png",
+        "type" : "image/png",
+        "size" : 253736
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие вклада",
+      "time" : {
+        "start" : 1604307774797,
+        "stop" : 1604307777568,
+        "duration" : 2771
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604307775895,
+          "stop" : 1604307777568,
+          "duration" : 1673
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b2662146fa146076",
+          "name" : "Подтверждение открытия",
+          "source" : "b2662146fa146076.png",
+          "type" : "image/png",
+          "size" : 129726
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "cf9c7589d7182e31",
+        "name" : "Открытие вклада - нажатие кнопки",
+        "source" : "cf9c7589d7182e31.png",
+        "type" : "image/png",
+        "size" : 225019
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "39a4a06f8f98db90",
+      "name" : "Результат теста",
+      "source" : "39a4a06f8f98db90.png",
+      "type" : "image/png",
+      "size" : 128434
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Открытие вклада Рустащий процент - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Открытие вклада Рустащий процент - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Открытие вклада растущий процент в рублях"
+  }, {
+    "name" : "package",
+    "value" : "Открытие вклада Рустащий процент - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-2RTX42H-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Валюта",
+    "value" : "RUB"
+  }, {
+    "name" : "Ввод кода подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "amount-input - 10000, card-select - 40817810900206271896, bankPhilial-select - bankPhilial-option-0"
+  }, {
+    "name" : "Название вклада",
+    "value" : "Растущий%20процент"
+  }, {
+    "name" : "Продукт",
+    "value" : "40817810900206271896"
+  }, {
+    "name" : "Сумма",
+    "value" : "10000"
+  }, {
+    "name" : "Филиал",
+    "value" : "АО ОТП Банк"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f48b7268714a1c6c.json",
+  "parameterValues" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "RUB", "1234", "amount-input - 10000, card-select - 40817810900206271896, bankPhilial-select - bankPhilial-option-0", "Растущий%20процент", "40817810900206271896", "10000", "АО ОТП Банк" ]
+}

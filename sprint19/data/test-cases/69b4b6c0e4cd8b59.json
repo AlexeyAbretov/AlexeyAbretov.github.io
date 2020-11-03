@@ -1,0 +1,104 @@
+{
+  "uid" : "69b4b6c0e4cd8b59",
+  "name" : "Должна отобразится ошибка с номером 1106",
+  "fullName" : "Интеграционные тесты входа в приложение Обработка ошибок.Должна отобразится ошибка с номером 1106",
+  "historyId" : "2f8d6a962cbfb5bbebbb5f91fd16e925",
+  "time" : {
+    "start" : 1604304051461,
+    "stop" : 1604304059761,
+    "duration" : 8300
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод учетных данных",
+      "time" : {
+        "start" : 1604304054622,
+        "stop" : 1604304056948,
+        "duration" : 2326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e3bd11160237d81",
+        "name" : "Заполнение учетных данных при входе по логину/паролю",
+        "source" : "7e3bd11160237d81.png",
+        "type" : "image/png",
+        "size" : 2249846
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1604304056948,
+        "stop" : 1604304058469,
+        "duration" : 1521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26d55067433f3dda",
+        "name" : "Сообщение об операции",
+        "source" : "26d55067433f3dda.png",
+        "type" : "image/png",
+        "size" : 2295796
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cf56a1b8d067a68",
+      "name" : "Результат теста",
+      "source" : "cf56a1b8d067a68.png",
+      "type" : "image/png",
+      "size" : 2296107
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение Обработка ошибок"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение Обработка ошибок"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должна отобразится ошибка с номером 1106"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение Обработка ошибок"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69b4b6c0e4cd8b59.json",
+  "parameterValues" : [ ]
+}

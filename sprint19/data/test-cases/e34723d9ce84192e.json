@@ -1,0 +1,347 @@
+{
+  "uid" : "e34723d9ce84192e",
+  "name" : "Клиенту банка",
+  "fullName" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе.Клиенту банка",
+  "historyId" : "44686268c25c973551096ee84710720b",
+  "time" : {
+    "start" : 1604307863297,
+    "stop" : 1604307905445,
+    "duration" : 42148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604307865791,
+        "stop" : 1604307872365,
+        "duration" : 6574
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604307865791,
+          "stop" : 1604307868124,
+          "duration" : 2333
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1f3f765b5f10ae95",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "1f3f765b5f10ae95.png",
+          "type" : "image/png",
+          "size" : 2250991
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604307868124,
+          "stop" : 1604307872365,
+          "duration" : 4241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "305510baaa81de85",
+          "name" : "Подтверждение учетных данных",
+          "source" : "305510baaa81de85.png",
+          "type" : "image/png",
+          "size" : 2277574
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1604307872365,
+        "stop" : 1604307889241,
+        "duration" : 16876
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажатие на закладку",
+        "time" : {
+          "start" : 1604307888218,
+          "stop" : 1604307889241,
+          "duration" : 1023
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c96eb2ff356b9a6",
+          "name" : "Результат нажатия на закладку",
+          "source" : "c96eb2ff356b9a6.png",
+          "type" : "image/png",
+          "size" : 507105
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "26acf5127aa51ffc",
+        "name" : "Переход на страницу продукта",
+        "source" : "26acf5127aa51ffc.png",
+        "type" : "image/png",
+        "size" : 390828
+      }, {
+        "uid" : "abbca89afeb743b9",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "abbca89afeb743b9.png",
+        "type" : "image/png",
+        "size" : 516443
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажатие на действие Оплатить",
+      "time" : {
+        "start" : 1604307889241,
+        "stop" : 1604307889566,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed1f0a9ae2660904",
+        "name" : "Ссылка",
+        "source" : "ed1f0a9ae2660904.png",
+        "type" : "image/png",
+        "size" : 2887
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка выбранного продукта на первой закладке",
+      "time" : {
+        "start" : 1604307889566,
+        "stop" : 1604307902228,
+        "duration" : 12662
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1604307889566,
+          "stop" : 1604307902228,
+          "duration" : 12662
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4424c0f82c28a46b",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "4424c0f82c28a46b.png",
+          "type" : "image/png",
+          "size" : 7284
+        }, {
+          "uid" : "4d6a0c1d589831e6",
+          "name" : "Форма перевода",
+          "source" : "4d6a0c1d589831e6.png",
+          "type" : "image/png",
+          "size" : 223535
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка выбранного продукта на закладке tab-menu-По номеру карты",
+      "time" : {
+        "start" : 1604307902245,
+        "stop" : 1604307903574,
+        "duration" : 1329
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1604307902245,
+          "stop" : 1604307903574,
+          "duration" : 1329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7c02b1f4516be518",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "7c02b1f4516be518.png",
+          "type" : "image/png",
+          "size" : 2546
+        }, {
+          "uid" : "37845aa77d56c013",
+          "name" : "Форма перевода",
+          "source" : "37845aa77d56c013.png",
+          "type" : "image/png",
+          "size" : 234591
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка выбранного продукта на закладке tab-menu-По номеру счета,tab-menu-Счет",
+      "time" : {
+        "start" : 1604307903592,
+        "stop" : 1604307904938,
+        "duration" : 1346
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1604307903592,
+          "stop" : 1604307904938,
+          "duration" : 1346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3c6a4e3949a5207",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "3c6a4e3949a5207.png",
+          "type" : "image/png",
+          "size" : 804
+        }, {
+          "uid" : "6827bcb84b7fc40d",
+          "name" : "Форма перевода",
+          "source" : "6827bcb84b7fc40d.png",
+          "type" : "image/png",
+          "size" : 212705
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f9c1fda14e2dbf24",
+      "name" : "Результат теста",
+      "source" : "f9c1fda14e2dbf24.png",
+      "type" : "image/png",
+      "size" : 212705
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "testClass",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "testMethod",
+    "value" : "Клиенту банка"
+  }, {
+    "name" : "package",
+    "value" : "Проведение переводов через продукт Сохранение продукта при переходе по закладкам в переводе"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "184287"
+  }, {
+    "name" : "Закладка",
+    "value" : "tab-link-actions"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_clientBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : ""
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-По номеру карты"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-По номеру счета,tab-menu-Счет"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e34723d9ce84192e.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "1234", "Карты", "184287", "tab-link-actions", "transfer_clientBank", "", "tab-menu-По номеру карты", "tab-menu-По номеру счета,tab-menu-Счет" ]
+}

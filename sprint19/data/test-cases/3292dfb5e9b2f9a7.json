@@ -1,0 +1,83 @@
+{
+  "uid" : "3292dfb5e9b2f9a7",
+  "name" : "Ошибка при входе по логину/паролю - без пароля",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по логину/паролю - без пароля",
+  "historyId" : "bdc8a7f65f8cd62c8cbe388ae7ac337e",
+  "time" : {
+    "start" : 1604304132326,
+    "stop" : 1604304140412,
+    "duration" : 8086
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод учетных данных",
+      "time" : {
+        "start" : 1604304134939,
+        "stop" : 1604304137118,
+        "duration" : 2179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "732784ff9761b879",
+        "name" : "Заполнение учетных данных при входе по логину/паролю",
+        "source" : "732784ff9761b879.png",
+        "type" : "image/png",
+        "size" : 2250290
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9bc6070d330ec833",
+      "name" : "Результат теста",
+      "source" : "9bc6070d330ec833.png",
+      "type" : "image/png",
+      "size" : 2250363
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по логину/паролю - без пароля"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3292dfb5e9b2f9a7.json",
+  "parameterValues" : [ ]
+}

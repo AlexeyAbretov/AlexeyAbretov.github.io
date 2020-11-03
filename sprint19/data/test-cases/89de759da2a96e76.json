@@ -1,0 +1,395 @@
+{
+  "uid" : "89de759da2a96e76",
+  "name" : "Выгрузка квитанции на email успешной оплаты Мобильной связи Yota (со счета)",
+  "fullName" : "PaymentForm - Rapida - integration tests.Выгрузка квитанции на email успешной оплаты Мобильной связи Yota (со счета)",
+  "historyId" : "a0d4a528f2df75c20bf029ef6e9af44b",
+  "time" : {
+    "start" : 1604308124462,
+    "stop" : 1604308233053,
+    "duration" : 108591
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604308127493,
+        "stop" : 1604308134338,
+        "duration" : 6845
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604308127493,
+          "stop" : 1604308129931,
+          "duration" : 2438
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "90bdf7cf4b5301b5",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "90bdf7cf4b5301b5.png",
+          "type" : "image/png",
+          "size" : 2253859
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604308129931,
+          "stop" : 1604308134338,
+          "duration" : 4407
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "572312bf4deb757b",
+          "name" : "Подтверждение учетных данных",
+          "source" : "572312bf4deb757b.png",
+          "type" : "image/png",
+          "size" : 2282641
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1604308134338,
+        "stop" : 1604308145466,
+        "duration" : 11128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1604308134338,
+          "stop" : 1604308136528,
+          "duration" : 2190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c8056b616d2c910e",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "c8056b616d2c910e.png",
+          "type" : "image/png",
+          "size" : 4421
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1604308136528,
+          "stop" : 1604308145466,
+          "duration" : 8938
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5d56e3555901b8b7",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "5d56e3555901b8b7.png",
+          "type" : "image/png",
+          "size" : 5850
+        }, {
+          "uid" : "cdaacc3a74857748",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "cdaacc3a74857748.png",
+          "type" : "image/png",
+          "size" : 5091
+        }, {
+          "uid" : "663f96e3d3f1b916",
+          "name" : "Форма перевода",
+          "source" : "663f96e3d3f1b916.png",
+          "type" : "image/png",
+          "size" : 180858
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1604308145466,
+        "stop" : 1604308146946,
+        "duration" : 1480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0cd5f34d60693aa",
+        "name" : "Заполненная формы перевода",
+        "source" : "a0cd5f34d60693aa.png",
+        "type" : "image/png",
+        "size" : 178033
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1604308146946,
+        "stop" : 1604308211233,
+        "duration" : 64287
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение платежа/перевода",
+        "time" : {
+          "start" : 1604308150265,
+          "stop" : 1604308210393,
+          "duration" : 60128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d4d94cdadef7aff5",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "d4d94cdadef7aff5.png",
+        "type" : "image/png",
+        "size" : 188333
+      }, {
+        "uid" : "36989099e2a161a7",
+        "name" : "Результат перевода",
+        "source" : "36989099e2a161a7.png",
+        "type" : "image/png",
+        "size" : 147463
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Отправка квитанции на эл. почту",
+      "time" : {
+        "start" : 1604308211248,
+        "stop" : 1604308214377,
+        "duration" : 3129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка эл. почты из формы",
+        "time" : {
+          "start" : 1604308211407,
+          "stop" : 1604308214377,
+          "duration" : 2970
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1671100c5c660a6",
+          "name" : "Отправка эл. почты из формы",
+          "source" : "1671100c5c660a6.png",
+          "type" : "image/png",
+          "size" : 145161
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1604308214377,
+        "stop" : 1604308216051,
+        "duration" : 1674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cadfb350b2074c6f",
+        "name" : "Сообщение об операции",
+        "source" : "cadfb350b2074c6f.png",
+        "type" : "image/png",
+        "size" : 196199
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Вход в почтовый ящик",
+      "time" : {
+        "start" : 1604308219066,
+        "stop" : 1604308223614,
+        "duration" : 4548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4de858667e147814",
+        "name" : "Ввод логина",
+        "source" : "4de858667e147814.png",
+        "type" : "image/png",
+        "size" : 106282
+      }, {
+        "uid" : "228c838119a2825e",
+        "name" : "Ввод пароля",
+        "source" : "228c838119a2825e.png",
+        "type" : "image/png",
+        "size" : 78774
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных о письме с квитанцией",
+      "time" : {
+        "start" : 1604308226619,
+        "stop" : 1604308232544,
+        "duration" : 5925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a4709ae37a9b868",
+        "name" : "Список писем",
+        "source" : "2a4709ae37a9b868.png",
+        "type" : "image/png",
+        "size" : 356186
+      }, {
+        "uid" : "91ce0be1bda907b",
+        "name" : "Письмо с квитанцией",
+        "source" : "91ce0be1bda907b.png",
+        "type" : "image/png",
+        "size" : 309593
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "811ea24f9a07c092",
+      "name" : "Результат теста",
+      "source" : "811ea24f9a07c092.png",
+      "type" : "image/png",
+      "size" : 309593
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "PaymentForm - Rapida - integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PaymentForm - Rapida - integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции на email успешной оплаты Мобильной связи Yota (со счета)"
+  }, {
+    "name" : "package",
+    "value" : "PaymentForm - Rapida - integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "085745-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Телефон - 9254297577, Сумма - 33, Номер карты/счета - 40820810400490000085"
+  }, {
+    "name" : "Код подтверждения платежа/перевода",
+    "value" : "1234"
+  }, {
+    "name" : "Логин почтового ящика",
+    "value" : "otp.at.mailbox@gmail.com"
+  }, {
+    "name" : "Пароль почтового ящика",
+    "value" : "sa123456_1"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "payment_7"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "favorite-payment-1272"
+  }, {
+    "name" : "Эл. почта",
+    "value" : "otp.at.mailbox@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89de759da2a96e76.json",
+  "parameterValues" : [ "085745-1", "1234", "Basic", "1234", "Телефон - 9254297577, Сумма - 33, Номер карты/счета - 40820810400490000085", "1234", "otp.at.mailbox@gmail.com", "sa123456_1", "payment_7", "favorite-payment-1272", "otp.at.mailbox@gmail.com" ]
+}

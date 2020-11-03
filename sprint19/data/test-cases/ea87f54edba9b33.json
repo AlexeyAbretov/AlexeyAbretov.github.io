@@ -1,0 +1,260 @@
+{
+  "uid" : "ea87f54edba9b33",
+  "name" : "Должна отображаться корректная ошибка при изменении номера карты",
+  "fullName" : "Переводы по номеру карты клиенту банка - интеграционные тесты.Должна отображаться корректная ошибка при изменении номера карты",
+  "historyId" : "2beb5cf646e0c629e9e31d72e8b811ff",
+  "time" : {
+    "start" : 1604304605929,
+    "stop" : 1604304638094,
+    "duration" : 32165
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604304608659,
+        "stop" : 1604304615222,
+        "duration" : 6563
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604304608659,
+          "stop" : 1604304610905,
+          "duration" : 2246
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "74a5e531636d7230",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "74a5e531636d7230.png",
+          "type" : "image/png",
+          "size" : 2253816
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604304610906,
+          "stop" : 1604304615222,
+          "duration" : 4316
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aa0372defcb57b7c",
+          "name" : "Подтверждение учетных данных",
+          "source" : "aa0372defcb57b7c.png",
+          "type" : "image/png",
+          "size" : 2277358
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1604304615222,
+        "stop" : 1604304627735,
+        "duration" : 12513
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1604304615222,
+          "stop" : 1604304618900,
+          "duration" : 3678
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f87589f9d323d83f",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "f87589f9d323d83f.png",
+          "type" : "image/png",
+          "size" : 4500
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1604304618900,
+          "stop" : 1604304627735,
+          "duration" : 8835
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e75d28ed19080236",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "e75d28ed19080236.png",
+          "type" : "image/png",
+          "size" : 7286
+        }, {
+          "uid" : "e4db23d62ab632c4",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "e4db23d62ab632c4.png",
+          "type" : "image/png",
+          "size" : 2560
+        }, {
+          "uid" : "c10f37487417de01",
+          "name" : "Форма перевода",
+          "source" : "c10f37487417de01.png",
+          "type" : "image/png",
+          "size" : 204668
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода - несуществующий клиент",
+      "time" : {
+        "start" : 1604304627736,
+        "stop" : 1604304633369,
+        "duration" : 5633
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eedf9807fc024ea0",
+        "name" : "Заполненная формы перевода - несуществующий клиент",
+        "source" : "eedf9807fc024ea0.png",
+        "type" : "image/png",
+        "size" : 228603
+      }, {
+        "uid" : "8e52dbf261ac39e0",
+        "name" : "Отображение серверной ошибки",
+        "source" : "8e52dbf261ac39e0.png",
+        "type" : "image/png",
+        "size" : 228581
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода - неверный номер карты",
+      "time" : {
+        "start" : 1604304634402,
+        "stop" : 1604304635520,
+        "duration" : 1118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34b56dadd2dfcb02",
+        "name" : "Заполненная формы перевода - неверный номер карты",
+        "source" : "34b56dadd2dfcb02.png",
+        "type" : "image/png",
+        "size" : 224784
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a4fa5e46970dfb27",
+      "name" : "Результат теста",
+      "source" : "a4fa5e46970dfb27.png",
+      "type" : "image/png",
+      "size" : 224431
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должна отображаться корректная ошибка при изменении номера карты"
+  }, {
+    "name" : "package",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "085745-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы - неверный номер карты",
+    "value" : "Номер карты/счета - 4817760129962672, Сумма - "
+  }, {
+    "name" : "Значения формы - несуществующий клиент",
+    "value" : "Номер карты/счета - 4817760129962670, Сумма - "
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_clientBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-По номеру карты"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea87f54edba9b33.json",
+  "parameterValues" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 4817760129962672, Сумма - ", "Номер карты/счета - 4817760129962670, Сумма - ", "transfer_clientBank", "tab-menu-По номеру карты" ]
+}

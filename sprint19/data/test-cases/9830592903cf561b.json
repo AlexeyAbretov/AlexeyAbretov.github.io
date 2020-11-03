@@ -1,0 +1,48 @@
+{
+  "uid" : "9830592903cf561b",
+  "name" : "Перманентная блокировка карты должна пройти успешно",
+  "fullName" : "Блокировка карты перманентная - интеграционные тесты.Перманентная блокировка карты должна пройти успешно",
+  "historyId" : "bbce1604d47db817e6b9ab1c6ab91144",
+  "time" : {
+    "start" : 1604309354736,
+    "stop" : 1604309354736,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Блокировка карты перманентная - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Блокировка карты перманентная - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Перманентная блокировка карты должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Блокировка карты перманентная - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9830592903cf561b.json",
+  "parameterValues" : [ ]
+}

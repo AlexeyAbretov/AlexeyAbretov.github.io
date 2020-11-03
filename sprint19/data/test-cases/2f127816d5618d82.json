@@ -1,0 +1,179 @@
+{
+  "uid" : "2f127816d5618d82",
+  "name" : "should render errors with highest limits and button should be disabled",
+  "fullName" : "LimitsForm integration tests.should render errors with highest limits and button should be disabled",
+  "historyId" : "3ecf71a1e95762e21a7fa31ebc9a3d0c",
+  "time" : {
+    "start" : 1604308865978,
+    "stop" : 1604308895670,
+    "duration" : 29692
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604308877997,
+        "stop" : 1604308884339,
+        "duration" : 6342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604308877997,
+          "stop" : 1604308879989,
+          "duration" : 1992
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5a6f2c9bd10acc6b",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "5a6f2c9bd10acc6b.png",
+          "type" : "image/png",
+          "size" : 2249621
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604308879989,
+          "stop" : 1604308884339,
+          "duration" : 4350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "44517a665beb8e95",
+          "name" : "Подтверждение учетных данных",
+          "source" : "44517a665beb8e95.png",
+          "type" : "image/png",
+          "size" : 2277465
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1604308884340,
+        "stop" : 1604308889645,
+        "duration" : 5305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bedce46943c37cde",
+        "name" : "Меню перехода в профиль",
+        "source" : "bedce46943c37cde.png",
+        "type" : "image/png",
+        "size" : 213130
+      }, {
+        "uid" : "88fa7f2f1c4d25d4",
+        "name" : "Результат перехода",
+        "source" : "88fa7f2f1c4d25d4.png",
+        "type" : "image/png",
+        "size" : 216460
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на закладку профиля  - tab-menu-/profile/security",
+      "time" : {
+        "start" : 1604308889645,
+        "stop" : 1604308892166,
+        "duration" : 2521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2b6250b90cb32d6",
+        "name" : "Результат перехода на закладку профиля",
+        "source" : "a2b6250b90cb32d6.png",
+        "type" : "image/png",
+        "size" : 274718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "68b3e781515acaed",
+      "name" : "Результат теста",
+      "source" : "68b3e781515acaed.png",
+      "type" : "image/png",
+      "size" : 289014
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should render errors with highest limits and button should be disabled"
+  }, {
+    "name" : "package",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-PMFQ96H-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f127816d5618d82.json",
+  "parameterValues" : [ "2-PMFQ96H-4", "1234", "Basic", "1234" ]
+}

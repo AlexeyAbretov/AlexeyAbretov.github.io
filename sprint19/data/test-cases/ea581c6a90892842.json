@@ -1,0 +1,242 @@
+{
+  "uid" : "ea581c6a90892842",
+  "name" : "Закрытие вклада должно отрабатываться корректно",
+  "fullName" : "Закрытие вклада - интеграционные тесты.Закрытие вклада должно отрабатываться корректно",
+  "historyId" : "9c957b11d301ea1a79393dd016de0b40",
+  "time" : {
+    "start" : 1604309355194,
+    "stop" : 1604309395011,
+    "duration" : 39817
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604309357939,
+        "stop" : 1604309364620,
+        "duration" : 6681
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604309357939,
+          "stop" : 1604309360291,
+          "duration" : 2352
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aba0adbe16ae6326",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "aba0adbe16ae6326.png",
+          "type" : "image/png",
+          "size" : 2254243
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604309360291,
+          "stop" : 1604309364620,
+          "duration" : 4329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b4349b7d5c057359",
+          "name" : "Подтверждение учетных данных",
+          "source" : "b4349b7d5c057359.png",
+          "type" : "image/png",
+          "size" : 2276578
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1604309364620,
+        "stop" : 1604309373796,
+        "duration" : 9176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1be61768a461043a",
+        "name" : "Переход на страницу продукта",
+        "source" : "1be61768a461043a.png",
+        "type" : "image/png",
+        "size" : 556247
+      }, {
+        "uid" : "b7049492b4f53ec",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "b7049492b4f53ec.png",
+        "type" : "image/png",
+        "size" : 292423
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1604309373796,
+        "stop" : 1604309380165,
+        "duration" : 6369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "780fcc6644907120",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "780fcc6644907120.png",
+        "type" : "image/png",
+        "size" : 374725
+      }, {
+        "uid" : "b25bfddc83cb561c",
+        "name" : "Переход на форму \"Закрытие вклада до востребования\"",
+        "source" : "b25bfddc83cb561c.png",
+        "type" : "image/png",
+        "size" : 135526
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы закрытия вклада",
+      "time" : {
+        "start" : 1604309380165,
+        "stop" : 1604309392300,
+        "duration" : 12135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da114b863a3e32c7",
+        "name" : "Выбор карты",
+        "source" : "da114b863a3e32c7.png",
+        "type" : "image/png",
+        "size" : 303674
+      }, {
+        "uid" : "ed79af13193710c4",
+        "name" : "Согласие",
+        "source" : "ed79af13193710c4.png",
+        "type" : "image/png",
+        "size" : 306413
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение закрытия вклада",
+      "time" : {
+        "start" : 1604309392356,
+        "stop" : 1604309394485,
+        "duration" : 2129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4e3c0ddc4604818",
+        "name" : "Подтверждение закрытия вклада",
+        "source" : "f4e3c0ddc4604818.png",
+        "type" : "image/png",
+        "size" : 141202
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3bfa5e1673968013",
+      "name" : "Результат теста",
+      "source" : "3bfa5e1673968013.png",
+      "type" : "image/png",
+      "size" : 142473
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Закрытие вклада должно отрабатываться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "063447-9"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Вклады"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "3770701"
+  }, {
+    "name" : "Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea581c6a90892842.json",
+  "parameterValues" : [ "063447-9", "1234", "Basic", "1234", "Вклады", "3770701", "1234" ]
+}

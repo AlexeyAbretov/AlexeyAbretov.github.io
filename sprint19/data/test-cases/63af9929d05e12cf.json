@@ -1,0 +1,48 @@
+{
+  "uid" : "63af9929d05e12cf",
+  "name" : "Отказ от предложения с выбором причины \"Хочу другие условия\"",
+  "fullName" : "Проверка карточек продуктов-призраков по Вкладам.Отказ от предложения с выбором причины \"Хочу другие условия\"",
+  "historyId" : "ba4235c24c8a0cee1670c25dd74d8739",
+  "time" : {
+    "start" : 1604308919820,
+    "stop" : 1604308919820,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "testMethod",
+    "value" : "Отказ от предложения с выбором причины \"Хочу другие условия\""
+  }, {
+    "name" : "package",
+    "value" : "Проверка карточек продуктов-призраков по Вкладам"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63af9929d05e12cf.json",
+  "parameterValues" : [ ]
+}

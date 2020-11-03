@@ -1,0 +1,48 @@
+{
+  "uid" : "7266ecf79bf7d596",
+  "name" : "should render full progress bar after change limits(decreasing value)",
+  "fullName" : "LimitsForm integration tests.should render full progress bar after change limits(decreasing value)",
+  "historyId" : "2acab6657eebc6c7fb7e35e0d1a15459",
+  "time" : {
+    "start" : 1604308895671,
+    "stop" : 1604308895671,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should render full progress bar after change limits(decreasing value)"
+  }, {
+    "name" : "package",
+    "value" : "LimitsForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7266ecf79bf7d596.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,257 @@
+{
+  "uid" : "bb5c9bc3a39097d3",
+  "name" : "Временная блокировка карты должна пройти успешно",
+  "fullName" : "Блокировка карты временная - интеграционные тесты.Временная блокировка карты должна пройти успешно",
+  "historyId" : "cb57a3d9109954d111118f025e7cf63e",
+  "time" : {
+    "start" : 1604309395497,
+    "stop" : 1604309438731,
+    "duration" : 43234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604309398142,
+        "stop" : 1604309404816,
+        "duration" : 6674
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604309398142,
+          "stop" : 1604309400471,
+          "duration" : 2329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f99a4e09cd66300e",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "f99a4e09cd66300e.png",
+          "type" : "image/png",
+          "size" : 2254413
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604309400471,
+          "stop" : 1604309404815,
+          "duration" : 4344
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "954f922cd74742fd",
+          "name" : "Подтверждение учетных данных",
+          "source" : "954f922cd74742fd.png",
+          "type" : "image/png",
+          "size" : 2277247
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1604309404816,
+        "stop" : 1604309417265,
+        "duration" : 12449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "231287ff625e5ba8",
+        "name" : "Переход на страницу продукта",
+        "source" : "231287ff625e5ba8.png",
+        "type" : "image/png",
+        "size" : 467702
+      }, {
+        "uid" : "fe25f4ce87eb115e",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "fe25f4ce87eb115e.png",
+        "type" : "image/png",
+        "size" : 410737
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1604309417266,
+        "stop" : 1604309420099,
+        "duration" : 2833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c12346929e025a4a",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "c12346929e025a4a.png",
+        "type" : "image/png",
+        "size" : 427512
+      }, {
+        "uid" : "e835e7a1b56f29a8",
+        "name" : "Переход на форму Заблокировать карту",
+        "source" : "e835e7a1b56f29a8.png",
+        "type" : "image/png",
+        "size" : 472164
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор причины блокировки",
+      "time" : {
+        "start" : 1604309420099,
+        "stop" : 1604309420761,
+        "duration" : 662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b91c1f39c22797aa",
+        "name" : "Причина выбрана",
+        "source" : "b91c1f39c22797aa.png",
+        "type" : "image/png",
+        "size" : 474734
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение блокировки карты",
+      "time" : {
+        "start" : 1604309420842,
+        "stop" : 1604309423001,
+        "duration" : 2159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "426eb9104cda3cd5",
+        "name" : "Подтверждение блокировки карты",
+        "source" : "426eb9104cda3cd5.png",
+        "type" : "image/png",
+        "size" : 439352
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1604309423001,
+        "stop" : 1604309438181,
+        "duration" : 15180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c8834049e1cfcd9",
+        "name" : "Сообщение об операции",
+        "source" : "6c8834049e1cfcd9.png",
+        "type" : "image/png",
+        "size" : 413042
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a788ab8ad323ee8e",
+      "name" : "Результат теста",
+      "source" : "a788ab8ad323ee8e.png",
+      "type" : "image/png",
+      "size" : 412954
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Временная блокировка карты должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-3455RZ3-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "940462"
+  }, {
+    "name" : "Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb5c9bc3a39097d3.json",
+  "parameterValues" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "940462", "1234" ]
+}

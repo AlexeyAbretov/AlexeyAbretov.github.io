@@ -1,0 +1,131 @@
+{
+  "uid" : "d932fc7d2803f6ed",
+  "name" : "Баланс должен быть числом",
+  "fullName" : "Бонусная система рыбки - баланс - интеграционные тесты.Баланс должен быть числом",
+  "historyId" : "fcbaf8fb1fc18fb408d1742a865ca9ae",
+  "time" : {
+    "start" : 1604309687728,
+    "stop" : 1604309697861,
+    "duration" : 10133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604309690294,
+        "stop" : 1604309696964,
+        "duration" : 6670
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604309690294,
+          "stop" : 1604309692545,
+          "duration" : 2251
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b694388bf6ed1098",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "b694388bf6ed1098.png",
+          "type" : "image/png",
+          "size" : 2253451
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604309692545,
+          "stop" : 1604309696964,
+          "duration" : 4419
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1dc89a92f81a1416",
+          "name" : "Подтверждение учетных данных",
+          "source" : "1dc89a92f81a1416.png",
+          "type" : "image/png",
+          "size" : 2278005
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a7961d34e91f6b7c",
+      "name" : "Результат теста",
+      "source" : "a7961d34e91f6b7c.png",
+      "type" : "image/png",
+      "size" : 193318
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Бонусная система рыбки - баланс - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Бонусная система рыбки - баланс - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Баланс должен быть числом"
+  }, {
+    "name" : "package",
+    "value" : "Бонусная система рыбки - баланс - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "136383-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d932fc7d2803f6ed.json",
+  "parameterValues" : [ "136383-1", "1234", "Basic", "1234" ]
+}

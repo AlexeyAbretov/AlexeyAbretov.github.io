@@ -1,0 +1,179 @@
+{
+  "uid" : "3f7e69b29141cc27",
+  "name" : "Манипуляции с документом должны пройти успешно",
+  "fullName" : "DocumentsCard integration tests.Манипуляции с документом должны пройти успешно",
+  "historyId" : "ebb22c26a436a9986cc64a5d35ebb51",
+  "time" : {
+    "start" : 1604308934974,
+    "stop" : 1604308954996,
+    "duration" : 20022
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1604308937497,
+        "stop" : 1604308943143,
+        "duration" : 5646
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1604308937497,
+          "stop" : 1604308939816,
+          "duration" : 2319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f93ba160942aea5c",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "f93ba160942aea5c.png",
+          "type" : "image/png",
+          "size" : 2253340
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1604308939817,
+          "stop" : 1604308943143,
+          "duration" : 3326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "53db753b56944e97",
+          "name" : "Подтверждение учетных данных",
+          "source" : "53db753b56944e97.png",
+          "type" : "image/png",
+          "size" : 2277099
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1604308943143,
+        "stop" : 1604308949534,
+        "duration" : 6391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73f9f8a4f41e7396",
+        "name" : "Меню перехода в профиль",
+        "source" : "73f9f8a4f41e7396.png",
+        "type" : "image/png",
+        "size" : 196419
+      }, {
+        "uid" : "23908424bc02781b",
+        "name" : "Результат перехода",
+        "source" : "23908424bc02781b.png",
+        "type" : "image/png",
+        "size" : 255926
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1604308951013,
+        "stop" : 1604308952048,
+        "duration" : 1035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d30952339852d78",
+        "name" : "Сообщение об операции",
+        "source" : "2d30952339852d78.png",
+        "type" : "image/png",
+        "size" : 353607
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "68c0e86082cdad69",
+      "name" : "Результат теста",
+      "source" : "68c0e86082cdad69.png",
+      "type" : "image/png",
+      "size" : 272941
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "DocumentsCard integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "DocumentsCard integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Манипуляции с документом должны пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "DocumentsCard integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-2ASGKKQ-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f7e69b29141cc27.json",
+  "parameterValues" : [ "2-2ASGKKQ-4", "1234", "Basic", "1234" ]
+}
