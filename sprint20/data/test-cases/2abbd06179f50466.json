@@ -1,0 +1,52 @@
+{
+  "uid" : "2abbd06179f50466",
+  "name" : "Вставка номера телефона из буфера обмена",
+  "fullName" : "Интеграционные тесты входа в приложение только для Firefox.Вставка номера телефона из буфера обмена",
+  "historyId" : "bddc8eebf232ea6526d92a5cac0251d2",
+  "time" : {
+    "start" : 1605637882013,
+    "stop" : 1605637888805,
+    "duration" : 6792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"+7 926 367 01 22\"\n                Received: \"+7\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"+7 926 367 01 22\"\n                Received: \"+7\"\n                    at _callee$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/login/containers/__tests__/Login.firefox.ispec.js:41:28)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение только для Firefox"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение только для Firefox"
+  }, {
+    "name" : "testMethod",
+    "value" : "Вставка номера телефона из буфера обмена"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение только для Firefox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2abbd06179f50466.json",
+  "parameterValues" : [ ]
+}

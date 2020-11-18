@@ -1,0 +1,218 @@
+{
+  "uid" : "3997df82bd3261a",
+  "name" : "Пользователю отображается список вкладов с выплатой процентов на вклад",
+  "fullName" : "Депозиты - Калькулятор - интеграционные тесты.Пользователю отображается список вкладов с выплатой процентов на вклад",
+  "historyId" : "8e5be64393909fffe2fa9fc41367114f",
+  "time" : {
+    "start" : 1605635013125,
+    "stop" : 1605635035619,
+    "duration" : 22494
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на форму депозитного калькулятора по прямой ссылке",
+      "time" : {
+        "start" : 1605635016896,
+        "stop" : 1605635027889,
+        "duration" : 10993
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1605635016896,
+          "stop" : 1605635022730,
+          "duration" : 5834
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1605635016896,
+            "stop" : 1605635019187,
+            "duration" : 2291
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8b01a94f8c9adca7",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "8b01a94f8c9adca7.png",
+            "type" : "image/png",
+            "size" : 2257227
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1605635019187,
+            "stop" : 1605635022730,
+            "duration" : 3543
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a8b79eaceb4150f0",
+            "name" : "Подтверждение учетных данных",
+            "source" : "a8b79eaceb4150f0.png",
+            "type" : "image/png",
+            "size" : 2337021
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "80d61f3d47c6ca73",
+        "name" : "Результат перехода на форму депозитного калькулятора",
+        "source" : "80d61f3d47c6ca73.png",
+        "type" : "image/png",
+        "size" : 410881
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор Выплата процентов на вклад",
+      "time" : {
+        "start" : 1605635027889,
+        "stop" : 1605635029564,
+        "duration" : 1675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45818a099560c0e9",
+        "name" : "Результат выбора Выплата процентов на вклад",
+        "source" : "45818a099560c0e9.png",
+        "type" : "image/png",
+        "size" : 410901
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта RUB",
+      "time" : {
+        "start" : 1605635029564,
+        "stop" : 1605635032364,
+        "duration" : 2800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c02250113d73279",
+        "name" : "Результат - список депозитов - валюта RUB",
+        "source" : "c02250113d73279.png",
+        "type" : "image/png",
+        "size" : 410901
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта USD",
+      "time" : {
+        "start" : 1605635032364,
+        "stop" : 1605635035097,
+        "duration" : 2733
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a88904611e72c2c",
+        "name" : "Результат - список депозитов - валюта USD",
+        "source" : "8a88904611e72c2c.png",
+        "type" : "image/png",
+        "size" : 411916
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c663814c4ba19be2",
+      "name" : "Результат теста",
+      "source" : "c663814c4ba19be2.png",
+      "type" : "image/png",
+      "size" : 411916
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователю отображается список вкладов с выплатой процентов на вклад"
+  }, {
+    "name" : "package",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "39219928499-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Выплата процентов на вклад",
+    "value" : "Да"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3997df82bd3261a.json",
+  "parameterValues" : [ "39219928499-1", "1234", "Basic", "1234", "Да" ]
+}

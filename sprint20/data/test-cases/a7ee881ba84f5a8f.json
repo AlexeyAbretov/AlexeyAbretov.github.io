@@ -1,0 +1,202 @@
+{
+  "uid" : "a7ee881ba84f5a8f",
+  "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям",
+  "fullName" : "Переводы в другой банк физическим лицам - интеграционные тесты.Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям",
+  "historyId" : "1b32bd4b93f3d69f2c974f99b5f40461",
+  "time" : {
+    "start" : 1605633951698,
+    "stop" : 1605634007710,
+    "duration" : 56012
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchWindowError: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=86.0.4240.198)",
+  "statusTrace" : "NoSuchWindowError: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=86.0.4240.198)\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchWindowError: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=86.0.4240.198)",
+    "statusTrace" : "NoSuchWindowError: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=86.0.4240.198)\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605633957404,
+        "stop" : 1605633959608,
+        "duration" : 2204
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605633957404,
+          "stop" : 1605633959608,
+          "duration" : 2204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ed5d9a6bd5dfdd34",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "ed5d9a6bd5dfdd34.png",
+          "type" : "image/png",
+          "size" : 2253216
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1605633959608,
+        "stop" : 1605633974449,
+        "duration" : 14841
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1605633959608,
+          "stop" : 1605633964676,
+          "duration" : 5068
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9af8d9580a858114",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "9af8d9580a858114.png",
+          "type" : "image/png",
+          "size" : 4500
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1605633964676,
+          "stop" : 1605633974449,
+          "duration" : 9773
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "78a3324f4d755949",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "78a3324f4d755949.png",
+          "type" : "image/png",
+          "size" : 6696
+        }, {
+          "uid" : "914a2a705a2944a4",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "914a2a705a2944a4.png",
+          "type" : "image/png",
+          "size" : 1220
+        }, {
+          "uid" : "fbab3f0762719c63",
+          "name" : "Форма перевода",
+          "source" : "fbab3f0762719c63.png",
+          "type" : "image/png",
+          "size" : 201475
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1605633974450,
+        "stop" : 0,
+        "duration" : -1605633974450
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы в другой банк физическим лицам - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы в другой банк физическим лицам - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям"
+  }, {
+    "name" : "package",
+    "value" : "Переводы в другой банк физическим лицам - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-DA1MP-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_internalBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-Людям"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a7ee881ba84f5a8f.json",
+  "parameterValues" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "transfer_internalBank", "tab-menu-Людям" ]
+}

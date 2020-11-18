@@ -1,0 +1,269 @@
+{
+  "uid" : "6127b0e6d5a529a2",
+  "name" : "POS кредит должен отображаться корректно",
+  "fullName" : "Отображение POS кредита - интеграционные тесты.POS кредит должен отображаться корректно",
+  "historyId" : "990686a4eed1e10b11fcb5092e5ba917",
+  "time" : {
+    "start" : 1605637245129,
+    "stop" : 1605637274194,
+    "duration" : 29065
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605637248907,
+        "stop" : 1605637255637,
+        "duration" : 6730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605637248907,
+          "stop" : 1605637251142,
+          "duration" : 2235
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9e561ea09e8a6f55",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "9e561ea09e8a6f55.png",
+          "type" : "image/png",
+          "size" : 2253973
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605637251142,
+          "stop" : 1605637255637,
+          "duration" : 4495
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "95b7b12ade1099f",
+          "name" : "Подтверждение учетных данных",
+          "source" : "95b7b12ade1099f.png",
+          "type" : "image/png",
+          "size" : 2336381
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1605637255638,
+        "stop" : 1605637267410,
+        "duration" : 11772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c6fd502fcdb7a48",
+        "name" : "Переход на страницу продукта",
+        "source" : "c6fd502fcdb7a48.png",
+        "type" : "image/png",
+        "size" : 289791
+      }, {
+        "uid" : "e44ee039405489f3",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "e44ee039405489f3.png",
+        "type" : "image/png",
+        "size" : 259320
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Действия\"",
+      "time" : {
+        "start" : 1605637267440,
+        "stop" : 1605637268225,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a98afcb37c385ead",
+        "name" : "Содержимое вкладки \"Действия\"",
+        "source" : "a98afcb37c385ead.png",
+        "type" : "image/png",
+        "size" : 254799
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Платёж\"",
+      "time" : {
+        "start" : 1605637268260,
+        "stop" : 1605637269063,
+        "duration" : 803
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "161239e509e4710f",
+        "name" : "Содержимое вкладки \"Платёж\"",
+        "source" : "161239e509e4710f.png",
+        "type" : "image/png",
+        "size" : 316476
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Условия\"",
+      "time" : {
+        "start" : 1605637269149,
+        "stop" : 1605637269985,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8233a38a5ec300",
+        "name" : "Содержимое вкладки \"Условия\"",
+        "source" : "8233a38a5ec300.png",
+        "type" : "image/png",
+        "size" : 313824
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Реквизиты\"",
+      "time" : {
+        "start" : 1605637269985,
+        "stop" : 1605637271195,
+        "duration" : 1210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd60390e38025cc3",
+        "name" : "Содержимое вкладки \"Реквизиты\"",
+        "source" : "dd60390e38025cc3.png",
+        "type" : "image/png",
+        "size" : 344814
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу пополнения продукта",
+      "time" : {
+        "start" : 1605637271195,
+        "stop" : 1605637273690,
+        "duration" : 2495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c731f77658f15058",
+        "name" : "Страница пополнения продукта",
+        "source" : "c731f77658f15058.png",
+        "type" : "image/png",
+        "size" : 184766
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d07d9cac256358b4",
+      "name" : "Результат теста",
+      "source" : "d07d9cac256358b4.png",
+      "type" : "image/png",
+      "size" : 184766
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Отображение POS кредита - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Отображение POS кредита - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "POS кредит должен отображаться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Отображение POS кредита - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-18LHFMK6-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Кредиты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "1326129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6127b0e6d5a529a2.json",
+  "parameterValues" : [ "2-18LHFMK6-4", "1234", "Basic", "1234", "Кредиты", "1326129" ]
+}

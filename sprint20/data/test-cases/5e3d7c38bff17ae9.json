@@ -1,0 +1,152 @@
+{
+  "uid" : "5e3d7c38bff17ae9",
+  "name" : "Проверка активности кнопки Оформить карту при ошибке проверки дубликатов",
+  "fullName" : "Витрина карт Обработка ошибки проверки дубликатов.Проверка активности кнопки Оформить карту при ошибке проверки дубликатов",
+  "historyId" : "9718bdc0b287906dce897eea02fadc4a",
+  "time" : {
+    "start" : 1605636891493,
+    "stop" : 1605636909883,
+    "duration" : 18390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу витрины карт по прямой ссылке",
+      "time" : {
+        "start" : 1605636895456,
+        "stop" : 1605636906760,
+        "duration" : 11304
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1605636895456,
+          "stop" : 1605636902126,
+          "duration" : 6670
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1605636895456,
+            "stop" : 1605636897680,
+            "duration" : 2224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "afb583c5b7ed3e30",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "afb583c5b7ed3e30.png",
+            "type" : "image/png",
+            "size" : 2255806
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1605636897680,
+            "stop" : 1605636902126,
+            "duration" : 4446
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "53eb7b8bd922c192",
+            "name" : "Подтверждение учетных данных",
+            "source" : "53eb7b8bd922c192.png",
+            "type" : "image/png",
+            "size" : 2337099
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a076ee1540835c99",
+        "name" : "Результат перехода на страницу витрины карт по прямой ссылке",
+        "source" : "a076ee1540835c99.png",
+        "type" : "image/png",
+        "size" : 447277
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1e53b9d7762125ee",
+      "name" : "Результат теста",
+      "source" : "1e53b9d7762125ee.png",
+      "type" : "image/png",
+      "size" : 447277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт Обработка ошибки проверки дубликатов"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт Обработка ошибки проверки дубликатов"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверка активности кнопки Оформить карту при ошибке проверки дубликатов"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт Обработка ошибки проверки дубликатов"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-E05ZM-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e3d7c38bff17ae9.json",
+  "parameterValues" : [ "5-E05ZM-4", "1234", "Basic", "1234" ]
+}

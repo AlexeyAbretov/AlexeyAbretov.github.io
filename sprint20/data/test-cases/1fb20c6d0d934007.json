@@ -1,0 +1,181 @@
+{
+  "uid" : "1fb20c6d0d934007",
+  "name" : "Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты",
+  "fullName" : "Витрина карт.Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты",
+  "historyId" : "5fbd19659acb0c201aaa251b8651e6be",
+  "time" : {
+    "start" : 1605636849033,
+    "stop" : 1605636875013,
+    "duration" : 25980
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at forEach (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/products/CardOpen/components/__tests__/CardOpen.ispec.js:86:81)\n                    at Array.forEach (<anonymous>)\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/products/CardOpen/components/__tests__/CardOpen.ispec.js:86:32\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at forEach (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/products/CardOpen/components/__tests__/CardOpen.ispec.js:86:81)\n                    at Array.forEach (<anonymous>)\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/products/CardOpen/components/__tests__/CardOpen.ispec.js:86:32\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Переход на страницу витрины карт по прямой ссылке",
+      "time" : {
+        "start" : 1605636853122,
+        "stop" : 1605636864034,
+        "duration" : 10912
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1605636853123,
+          "stop" : 1605636859861,
+          "duration" : 6738
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1605636853123,
+            "stop" : 1605636855375,
+            "duration" : 2252
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ae5de6511ad98d72",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "ae5de6511ad98d72.png",
+            "type" : "image/png",
+            "size" : 2255805
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1605636855376,
+            "stop" : 1605636859861,
+            "duration" : 4485
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "197f1edf2c1e8d5d",
+            "name" : "Подтверждение учетных данных",
+            "source" : "197f1edf2c1e8d5d.png",
+            "type" : "image/png",
+            "size" : 2337099
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f71c46b1450eabdd",
+        "name" : "Результат перехода на страницу витрины карт по прямой ссылке",
+        "source" : "f71c46b1450eabdd.png",
+        "type" : "image/png",
+        "size" : 298971
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу витрины карт по прямой ссылке",
+      "time" : {
+        "start" : 1605636868640,
+        "stop" : 1605636872388,
+        "duration" : 3748
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2d769f83abab9a0",
+        "name" : "Результат перехода на страницу витрины карт по прямой ссылке",
+        "source" : "e2d769f83abab9a0.png",
+        "type" : "image/png",
+        "size" : 300252
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d4d1b02680622db9",
+      "name" : "Результат теста",
+      "source" : "d4d1b02680622db9.png",
+      "type" : "image/png",
+      "size" : 447418
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-E05ZM-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1fb20c6d0d934007.json",
+  "parameterValues" : [ "5-E05ZM-4", "1234", "Basic", "1234" ]
+}

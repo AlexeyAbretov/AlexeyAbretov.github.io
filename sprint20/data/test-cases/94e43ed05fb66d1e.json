@@ -1,0 +1,163 @@
+{
+  "uid" : "94e43ed05fb66d1e",
+  "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Организациям",
+  "fullName" : "Переводы в другой банк организациям - интеграционные тесты.Проверить в ленте операций отображение операции перевода В другой банк - Организациям",
+  "historyId" : "87c1a7c2a7b0ef2f5de460c5b0cb0caa",
+  "time" : {
+    "start" : 1605634121149,
+    "stop" : 1605634129550,
+    "duration" : 8401
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchWindowError: no such window: window was already closed\n                  (Session info: chrome=86.0.4240.198)",
+  "statusTrace" : "NoSuchWindowError: no such window: window was already closed\n                  (Session info: chrome=86.0.4240.198)\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:700:17)\n                    at thenableWebDriverProxy.findElements (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:952:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchWindowError: no such window: window was already closed\n                  (Session info: chrome=86.0.4240.198)",
+    "statusTrace" : "NoSuchWindowError: no such window: window was already closed\n                  (Session info: chrome=86.0.4240.198)\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:700:17)\n                    at thenableWebDriverProxy.findElements (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:952:19)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605634125330,
+        "stop" : 1605634129542,
+        "duration" : 4212
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605634125330,
+          "stop" : 1605634127582,
+          "duration" : 2252
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "eec70312f1d55ade",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "eec70312f1d55ade.png",
+          "type" : "image/png",
+          "size" : 2256011
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605634127582,
+          "stop" : 1605634129542,
+          "duration" : 1960
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1605634129542,
+        "stop" : 0,
+        "duration" : -1605634129542
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1605634129542,
+          "stop" : 1605634129546,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы в другой банк организациям - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы в другой банк организациям - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверить в ленте операций отображение операции перевода В другой банк - Организациям"
+  }, {
+    "name" : "package",
+    "value" : "Переводы в другой банк организациям - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-CIP4P-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_internalBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-Организациям"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "94e43ed05fb66d1e.json",
+  "parameterValues" : [ "5-CIP4P-4", "1234", "Basic", "1234", "transfer_internalBank", "tab-menu-Организациям" ]
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60115ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции в pdf со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "2cd559a23569cd5",
+        "parentUid" : "5344527b8f07a210274db7605c9db896",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605633427341,
+          "stop" : 1605633514880,
+          "duration" : 87539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "5344527b8f07a210274db7605c9db896"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60173ms",
+      "children" : [ {
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "cb2a263df2924ca5",
+        "parentUid" : "a0ed177cb92e609424c35f64b625a4ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605633514880,
+          "stop" : 1605633603181,
+          "duration" : 88301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "a0ed177cb92e609424c35f64b625a4ff"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"transfer-form-success\"])\n                Wait timed out after 60043ms",
+      "children" : [ {
+        "name" : "Проверить в ленте операций отображение операции перевода Между своими счетами (со счета на карту) с конверсией",
+        "uid" : "1c4a2e80abac559d",
+        "parentUid" : "24dd0384f77db56acd6a03dd7a1d8a36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605633603181,
+          "stop" : 1605633689638,
+          "duration" : 86457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "070744-1", "1234", "Basic", "1234", "Номер карты/счета - источник - 42301978700370000992, Номер карты/счета - приемник - 40817810700096570376, Сумма - 20", "transfer_yourself", "" ]
+      } ],
+      "uid" : "24dd0384f77db56acd6a03dd7a1d8a36"
+    }, {
+      "name" : "NoSuchWindowError: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=86.0.4240.198)",
+      "children" : [ {
+        "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Людям",
+        "uid" : "bfccbee669866be",
+        "parentUid" : "9084c257e2ce693abd4e860c8bfaffaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605633689652,
+          "stop" : 1605633951698,
+          "duration" : 262046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-DA1MP-4", "1234", "Basic", "1234", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "transfer_internalBank", "tab-menu-Людям" ]
+      }, {
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Людям",
+        "uid" : "a7ee881ba84f5a8f",
+        "parentUid" : "9084c257e2ce693abd4e860c8bfaffaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605633951698,
+          "stop" : 1605634007710,
+          "duration" : 56012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "transfer_internalBank", "tab-menu-Людям" ]
+      }, {
+        "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Людям",
+        "uid" : "aefd64c952646bd4",
+        "parentUid" : "9084c257e2ce693abd4e860c8bfaffaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605634007710,
+          "stop" : 1605634044251,
+          "duration" : 36541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-DA1MP-4", "1234", "Basic", "Номер карты/счета - 42306810800690010816, БИК - 044525593, Счет/карта получателя - 40817810904990058828, Имя получателя - Иванов Иванов Иванович, Назначение платежа - тест, Сумма - 632", "transfer_internalBank", "tab-menu-Людям" ]
+      }, {
+        "name" : "Выгрузка квитанции со страницы успешного перевода В другой банк - Организациям",
+        "uid" : "dcbc12cd73f6dbee",
+        "parentUid" : "9084c257e2ce693abd4e860c8bfaffaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605634044273,
+          "stop" : 1605634085599,
+          "duration" : 41326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-CIP4P-4", "1234", "Basic", "1234", "Номер карты/счета - 40817810000340001822, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632", "transfer_internalBank", "tab-menu-Организациям" ]
+      }, {
+        "name" : "Выгрузка квитанции на email со страницы успешного перевода В другой банк - Организациям",
+        "uid" : "9cd517346a6995d8",
+        "parentUid" : "9084c257e2ce693abd4e860c8bfaffaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605634085599,
+          "stop" : 1605634121149,
+          "duration" : 35550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-CIP4P-4", "1234", "Basic", "1234", "Номер карты/счета - 40817810000340001822, БИК - 044525593, Счет/карта получателя - 40702810502910000075, Имя получателя - Компания, ИНН получателя - 7605016030, Назначение платежа - тест, Сумма - 632", "transfer_internalBank", "tab-menu-Организациям" ]
+      } ],
+      "uid" : "9084c257e2ce693abd4e860c8bfaffaf"
+    }, {
+      "name" : "NoSuchWindowError: no such window: window was already closed\n                  (Session info: chrome=86.0.4240.198)",
+      "children" : [ {
+        "name" : "Проверить в ленте операций отображение операции перевода В другой банк - Организациям",
+        "uid" : "94e43ed05fb66d1e",
+        "parentUid" : "bbba1a271833ad5528bef62c5470e6cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605634121149,
+          "stop" : 1605634129550,
+          "duration" : 8401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-CIP4P-4", "1234", "Basic", "1234", "transfer_internalBank", "tab-menu-Организациям" ]
+      } ],
+      "uid" : "bbba1a271833ad5528bef62c5470e6cf"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposit-open-form-complete-success\"])\n                Wait timed out after 60057ms",
+      "children" : [ {
+        "name" : "Открытие вклада растущий процент в рублях",
+        "uid" : "7542a06fe864956",
+        "parentUid" : "bf0348da5ff62863364138366dc5a72b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605635609211,
+          "stop" : 1605635756502,
+          "duration" : 147291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "RUB", "1234", "amount-input - 10000, card-select - 40817810900206271896, bankPhilial-select - bankPhilial-option-0", "Растущий%20процент", "40817810900206271896", "10000", "АО ОТП Банк" ]
+      } ],
+      "uid" : "bf0348da5ff62863364138366dc5a72b"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"чтобы избежать просрочки, продолжить пользоваться картой и преимуществами льготного периода\"\n                Received: \"Внесите эту сумму, чтобы продолжить пользоваться картой\"",
+      "children" : [ {
+        "name" : "Клиент с платежом и общей задолженностью",
+        "uid" : "3ba7470e753a29b4",
+        "parentUid" : "53f134befbfd4dacdc03e95381cfbb33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605635758387,
+          "stop" : 1605635788995,
+          "duration" : 30608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2-3DYTGIL-4", "1234", "Basic", "1234", "Карты", "519833" ]
+      } ],
+      "uid" : "53f134befbfd4dacdc03e95381cfbb33"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"sign-in-login-field\"])\n                Wait timed out after 29764ms",
+      "children" : [ {
+        "name" : "should render errors with highest limits and button should be disabled",
+        "uid" : "32ad0cee7f541d84",
+        "parentUid" : "921e24f7e085bccc66d9416b324f4fb5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605636797191,
+          "stop" : 1605636831035,
+          "duration" : 33844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "921e24f7e085bccc66d9416b324f4fb5"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+      "children" : [ {
+        "name" : "Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты",
+        "uid" : "1fb20c6d0d934007",
+        "parentUid" : "d5268c301f1695d6ec7b991aeaa285fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605636849033,
+          "stop" : 1605636875013,
+          "duration" : 25980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5-E05ZM-4", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "d5268c301f1695d6ec7b991aeaa285fb"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"bonus-system-balance\"])\n                Wait timed out after 20059ms",
+      "children" : [ {
+        "name" : "Баланс должен упешно отобразиться",
+        "uid" : "997c294bf3f1aae8",
+        "parentUid" : "28490974232c9cd1ddf8b0806d4306b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605637601701,
+          "stop" : 1605637632736,
+          "duration" : 31035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "136383-1", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "28490974232c9cd1ddf8b0806d4306b7"
+    }, {
+      "name" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"bonus-system-balance-amount\"])\n                Wait timed out after 20136ms",
+      "children" : [ {
+        "name" : "Баланс должен быть числом",
+        "uid" : "89ed944e078902af",
+        "parentUid" : "7135f1e16ae617ce70f89f970211d18a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605637632736,
+          "stop" : 1605637664148,
+          "duration" : 31412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "136383-1", "1234", "Basic", "1234" ]
+      } ],
+      "uid" : "7135f1e16ae617ce70f89f970211d18a"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"+7 926 367 01 22\"\n                Received: \"+7\"",
+      "children" : [ {
+        "name" : "Вставка номера телефона из буфера обмена",
+        "uid" : "2abbd06179f50466",
+        "parentUid" : "6b0a930a0888fd85702084a002f44b39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605637882013,
+          "stop" : 1605637888805,
+          "duration" : 6792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b0a930a0888fd85702084a002f44b39"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

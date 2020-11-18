@@ -1,0 +1,48 @@
+{
+  "uid" : "c980553e5da83721",
+  "name" : "Ошибка при входе по продукту - неверный код подтверждения",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - неверный код подтверждения",
+  "historyId" : "8da84336f216063810c6e0dfd64ea4ac",
+  "time" : {
+    "start" : 1605635304909,
+    "stop" : 1605635304910,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - неверный код подтверждения"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c980553e5da83721.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,259 @@
+{
+  "uid" : "7542a06fe864956",
+  "name" : "Открытие вклада растущий процент в рублях",
+  "fullName" : "Открытие вклада Рустащий процент - интеграционные тесты.Открытие вклада растущий процент в рублях",
+  "historyId" : "39115f04cb5b9c34d14b95cf3d45f52e",
+  "time" : {
+    "start" : 1605635609211,
+    "stop" : 1605635756502,
+    "duration" : 147291
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposit-open-form-complete-success\"])\n                Wait timed out after 60057ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposit-open-form-complete-success\"])\n                Wait timed out after 60057ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposit-open-form-complete-success\"])\n                Wait timed out after 60057ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"deposit-open-form-complete-success\"])\n                Wait timed out after 60057ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Переход на форму открытия Растущий%20процент по прямой ссылке",
+      "time" : {
+        "start" : 1605635612998,
+        "stop" : 1605635626445,
+        "duration" : 13447
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1605635612998,
+          "stop" : 1605635618787,
+          "duration" : 5789
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1605635612998,
+            "stop" : 1605635615236,
+            "duration" : 2238
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "196a9f5d3522b42d",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "196a9f5d3522b42d.png",
+            "type" : "image/png",
+            "size" : 2255902
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1605635615236,
+            "stop" : 1605635618787,
+            "duration" : 3551
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1bbbe2e4302facd7",
+            "name" : "Подтверждение учетных данных",
+            "source" : "1bbbe2e4302facd7.png",
+            "type" : "image/png",
+            "size" : 2336306
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ba6fa05e27d9d028",
+        "name" : "Результат перехода форму открытия вклада Растущий%20процент по прямой ссылке",
+        "source" : "ba6fa05e27d9d028.png",
+        "type" : "image/png",
+        "size" : 189878
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы",
+      "time" : {
+        "start" : 1605635626445,
+        "stop" : 1605635634993,
+        "duration" : 8548
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнение формы открытия вклада",
+        "time" : {
+          "start" : 1605635626445,
+          "stop" : 1605635634526,
+          "duration" : 8081
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c32ca582b267cc6d",
+          "name" : "Заполнение формы - 4",
+          "source" : "c32ca582b267cc6d.png",
+          "type" : "image/png",
+          "size" : 255506
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "16d07a1cf65633f2",
+        "name" : "Заполнение формы - 4",
+        "source" : "16d07a1cf65633f2.png",
+        "type" : "image/png",
+        "size" : 255506
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие вклада",
+      "time" : {
+        "start" : 1605635634993,
+        "stop" : 1605635695947,
+        "duration" : 60954
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605635635897,
+          "stop" : 1605635695947,
+          "duration" : 60050
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "652668912dd989fa",
+        "name" : "Открытие вклада - нажатие кнопки",
+        "source" : "652668912dd989fa.png",
+        "type" : "image/png",
+        "size" : 255506
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4829896db64b8036",
+      "name" : "Результат теста",
+      "source" : "4829896db64b8036.png",
+      "type" : "image/png",
+      "size" : 255506
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Открытие вклада Рустащий процент - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Открытие вклада Рустащий процент - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Открытие вклада растущий процент в рублях"
+  }, {
+    "name" : "package",
+    "value" : "Открытие вклада Рустащий процент - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-2RTX42H-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Валюта",
+    "value" : "RUB"
+  }, {
+    "name" : "Ввод кода подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "amount-input - 10000, card-select - 40817810900206271896, bankPhilial-select - bankPhilial-option-0"
+  }, {
+    "name" : "Название вклада",
+    "value" : "Растущий%20процент"
+  }, {
+    "name" : "Продукт",
+    "value" : "40817810900206271896"
+  }, {
+    "name" : "Сумма",
+    "value" : "10000"
+  }, {
+    "name" : "Филиал",
+    "value" : "АО ОТП Банк"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7542a06fe864956.json",
+  "parameterValues" : [ "2-2RTX42H-4", "1234", "Basic", "1234", "RUB", "1234", "amount-input - 10000, card-select - 40817810900206271896, bankPhilial-select - bankPhilial-option-0", "Растущий%20процент", "40817810900206271896", "10000", "АО ОТП Банк" ]
+}

@@ -1,0 +1,131 @@
+{
+  "uid" : "85855b83abd89417",
+  "name" : "Должен отображаться маркер нотификации возле кнопки сообщений",
+  "fullName" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера.Должен отображаться маркер нотификации возле кнопки сообщений",
+  "historyId" : "a791248f9ff867d1c2a31b94033a6f98",
+  "time" : {
+    "start" : 1605637685263,
+    "stop" : 1605637699380,
+    "duration" : 14117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605637689220,
+        "stop" : 1605637695993,
+        "duration" : 6773
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605637689220,
+          "stop" : 1605637691488,
+          "duration" : 2268
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "17a46a6818bf77b3",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "17a46a6818bf77b3.png",
+          "type" : "image/png",
+          "size" : 2254569
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605637691488,
+          "stop" : 1605637695993,
+          "duration" : 4505
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "743cb5565c0b4237",
+          "name" : "Подтверждение учетных данных",
+          "source" : "743cb5565c0b4237.png",
+          "type" : "image/png",
+          "size" : 2336810
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cb37ed395ef1e809",
+      "name" : "Результат теста",
+      "source" : "cb37ed395ef1e809.png",
+      "type" : "image/png",
+      "size" : 245040
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должен отображаться маркер нотификации возле кнопки сообщений"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-WGKFBNA-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85855b83abd89417.json",
+  "parameterValues" : [ "2-WGKFBNA-4", "1234", "Basic", "1234" ]
+}

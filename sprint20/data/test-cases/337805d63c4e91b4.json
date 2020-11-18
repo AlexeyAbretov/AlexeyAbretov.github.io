@@ -1,0 +1,248 @@
+{
+  "uid" : "337805d63c4e91b4",
+  "name" : "Вклад должен отображаться корректно",
+  "fullName" : "Отображение вклада - интеграционные тесты.Вклад должен отображаться корректно",
+  "historyId" : "53ab2da93e39d4c2999ae065384fcf2",
+  "time" : {
+    "start" : 1605637432587,
+    "stop" : 1605637457545,
+    "duration" : 24958
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605637435921,
+        "stop" : 1605637442608,
+        "duration" : 6687
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605637435921,
+          "stop" : 1605637438199,
+          "duration" : 2278
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "619354eee9a78df6",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "619354eee9a78df6.png",
+          "type" : "image/png",
+          "size" : 2253292
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605637438200,
+          "stop" : 1605637442608,
+          "duration" : 4408
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9cea4aa2e51b85bd",
+          "name" : "Подтверждение учетных данных",
+          "source" : "9cea4aa2e51b85bd.png",
+          "type" : "image/png",
+          "size" : 2337382
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1605637442608,
+        "stop" : 1605637449916,
+        "duration" : 7308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "420336002c7eb251",
+        "name" : "Переход на страницу продукта",
+        "source" : "420336002c7eb251.png",
+        "type" : "image/png",
+        "size" : 371651
+      }, {
+        "uid" : "e70fe1f98f5e7e6d",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "e70fe1f98f5e7e6d.png",
+        "type" : "image/png",
+        "size" : 314975
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Действия\"",
+      "time" : {
+        "start" : 1605637449916,
+        "stop" : 1605637450793,
+        "duration" : 877
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5de50988a6922fab",
+        "name" : "Содержимое вкладки \"Действия\"",
+        "source" : "5de50988a6922fab.png",
+        "type" : "image/png",
+        "size" : 281179
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Условия\"",
+      "time" : {
+        "start" : 1605637450823,
+        "stop" : 1605637451634,
+        "duration" : 811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b79076e03f85f0ab",
+        "name" : "Содержимое вкладки \"Условия\"",
+        "source" : "b79076e03f85f0ab.png",
+        "type" : "image/png",
+        "size" : 377867
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Реквизиты\"",
+      "time" : {
+        "start" : 1605637451634,
+        "stop" : 1605637452888,
+        "duration" : 1254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d18b89e3aa361d2",
+        "name" : "Содержимое вкладки \"Реквизиты\"",
+        "source" : "8d18b89e3aa361d2.png",
+        "type" : "image/png",
+        "size" : 363340
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу пополнения продукта",
+      "time" : {
+        "start" : 1605637452889,
+        "stop" : 1605637457048,
+        "duration" : 4159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b745dd4248ce55e",
+        "name" : "Страница пополнения продукта",
+        "source" : "7b745dd4248ce55e.png",
+        "type" : "image/png",
+        "size" : 187719
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bcd66edefe3b8f89",
+      "name" : "Результат теста",
+      "source" : "bcd66edefe3b8f89.png",
+      "type" : "image/png",
+      "size" : 187719
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Отображение вклада - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Отображение вклада - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Вклад должен отображаться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Отображение вклада - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-A44XM-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Вклады"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "2124715"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "337805d63c4e91b4.json",
+  "parameterValues" : [ "5-A44XM-4", "1234", "Basic", "1234", "Вклады", "2124715" ]
+}

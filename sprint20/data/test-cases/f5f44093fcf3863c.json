@@ -1,0 +1,48 @@
+{
+  "uid" : "f5f44093fcf3863c",
+  "name" : "Ошибка при входе по логину/паролю - верный логин, но неверный пароль",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по логину/паролю - верный логин, но неверный пароль",
+  "historyId" : "29815e3d6ba2b623cd743ac58535c50f",
+  "time" : {
+    "start" : 1605635250248,
+    "stop" : 1605635250248,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по логину/паролю - верный логин, но неверный пароль"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5f44093fcf3863c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "7e5fd962c01f9a94",
+  "name" : "Активация карты должна проходить успешно",
+  "fullName" : "Активация карты - интеграционные тесты.Активация карты должна проходить успешно",
+  "historyId" : "31cc5e83c8b1c61076a2a45ec68ce85f",
+  "time" : {
+    "start" : 1605637377374,
+    "stop" : 1605637377374,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Активация карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Активация карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Активация карты должна проходить успешно"
+  }, {
+    "name" : "package",
+    "value" : "Активация карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e5fd962c01f9a94.json",
+  "parameterValues" : [ ]
+}

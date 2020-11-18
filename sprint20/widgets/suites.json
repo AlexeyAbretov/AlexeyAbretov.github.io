@@ -1,0 +1,114 @@
+{
+  "total" : 47,
+  "items" : [ {
+    "uid" : "e348cdf0dc2d9ffb7e6072c8ea9518aa",
+    "name" : "Переводы между своими счетами - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0fa413f20996d29bb98ff4b3e6bc7d4a",
+    "name" : "Переводы в другой банк физическим лицам - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7d141841e138831f7b701dca5d2833a1",
+    "name" : "Переводы в другой банк организациям - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "3dc88756a38e89e4e3656eb5f2fe441a",
+    "name" : "Бонусная система рыбки - баланс - интеграционные тесты",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "86c808b337054b75b5dafde90a6ba692",
+    "name" : "Витрина карт",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "dcd38eaef0890deb7519f9006c76b1b3",
+    "name" : "LimitsForm integration tests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c4f0aba7ce5618f05c6e0e8ef68eb225",
+    "name" : "Открытие вклада Рустащий процент - интеграционные тесты",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "4fbc51ab87c9c9966d38e31bb6057750",
+    "name" : "Платеж и общая задолженность - интеграционные тесты",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b2d09044ec4e3264b9b776aab90cc73a",
+    "name" : "Интеграционные тесты входа в приложение только для Firefox",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "43b349b260bfa7abc7f74c695b9a28d2",
+    "name" : "Интеграционные тесты входа в приложение",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 6,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 22
+    }
+  } ]
+}

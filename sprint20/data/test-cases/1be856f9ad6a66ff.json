@@ -1,0 +1,48 @@
+{
+  "uid" : "1be856f9ad6a66ff",
+  "name" : "Закрытие вклада должно отрабатываться корректно",
+  "fullName" : "Закрытие вклада - интеграционные тесты.Закрытие вклада должно отрабатываться корректно",
+  "historyId" : "d7456ad4d581617deaebfb5d4a4b12a5",
+  "time" : {
+    "start" : 1605637377168,
+    "stop" : 1605637377168,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Закрытие вклада должно отрабатываться корректно"
+  }, {
+    "name" : "package",
+    "value" : "Закрытие вклада - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1be856f9ad6a66ff.json",
+  "parameterValues" : [ ]
+}

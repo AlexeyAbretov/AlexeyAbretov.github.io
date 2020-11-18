@@ -1,0 +1,139 @@
+{
+  "uid" : "997c294bf3f1aae8",
+  "name" : "Баланс должен упешно отобразиться",
+  "fullName" : "Бонусная система рыбки - баланс - интеграционные тесты.Баланс должен упешно отобразиться",
+  "historyId" : "b7670a9a053599d672e756179ba7153c",
+  "time" : {
+    "start" : 1605637601701,
+    "stop" : 1605637632736,
+    "duration" : 31035
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"bonus-system-balance\"])\n                Wait timed out after 20059ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"bonus-system-balance\"])\n                Wait timed out after 20059ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"bonus-system-balance\"])\n                Wait timed out after 20059ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-testid=\"bonus-system-balance\"])\n                Wait timed out after 20059ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605637605498,
+        "stop" : 1605637612137,
+        "duration" : 6639
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605637605498,
+          "stop" : 1605637607737,
+          "duration" : 2239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e97547d37f0a621e",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "e97547d37f0a621e.png",
+          "type" : "image/png",
+          "size" : 2255145
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605637607737,
+          "stop" : 1605637612137,
+          "duration" : 4400
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "12c872a4b8561b6d",
+          "name" : "Подтверждение учетных данных",
+          "source" : "12c872a4b8561b6d.png",
+          "type" : "image/png",
+          "size" : 2337362
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "47bceb37594cc490",
+      "name" : "Результат теста",
+      "source" : "47bceb37594cc490.png",
+      "type" : "image/png",
+      "size" : 357063
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Бонусная система рыбки - баланс - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Бонусная система рыбки - баланс - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Баланс должен упешно отобразиться"
+  }, {
+    "name" : "package",
+    "value" : "Бонусная система рыбки - баланс - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "136383-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "997c294bf3f1aae8.json",
+  "parameterValues" : [ "136383-1", "1234", "Basic", "1234" ]
+}

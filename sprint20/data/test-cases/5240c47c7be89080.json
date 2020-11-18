@@ -1,0 +1,116 @@
+{
+  "uid" : "5240c47c7be89080",
+  "name" : "Успешный вход по продукту через карту/телефон",
+  "fullName" : "Интеграционные тесты входа в приложение.Успешный вход по продукту через карту/телефон",
+  "historyId" : "c56f34d71fa973fc008e9d30009f7e62",
+  "time" : {
+    "start" : 1605635178901,
+    "stop" : 1605635202070,
+    "duration" : 23169
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605635182625,
+        "stop" : 1605635197573,
+        "duration" : 14948
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605635184970,
+          "stop" : 1605635197573,
+          "duration" : 12603
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cdf663797ca88757",
+          "name" : "Подтверждение учетных данных",
+          "source" : "cdf663797ca88757.png",
+          "type" : "image/png",
+          "size" : 2326671
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c2233443036361e5",
+        "name" : "Заполнение учетных данных при входе через продукт",
+        "source" : "c2233443036361e5.png",
+        "type" : "image/png",
+        "size" : 2261642
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "46b368543ae67f35",
+      "name" : "Результат теста",
+      "source" : "46b368543ae67f35.png",
+      "type" : "image/png",
+      "size" : 397672
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Успешный вход по продукту через карту/телефон"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5521409990176234"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "9266329877"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Product"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5240c47c7be89080.json",
+  "parameterValues" : [ "5521409990176234", "9266329877", "Product", "1234" ]
+}

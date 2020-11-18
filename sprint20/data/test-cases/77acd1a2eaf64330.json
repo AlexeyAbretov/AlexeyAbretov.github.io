@@ -1,0 +1,104 @@
+{
+  "uid" : "77acd1a2eaf64330",
+  "name" : "Ошибка при входе по логину/паролю - неверный логин, но верный пароль",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по логину/паролю - неверный логин, но верный пароль",
+  "historyId" : "134e87655365f02147019d0b709a0435",
+  "time" : {
+    "start" : 1605635242582,
+    "stop" : 1605635250248,
+    "duration" : 7666
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод учетных данных",
+      "time" : {
+        "start" : 1605635245050,
+        "stop" : 1605635247305,
+        "duration" : 2255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3048a1a33b8603f",
+        "name" : "Заполнение учетных данных при входе по логину/паролю",
+        "source" : "a3048a1a33b8603f.png",
+        "type" : "image/png",
+        "size" : 2251359
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1605635247305,
+        "stop" : 1605635248997,
+        "duration" : 1692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdff79b6bcc31427",
+        "name" : "Сообщение об операции",
+        "source" : "fdff79b6bcc31427.png",
+        "type" : "image/png",
+        "size" : 2253283
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "db9b9885e4df719c",
+      "name" : "Результат теста",
+      "source" : "db9b9885e4df719c.png",
+      "type" : "image/png",
+      "size" : 2232825
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по логину/паролю - неверный логин, но верный пароль"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77acd1a2eaf64330.json",
+  "parameterValues" : [ ]
+}

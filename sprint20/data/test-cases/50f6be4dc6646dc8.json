@@ -1,0 +1,131 @@
+{
+  "uid" : "50f6be4dc6646dc8",
+  "name" : "Проверка доступности страницы карты при переходе по прямой ссылке на карту с ошибкой проверки дубликатов",
+  "fullName" : "Витрина карт Обработка ошибки проверки дубликатов.Проверка доступности страницы карты при переходе по прямой ссылке на карту с ошибкой проверки дубликатов",
+  "historyId" : "677b65e9e9d4c558faca75b43efcedf3",
+  "time" : {
+    "start" : 1605636909884,
+    "stop" : 1605636926874,
+    "duration" : 16990
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605636913848,
+        "stop" : 1605636919694,
+        "duration" : 5846
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605636913848,
+          "stop" : 1605636916098,
+          "duration" : 2250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "de0da988e07037d2",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "de0da988e07037d2.png",
+          "type" : "image/png",
+          "size" : 2255706
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605636916098,
+          "stop" : 1605636919694,
+          "duration" : 3596
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "221cb1adab0714f1",
+          "name" : "Подтверждение учетных данных",
+          "source" : "221cb1adab0714f1.png",
+          "type" : "image/png",
+          "size" : 2337099
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "edc83d906f5ffd1d",
+      "name" : "Результат теста",
+      "source" : "edc83d906f5ffd1d.png",
+      "type" : "image/png",
+      "size" : 350331
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт Обработка ошибки проверки дубликатов"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт Обработка ошибки проверки дубликатов"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверка доступности страницы карты при переходе по прямой ссылке на карту с ошибкой проверки дубликатов"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт Обработка ошибки проверки дубликатов"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-E05ZM-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50f6be4dc6646dc8.json",
+  "parameterValues" : [ "5-E05ZM-4", "1234", "Basic", "1234" ]
+}

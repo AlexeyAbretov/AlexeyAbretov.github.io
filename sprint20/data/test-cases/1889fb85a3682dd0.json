@@ -1,0 +1,206 @@
+{
+  "uid" : "1889fb85a3682dd0",
+  "name" : "Форма должна работать корректно",
+  "fullName" : "Страница пополения кредитной карты - интеграционные тесты.Форма должна работать корректно",
+  "historyId" : "bb3798a88ace0f6d47ab55ca7c65a384",
+  "time" : {
+    "start" : 1605637348774,
+    "stop" : 1605637376009,
+    "duration" : 27235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1605637352280,
+        "stop" : 1605637358127,
+        "duration" : 5847
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1605637352281,
+          "stop" : 1605637354515,
+          "duration" : 2234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4027f9812b221105",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "4027f9812b221105.png",
+          "type" : "image/png",
+          "size" : 2254821
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1605637354515,
+          "stop" : 1605637358127,
+          "duration" : 3612
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fafe5144d48ab1a7",
+          "name" : "Подтверждение учетных данных",
+          "source" : "fafe5144d48ab1a7.png",
+          "type" : "image/png",
+          "size" : 2336648
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1605637358127,
+        "stop" : 1605637370746,
+        "duration" : 12619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc381d6b88bac595",
+        "name" : "Переход на страницу продукта",
+        "source" : "bc381d6b88bac595.png",
+        "type" : "image/png",
+        "size" : 446312
+      }, {
+        "uid" : "166463b1bc8ce790",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "166463b1bc8ce790.png",
+        "type" : "image/png",
+        "size" : 579691
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу пополнения продукта",
+      "time" : {
+        "start" : 1605637370746,
+        "stop" : 1605637374616,
+        "duration" : 3870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adf3eeb3eeb8ebe2",
+        "name" : "Страница пополнения продукта",
+        "source" : "adf3eeb3eeb8ebe2.png",
+        "type" : "image/png",
+        "size" : 208787
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка полей и рассчета комиссии",
+      "time" : {
+        "start" : 1605637374929,
+        "stop" : 1605637375504,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f52af266b00b8ec",
+        "name" : "Поля работают корректно",
+        "source" : "7f52af266b00b8ec.png",
+        "type" : "image/png",
+        "size" : 209004
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7c81772bb3d4d458",
+      "name" : "Результат теста",
+      "source" : "7c81772bb3d4d458.png",
+      "type" : "image/png",
+      "size" : 209000
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Страница пополения кредитной карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Страница пополения кредитной карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Форма должна работать корректно"
+  }, {
+    "name" : "package",
+    "value" : "Страница пополения кредитной карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "000020-6"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "1711561"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1889fb85a3682dd0.json",
+  "parameterValues" : [ "000020-6", "1234", "Basic", "1234", "Карты", "1711561" ]
+}
