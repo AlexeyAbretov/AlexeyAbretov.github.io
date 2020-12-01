@@ -1,0 +1,158 @@
+{
+  "uid" : "1f12b3cecc3f322d",
+  "name" : "Должен отображаться маркер нотификации возле раздела профиля Персональные сведения",
+  "fullName" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера.Должен отображаться маркер нотификации возле раздела профиля Персональные сведения",
+  "historyId" : "2f8c1f8da3507334fd318e6a81c1eeed",
+  "time" : {
+    "start" : 1606835745235,
+    "stop" : 1606835763494,
+    "duration" : 18259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835747971,
+        "stop" : 1606835754043,
+        "duration" : 6072
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835747971,
+          "stop" : 1606835750380,
+          "duration" : 2409
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7db6d00876414f6b",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "7db6d00876414f6b.png",
+          "type" : "image/png",
+          "size" : 2250113
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835750380,
+          "stop" : 1606835754042,
+          "duration" : 3662
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6ed8b6a578a0e62a",
+          "name" : "Подтверждение учетных данных",
+          "source" : "6ed8b6a578a0e62a.png",
+          "type" : "image/png",
+          "size" : 2277420
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1606835754043,
+        "stop" : 1606835762955,
+        "duration" : 8912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e65bead016d9f7b",
+        "name" : "Меню перехода в профиль",
+        "source" : "3e65bead016d9f7b.png",
+        "type" : "image/png",
+        "size" : 437735
+      }, {
+        "uid" : "de3208f59edeb4e4",
+        "name" : "Результат перехода",
+        "source" : "de3208f59edeb4e4.png",
+        "type" : "image/png",
+        "size" : 213420
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4b0db586a229dca7",
+      "name" : "Результат теста",
+      "source" : "4b0db586a229dca7.png",
+      "type" : "image/png",
+      "size" : 213660
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должен отображаться маркер нотификации возле раздела профиля Персональные сведения"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-WGKFBNA-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f12b3cecc3f322d.json",
+  "parameterValues" : [ "2-WGKFBNA-4", "1234", "Basic", "1234" ]
+}

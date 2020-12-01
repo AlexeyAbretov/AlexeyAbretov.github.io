@@ -1,0 +1,131 @@
+{
+  "uid" : "edbb27f847f7484",
+  "name" : "Успешный вход по логину/паролю",
+  "fullName" : "Интеграционные тесты входа в приложение.Успешный вход по логину/паролю",
+  "historyId" : "6e83de28a9f591534a6e8a5792af58af",
+  "time" : {
+    "start" : 1606835387225,
+    "stop" : 1606835399447,
+    "duration" : 12222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835390164,
+        "stop" : 1606835396894,
+        "duration" : 6730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835390164,
+          "stop" : 1606835392285,
+          "duration" : 2121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b5fc038d364d9a04",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "b5fc038d364d9a04.png",
+          "type" : "image/png",
+          "size" : 2249457
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835392285,
+          "stop" : 1606835396894,
+          "duration" : 4609
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "723eca1e3f8c19bd",
+          "name" : "Подтверждение учетных данных",
+          "source" : "723eca1e3f8c19bd.png",
+          "type" : "image/png",
+          "size" : 2277268
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3a2a9fbe42a4fd3c",
+      "name" : "Результат теста",
+      "source" : "3a2a9fbe42a4fd3c.png",
+      "type" : "image/png",
+      "size" : 359316
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Успешный вход по логину/паролю"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-1GJ67KS-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edbb27f847f7484.json",
+  "parameterValues" : [ "2-1GJ67KS-4", "1234", "Basic", "1234" ]
+}

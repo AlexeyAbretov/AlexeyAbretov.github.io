@@ -1,0 +1,230 @@
+{
+  "uid" : "31a4f138626d5948",
+  "name" : "Включение уведомлений должно работать корректно",
+  "fullName" : "Изменение настроек уведомлений - интеграционные тесты.Включение уведомлений должно работать корректно",
+  "historyId" : "b36168ab682d0d4dbadafa0b662affaf",
+  "time" : {
+    "start" : 1606835544824,
+    "stop" : 1606835630226,
+    "duration" : 85402
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835547551,
+        "stop" : 1606835610067,
+        "duration" : 62516
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835547551,
+          "stop" : 1606835549866,
+          "duration" : 2315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f57ee011cd3bebf9",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "f57ee011cd3bebf9.png",
+          "type" : "image/png",
+          "size" : 2248673
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835549866,
+          "stop" : 1606835610067,
+          "duration" : 60201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606835610067,
+        "stop" : 1606835617779,
+        "duration" : 7712
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c861247ce598d136",
+        "name" : "Переход на страницу продукта",
+        "source" : "c861247ce598d136.png",
+        "type" : "image/png",
+        "size" : 596502
+      }, {
+        "uid" : "2d7234605854e836",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "2d7234605854e836.png",
+        "type" : "image/png",
+        "size" : 599011
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606835617779,
+        "stop" : 1606835620764,
+        "duration" : 2985
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71baa18d18424eef",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "71baa18d18424eef.png",
+        "type" : "image/png",
+        "size" : 614463
+      }, {
+        "uid" : "f415d5f759a1bfa8",
+        "name" : "Переход на форму ",
+        "source" : "f415d5f759a1bfa8.png",
+        "type" : "image/png",
+        "size" : 604748
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение изменения настроек",
+      "time" : {
+        "start" : 1606835620858,
+        "stop" : 1606835623396,
+        "duration" : 2538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8a8caae9e4244dd",
+        "name" : "Подтверждение изменения настроек",
+        "source" : "b8a8caae9e4244dd.png",
+        "type" : "image/png",
+        "size" : 550219
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1606835623396,
+        "stop" : 1606835629595,
+        "duration" : 6199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d95deee06616bb7c",
+        "name" : "Сообщение об операции",
+        "source" : "d95deee06616bb7c.png",
+        "type" : "image/png",
+        "size" : 634974
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b77ceb9e51b1250d",
+      "name" : "Результат теста",
+      "source" : "b77ceb9e51b1250d.png",
+      "type" : "image/png",
+      "size" : 634974
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Изменение настроек уведомлений - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Изменение настроек уведомлений - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Включение уведомлений должно работать корректно"
+  }, {
+    "name" : "package",
+    "value" : "Изменение настроек уведомлений - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-DA1MP-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "134004"
+  }, {
+    "name" : "Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31a4f138626d5948.json",
+  "parameterValues" : [ "5-DA1MP-4", "1234", "Basic", "1234", "Карты", "134004", "1234" ]
+}

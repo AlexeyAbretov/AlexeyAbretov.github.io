@@ -1,0 +1,48 @@
+{
+  "uid" : "d76204aca8c24e70",
+  "name" : "Ошибка при входе по продукту - блокировка при превышении попыток ввода неверного кода подтверждения",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - блокировка при превышении попыток ввода неверного кода подтверждения",
+  "historyId" : "8b33f1f8410c06d813cda8c839ddaa43",
+  "time" : {
+    "start" : 1606835544342,
+    "stop" : 1606835544342,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - блокировка при превышении попыток ввода неверного кода подтверждения"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d76204aca8c24e70.json",
+  "parameterValues" : [ ]
+}

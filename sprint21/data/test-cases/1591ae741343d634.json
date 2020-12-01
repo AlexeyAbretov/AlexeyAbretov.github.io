@@ -1,0 +1,62 @@
+{
+  "uid" : "1591ae741343d634",
+  "name" : "Ошибка при входе по продукту - без продукта",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - без продукта",
+  "historyId" : "ea46eca0c799bc2dbe7e25c51fa9f9e",
+  "time" : {
+    "start" : 1606835486714,
+    "stop" : 1606835495028,
+    "duration" : 8314
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b06574af49168669",
+      "name" : "Заполнение учетных данных при входе через продукт",
+      "source" : "b06574af49168669.png",
+      "type" : "image/png",
+      "size" : 2253246
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - без продукта"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1591ae741343d634.json",
+  "parameterValues" : [ ]
+}

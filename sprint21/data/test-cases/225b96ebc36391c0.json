@@ -1,0 +1,239 @@
+{
+  "uid" : "225b96ebc36391c0",
+  "name" : "Открытие накопительного счета в долларах с 0 долларов",
+  "fullName" : "Открытие накопительного счета - интеграционные тесты.Открытие накопительного счета в долларах с 0 долларов",
+  "historyId" : "4694b8e2c8c57899f861798c0f0885eb",
+  "time" : {
+    "start" : 1606834617682,
+    "stop" : 1606834645997,
+    "duration" : 28315
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на форму открытия Накопительный%20счет по прямой ссылке",
+      "time" : {
+        "start" : 1606834620448,
+        "stop" : 1606834633326,
+        "duration" : 12878
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1606834620449,
+          "stop" : 1606834627380,
+          "duration" : 6931
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1606834620449,
+            "stop" : 1606834622911,
+            "duration" : 2462
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "79ad0978ebd31534",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "79ad0978ebd31534.png",
+            "type" : "image/png",
+            "size" : 2248738
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1606834622911,
+            "stop" : 1606834627380,
+            "duration" : 4469
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2bfceff41ae658cf",
+            "name" : "Подтверждение учетных данных",
+            "source" : "2bfceff41ae658cf.png",
+            "type" : "image/png",
+            "size" : 2278065
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "29dcb9d64c67cd11",
+        "name" : "Результат перехода форму открытия вклада Накопительный%20счет по прямой ссылке",
+        "source" : "29dcb9d64c67cd11.png",
+        "type" : "image/png",
+        "size" : 192346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы",
+      "time" : {
+        "start" : 1606834633326,
+        "stop" : 1606834638055,
+        "duration" : 4729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "766415f98dc984b1",
+        "name" : "Заполнение формы - 1",
+        "source" : "766415f98dc984b1.png",
+        "type" : "image/png",
+        "size" : 215577
+      }, {
+        "uid" : "8283ba984c345342",
+        "name" : "Заполнение формы - 2",
+        "source" : "8283ba984c345342.png",
+        "type" : "image/png",
+        "size" : 177556
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие вклада",
+      "time" : {
+        "start" : 1606834638055,
+        "stop" : 1606834640925,
+        "duration" : 2870
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606834639304,
+          "stop" : 1606834640925,
+          "duration" : 1621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92bc05a6a8bdf5d4",
+          "name" : "Подтверждение открытия",
+          "source" : "92bc05a6a8bdf5d4.png",
+          "type" : "image/png",
+          "size" : 129255
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "1c1ecea3f51a010d",
+        "name" : "Открытие вклада - нажатие кнопки",
+        "source" : "1c1ecea3f51a010d.png",
+        "type" : "image/png",
+        "size" : 127714
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "591d820cf8ae0a93",
+      "name" : "Результат теста",
+      "source" : "591d820cf8ae0a93.png",
+      "type" : "image/png",
+      "size" : 121215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Открытие накопительного счета в долларах с 0 долларов"
+  }, {
+    "name" : "package",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-1ULEJMV-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Валюта",
+    "value" : "USD"
+  }, {
+    "name" : "Ввод кода подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Название вклада",
+    "value" : "Накопительный%20счет"
+  }, {
+    "name" : "Перечисление процентов",
+    "value" : "На вклад"
+  }, {
+    "name" : "Сумма",
+    "value" : "0"
+  }, {
+    "name" : "Филиал",
+    "value" : "АО ОТП Банк"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "225b96ebc36391c0.json",
+  "parameterValues" : [ "2-1ULEJMV-4", "1234", "Basic", "1234", "USD", "1234", "Накопительный%20счет", "На вклад", "0", "АО ОТП Банк" ]
+}

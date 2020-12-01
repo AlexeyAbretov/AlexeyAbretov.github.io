@@ -1,0 +1,259 @@
+{
+  "uid" : "b8a92ccb6d6cab61",
+  "name" : "Пользователю отображается список вкладов на основе выбранного срока",
+  "fullName" : "Депозиты - Калькулятор - интеграционные тесты.Пользователю отображается список вкладов на основе выбранного срока",
+  "historyId" : "a597266a4cc4402893858f1f1489b9c7",
+  "time" : {
+    "start" : 1606834976496,
+    "stop" : 1606835002149,
+    "duration" : 25653
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 0\n                + Received  + 5\n                \n                  Array [\n                +   \"deposit-type-Максимальный\",\n                +   \"deposit-type-Проценты сразу\",\n                +   \"deposit-type-Проценты сразу\\\" (лесенка)\",\n                +   \"deposit-type-СВОБОДНЫЙ PREMIUM\",\n                +   \"deposit-type-СВОБОДНЫЙ PRIVATE\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PREMIUM\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PRIVATE\",\n                  ]",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 0\n                + Received  + 5\n                \n                  Array [\n                +   \"deposit-type-Максимальный\",\n                +   \"deposit-type-Проценты сразу\",\n                +   \"deposit-type-Проценты сразу\\\" (лесенка)\",\n                +   \"deposit-type-СВОБОДНЫЙ PREMIUM\",\n                +   \"deposit-type-СВОБОДНЫЙ PRIVATE\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PREMIUM\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PRIVATE\",\n                  ]\n                    at _callee4$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/forms/DepositCalculationForm/__tests__/DepositCalculationForm.ispec.js:167:24)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 0\n                + Received  + 5\n                \n                  Array [\n                +   \"deposit-type-Максимальный\",\n                +   \"deposit-type-Проценты сразу\",\n                +   \"deposit-type-Проценты сразу\\\" (лесенка)\",\n                +   \"deposit-type-СВОБОДНЫЙ PREMIUM\",\n                +   \"deposit-type-СВОБОДНЫЙ PRIVATE\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PREMIUM\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PRIVATE\",\n                  ]",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 0\n                + Received  + 5\n                \n                  Array [\n                +   \"deposit-type-Максимальный\",\n                +   \"deposit-type-Проценты сразу\",\n                +   \"deposit-type-Проценты сразу\\\" (лесенка)\",\n                +   \"deposit-type-СВОБОДНЫЙ PREMIUM\",\n                +   \"deposit-type-СВОБОДНЫЙ PRIVATE\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PREMIUM\",\n                    \"deposit-type-СТАБИЛЬНЫЙ PRIVATE\",\n                  ]\n                    at _callee4$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/forms/DepositCalculationForm/__tests__/DepositCalculationForm.ispec.js:167:24)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Переход на форму депозитного калькулятора по прямой ссылке",
+      "time" : {
+        "start" : 1606834979323,
+        "stop" : 1606834990485,
+        "duration" : 11162
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1606834979323,
+          "stop" : 1606834986733,
+          "duration" : 7410
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1606834979323,
+            "stop" : 1606834981769,
+            "duration" : 2446
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "807073a74677b39d",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "807073a74677b39d.png",
+            "type" : "image/png",
+            "size" : 2248633
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1606834981769,
+            "stop" : 1606834986733,
+            "duration" : 4964
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2a832733a6aca204",
+            "name" : "Подтверждение учетных данных",
+            "source" : "2a832733a6aca204.png",
+            "type" : "image/png",
+            "size" : 2278026
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9da924cc22707e40",
+        "name" : "Результат перехода на форму депозитного калькулятора",
+        "source" : "9da924cc22707e40.png",
+        "type" : "image/png",
+        "size" : 412619
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка списка депозитов - валюта RUB",
+      "time" : {
+        "start" : 1606834990485,
+        "stop" : 0,
+        "duration" : -1606834990485
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Проверка списка депозитов - период 91 день",
+        "time" : {
+          "start" : 1606834990485,
+          "stop" : 1606834993464,
+          "duration" : 2979
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4777a02a7cf7e657",
+          "name" : "Результат - список депозитов - период 91 день",
+          "source" : "4777a02a7cf7e657.png",
+          "type" : "image/png",
+          "size" : 271318
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 181 день",
+        "time" : {
+          "start" : 1606834993464,
+          "stop" : 1606834996169,
+          "duration" : 2705
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f571df485b7f8c74",
+          "name" : "Результат - список депозитов - период 181 день",
+          "source" : "f571df485b7f8c74.png",
+          "type" : "image/png",
+          "size" : 402675
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 366 дней",
+        "time" : {
+          "start" : 1606834996169,
+          "stop" : 1606834998842,
+          "duration" : 2673
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e01b01d066ee9bc1",
+          "name" : "Результат - список депозитов - период 366 дней",
+          "source" : "e01b01d066ee9bc1.png",
+          "type" : "image/png",
+          "size" : 272883
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка списка депозитов - период 549 дней",
+        "time" : {
+          "start" : 1606834998842,
+          "stop" : 1606835001614,
+          "duration" : 2772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ff9e289bdcaacf1f",
+          "name" : "Результат - список депозитов - период 549 дней",
+          "source" : "ff9e289bdcaacf1f.png",
+          "type" : "image/png",
+          "size" : 414151
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d883940ae7f6db07",
+        "name" : "Результат теста",
+        "source" : "d883940ae7f6db07.png",
+        "type" : "image/png",
+        "size" : 414151
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Пользователю отображается список вкладов на основе выбранного срока"
+  }, {
+    "name" : "package",
+    "value" : "Депозиты - Калькулятор - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "39219928499-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b8a92ccb6d6cab61.json",
+  "parameterValues" : [ "39219928499-1", "1234", "Basic", "1234" ]
+}

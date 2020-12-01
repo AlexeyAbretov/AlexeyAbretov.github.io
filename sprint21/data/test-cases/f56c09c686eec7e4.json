@@ -1,0 +1,257 @@
+{
+  "uid" : "f56c09c686eec7e4",
+  "name" : "Установка ПИН-кода должна работать корректно",
+  "fullName" : "Установка ПИН-кода - интеграционные тесты.Установка ПИН-кода должна работать корректно",
+  "historyId" : "bfcb70498d2f259ace7f4b6f56dc13cb",
+  "time" : {
+    "start" : 1606836652933,
+    "stop" : 1606836678753,
+    "duration" : 25820
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606836655681,
+        "stop" : 1606836662616,
+        "duration" : 6935
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606836655682,
+          "stop" : 1606836658076,
+          "duration" : 2394
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fb6712d3986945a",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "fb6712d3986945a.png",
+          "type" : "image/png",
+          "size" : 2248158
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606836658077,
+          "stop" : 1606836662616,
+          "duration" : 4539
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3e0479eaad9ec80a",
+          "name" : "Подтверждение учетных данных",
+          "source" : "3e0479eaad9ec80a.png",
+          "type" : "image/png",
+          "size" : 2278323
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606836662616,
+        "stop" : 1606836671887,
+        "duration" : 9271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4db912eb0b5fa1e9",
+        "name" : "Переход на страницу продукта",
+        "source" : "4db912eb0b5fa1e9.png",
+        "type" : "image/png",
+        "size" : 360735
+      }, {
+        "uid" : "bdaabebead4f4bc0",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "bdaabebead4f4bc0.png",
+        "type" : "image/png",
+        "size" : 434353
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606836671887,
+        "stop" : 1606836674971,
+        "duration" : 3084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c672288e885e5a8",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "6c672288e885e5a8.png",
+        "type" : "image/png",
+        "size" : 452225
+      }, {
+        "uid" : "78e424f81e979628",
+        "name" : "Переход на форму ",
+        "source" : "78e424f81e979628.png",
+        "type" : "image/png",
+        "size" : 468381
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод пинкода: 1488",
+      "time" : {
+        "start" : 1606836674971,
+        "stop" : 1606836675652,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db114afec51bdfd9",
+        "name" : "Результат ввода пинкода",
+        "source" : "db114afec51bdfd9.png",
+        "type" : "image/png",
+        "size" : 459724
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод пинкода: 1488",
+      "time" : {
+        "start" : 1606836675652,
+        "stop" : 1606836676329,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72400b6074f6b7d0",
+        "name" : "Результат ввода пинкода",
+        "source" : "72400b6074f6b7d0.png",
+        "type" : "image/png",
+        "size" : 460331
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение установки ПИН-кода",
+      "time" : {
+        "start" : 1606836676329,
+        "stop" : 1606836678086,
+        "duration" : 1757
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73919dcbdd601ac1",
+        "name" : "Подтверждение установки ПИН-кода",
+        "source" : "73919dcbdd601ac1.png",
+        "type" : "image/png",
+        "size" : 466515
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bc26cfc33fd8d061",
+      "name" : "Результат теста",
+      "source" : "bc26cfc33fd8d061.png",
+      "type" : "image/png",
+      "size" : 487711
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Установка ПИН-кода - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Установка ПИН-кода - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Установка ПИН-кода должна работать корректно"
+  }, {
+    "name" : "package",
+    "value" : "Установка ПИН-кода - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "1-41632-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "5. Код подтверждения установки ПИН-кода",
+    "value" : "1234"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "15646"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f56c09c686eec7e4.json",
+  "parameterValues" : [ "1-41632-4", "1234", "Basic", "1234", "Карты", "1234", "15646" ]
+}

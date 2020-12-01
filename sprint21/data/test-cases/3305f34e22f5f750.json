@@ -1,0 +1,151 @@
+{
+  "uid" : "3305f34e22f5f750",
+  "name" : "Перевод В другой банк - Бюджетным организациям должен выполнится успешно",
+  "fullName" : "Переводы в другой банк в бюджет - интеграционные тесты.Перевод В другой банк - Бюджетным организациям должен выполнится успешно",
+  "historyId" : "f9f2d1b110408b275d89609da49218f0",
+  "time" : {
+    "start" : 1606834030628,
+    "stop" : 1606834057248,
+    "duration" : 26620
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"toPayments\"])\n                Wait timed out after 20090ms",
+  "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"toPayments\"])\n                Wait timed out after 20090ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"toPayments\"])\n                Wait timed out after 20090ms",
+    "statusTrace" : "TimeoutError: Waiting for element to be located By(css selector, [data-id=\"toPayments\"])\n                Wait timed out after 20090ms\n                    at /Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606834033567,
+        "stop" : 1606834035858,
+        "duration" : 2291
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606834033567,
+          "stop" : 1606834035858,
+          "duration" : 2291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a1e7b49d8ca505bc",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "a1e7b49d8ca505bc.png",
+          "type" : "image/png",
+          "size" : 2254061
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1606834035858,
+        "stop" : 0,
+        "duration" : -1606834035858
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1606834035858,
+          "stop" : 1606834055949,
+          "duration" : 20091
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f617efce35656557",
+        "name" : "Результат теста",
+        "source" : "f617efce35656557.png",
+        "type" : "image/png",
+        "size" : 2274601
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы в другой банк в бюджет - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы в другой банк в бюджет - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Перевод В другой банк - Бюджетным организациям должен выполнится успешно"
+  }, {
+    "name" : "package",
+    "value" : "Переводы в другой банк в бюджет - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-FFMEDF-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_internalBank"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-Бюджетным организациям"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3305f34e22f5f750.json",
+  "parameterValues" : [ "2-FFMEDF-4", "1234", "Basic", "transfer_internalBank", "tab-menu-Бюджетным организациям" ]
+}

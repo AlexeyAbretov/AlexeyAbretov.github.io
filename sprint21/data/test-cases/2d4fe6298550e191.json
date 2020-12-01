@@ -1,0 +1,193 @@
+{
+  "uid" : "2d4fe6298550e191",
+  "name" : "Временная блокировка карты должна пройти успешно",
+  "fullName" : "Блокировка карты временная - интеграционные тесты.Временная блокировка карты должна пройти успешно",
+  "historyId" : "fe4f2fbd34483e1497486ace2f07dc90",
+  "time" : {
+    "start" : 1606836317026,
+    "stop" : 1606836338453,
+    "duration" : 21427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee3$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/__tests__/Products/Products.steps.js:201:8)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee3$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/__tests__/Products/Products.steps.js:201:8)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606836319711,
+        "stop" : 1606836326667,
+        "duration" : 6956
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606836319711,
+          "stop" : 1606836322039,
+          "duration" : 2328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5858531f5725db4d",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "5858531f5725db4d.png",
+          "type" : "image/png",
+          "size" : 2251789
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606836322040,
+          "stop" : 1606836326666,
+          "duration" : 4626
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "395cbfda6b08e884",
+          "name" : "Подтверждение учетных данных",
+          "source" : "395cbfda6b08e884.png",
+          "type" : "image/png",
+          "size" : 2277435
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606836326667,
+        "stop" : 1606836337071,
+        "duration" : 10404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fee5e3fa5f77f705",
+        "name" : "Переход на страницу продукта",
+        "source" : "fee5e3fa5f77f705.png",
+        "type" : "image/png",
+        "size" : 361495
+      }, {
+        "uid" : "c7c0fb7f261532df",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "c7c0fb7f261532df.png",
+        "type" : "image/png",
+        "size" : 382502
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606836337071,
+        "stop" : 0,
+        "duration" : -1606836337071
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62f1ad1d3734cae9",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "62f1ad1d3734cae9.png",
+        "type" : "image/png",
+        "size" : 416731
+      }, {
+        "uid" : "9852ceff7ea0825",
+        "name" : "Результат теста",
+        "source" : "9852ceff7ea0825.png",
+        "type" : "image/png",
+        "size" : 416731
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Временная блокировка карты должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Блокировка карты временная - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-3455RZ3-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "940462"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2d4fe6298550e191.json",
+  "parameterValues" : [ "2-3455RZ3-4", "1234", "Basic", "1234", "Карты", "940462" ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "3fd2bfe4e8804175",
+  "name" : "Ошибка при входе по логину/паролю - без пароля",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по логину/паролю - без пароля",
+  "historyId" : "bdc8a7f65f8cd62c8cbe388ae7ac337e",
+  "time" : {
+    "start" : 1606835461704,
+    "stop" : 1606835470070,
+    "duration" : 8366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод учетных данных",
+      "time" : {
+        "start" : 1606835464570,
+        "stop" : 1606835466771,
+        "duration" : 2201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8477517c366dd3",
+        "name" : "Заполнение учетных данных при входе по логину/паролю",
+        "source" : "e8477517c366dd3.png",
+        "type" : "image/png",
+        "size" : 2250593
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3ee9a95fc9bf69bc",
+      "name" : "Результат теста",
+      "source" : "3ee9a95fc9bf69bc.png",
+      "type" : "image/png",
+      "size" : 2250617
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по логину/паролю - без пароля"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fd2bfe4e8804175.json",
+  "parameterValues" : [ ]
+}

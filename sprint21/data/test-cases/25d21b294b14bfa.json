@@ -1,0 +1,131 @@
+{
+  "uid" : "25d21b294b14bfa",
+  "name" : "Проверка недоступности страницы карты при переходе по прямой ссылке на недоступную карту",
+  "fullName" : "Витрина карт.Проверка недоступности страницы карты при переходе по прямой ссылке на недоступную карту",
+  "historyId" : "95f0b3b34b5d8099bf9d195795fab85b",
+  "time" : {
+    "start" : 1606836401897,
+    "stop" : 1606836419165,
+    "duration" : 17268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606836404713,
+        "stop" : 1606836411551,
+        "duration" : 6838
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606836404713,
+          "stop" : 1606836406992,
+          "duration" : 2279
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "11325e8e29b977c1",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "11325e8e29b977c1.png",
+          "type" : "image/png",
+          "size" : 2253637
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606836406992,
+          "stop" : 1606836411551,
+          "duration" : 4559
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1c1cd427b3169024",
+          "name" : "Подтверждение учетных данных",
+          "source" : "1c1cd427b3169024.png",
+          "type" : "image/png",
+          "size" : 2278305
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "df4a242bf50b522e",
+      "name" : "Результат теста",
+      "source" : "df4a242bf50b522e.png",
+      "type" : "image/png",
+      "size" : 146165
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверка недоступности страницы карты при переходе по прямой ссылке на недоступную карту"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "136383-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25d21b294b14bfa.json",
+  "parameterValues" : [ "136383-1", "1234", "Basic", "1234" ]
+}

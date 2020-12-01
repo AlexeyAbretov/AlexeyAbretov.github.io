@@ -1,0 +1,410 @@
+{
+  "uid" : "d9e7ce71129bd002",
+  "name" : "texts should have correct values",
+  "fullName" : "NotificationsForm integration tests.texts should have correct values",
+  "historyId" : "7bf259aba85641226156f9fbd9ab63ca",
+  "time" : {
+    "start" : 1606835883582,
+    "stop" : 1606835923018,
+    "duration" : 39436
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835886607,
+        "stop" : 1606835892717,
+        "duration" : 6110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835886607,
+          "stop" : 1606835888897,
+          "duration" : 2290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "232d612724dbff9a",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "232d612724dbff9a.png",
+          "type" : "image/png",
+          "size" : 2254531
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835888897,
+          "stop" : 1606835892717,
+          "duration" : 3820
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "916f5638e61d4458",
+          "name" : "Подтверждение учетных данных",
+          "source" : "916f5638e61d4458.png",
+          "type" : "image/png",
+          "size" : 2278362
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1606835892718,
+        "stop" : 1606835899500,
+        "duration" : 6782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d27ef294f365b5a8",
+        "name" : "Меню перехода в профиль",
+        "source" : "d27ef294f365b5a8.png",
+        "type" : "image/png",
+        "size" : 390727
+      }, {
+        "uid" : "478e577817397eb3",
+        "name" : "Результат перехода",
+        "source" : "478e577817397eb3.png",
+        "type" : "image/png",
+        "size" : 212322
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на закладку профиля Уведомления - tab-menu-/profile/notifications",
+      "time" : {
+        "start" : 1606835899500,
+        "stop" : 1606835905777,
+        "duration" : 6277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e1f223713846ae",
+        "name" : "Результат перехода на закладку профиля",
+        "source" : "2e1f223713846ae.png",
+        "type" : "image/png",
+        "size" : 353993
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка заголовка раздела",
+      "time" : {
+        "start" : 1606835905777,
+        "stop" : 1606835906289,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e6699aa1f77c6eb",
+        "name" : "Результат проверки заголовка раздела",
+        "source" : "9e6699aa1f77c6eb.png",
+        "type" : "image/png",
+        "size" : 353993
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка текстов раздела Карт",
+      "time" : {
+        "start" : 1606835906289,
+        "stop" : 1606835907488,
+        "duration" : 1199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea553088e30c0f78",
+        "name" : "Результат проверки текстов раздела Карт",
+        "source" : "ea553088e30c0f78.png",
+        "type" : "image/png",
+        "size" : 420061
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка текстов раздела Вкладов",
+      "time" : {
+        "start" : 1606835907488,
+        "stop" : 1606835908394,
+        "duration" : 906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb1516823177124f",
+        "name" : "Результат проверки текстов раздела Вкладов",
+        "source" : "eb1516823177124f.png",
+        "type" : "image/png",
+        "size" : 256526
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка текстов раздела Счетов",
+      "time" : {
+        "start" : 1606835908394,
+        "stop" : 1606835909224,
+        "duration" : 830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbe8bb62e77457af",
+        "name" : "Результат проверки текстов раздела Счетов",
+        "source" : "bbe8bb62e77457af.png",
+        "type" : "image/png",
+        "size" : 264942
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на закладку профиля Персональные сведения - tab-menu-/profile/personal/",
+      "time" : {
+        "start" : 1606835909224,
+        "stop" : 1606835911868,
+        "duration" : 2644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61e7e1957da87c36",
+        "name" : "Результат перехода на закладку профиля",
+        "source" : "61e7e1957da87c36.png",
+        "type" : "image/png",
+        "size" : 232760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переключение языка приложения - EN",
+      "time" : {
+        "start" : 1606835912376,
+        "stop" : 1606835913974,
+        "duration" : 1598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a90487d50f09cc77",
+        "name" : "Результат переключения языка",
+        "source" : "a90487d50f09cc77.png",
+        "type" : "image/png",
+        "size" : 274741
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на закладку профиля Уведомления - tab-menu-/profile/notifications",
+      "time" : {
+        "start" : 1606835913974,
+        "stop" : 1606835919537,
+        "duration" : 5563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "25d9db3b08bc6578",
+        "name" : "Результат перехода на закладку профиля",
+        "source" : "25d9db3b08bc6578.png",
+        "type" : "image/png",
+        "size" : 334220
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка заголовка раздела",
+      "time" : {
+        "start" : 1606835919537,
+        "stop" : 1606835920035,
+        "duration" : 498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c05259aaace9bcc2",
+        "name" : "Результат проверки заголовка раздела",
+        "source" : "c05259aaace9bcc2.png",
+        "type" : "image/png",
+        "size" : 334220
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка текстов раздела Карт",
+      "time" : {
+        "start" : 1606835920035,
+        "stop" : 1606835920903,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a9389480849e278",
+        "name" : "Результат проверки текстов раздела Карт",
+        "source" : "2a9389480849e278.png",
+        "type" : "image/png",
+        "size" : 412200
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка текстов раздела Вкладов",
+      "time" : {
+        "start" : 1606835920903,
+        "stop" : 1606835921713,
+        "duration" : 810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b73609f348a5bb81",
+        "name" : "Результат проверки текстов раздела Вкладов",
+        "source" : "b73609f348a5bb81.png",
+        "type" : "image/png",
+        "size" : 263102
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка текстов раздела Счетов",
+      "time" : {
+        "start" : 1606835921713,
+        "stop" : 1606835922515,
+        "duration" : 802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f576d02db1f18d3",
+        "name" : "Результат проверки текстов раздела Счетов",
+        "source" : "7f576d02db1f18d3.png",
+        "type" : "image/png",
+        "size" : 271822
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6013f99930afea3f",
+      "name" : "Результат теста",
+      "source" : "6013f99930afea3f.png",
+      "type" : "image/png",
+      "size" : 271822
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "testClass",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "texts should have correct values"
+  }, {
+    "name" : "package",
+    "value" : "NotificationsForm integration tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-A44XM-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9e7ce71129bd002.json",
+  "parameterValues" : [ "5-A44XM-4", "1234", "Basic", "1234" ]
+}

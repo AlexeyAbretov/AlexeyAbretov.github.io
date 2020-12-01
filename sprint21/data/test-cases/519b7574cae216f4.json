@@ -1,0 +1,48 @@
+{
+  "uid" : "519b7574cae216f4",
+  "name" : "Разблокировка должна пройти успешно",
+  "fullName" : "Разблокировка карты - интеграционные тесты.Разблокировка должна пройти успешно",
+  "historyId" : "d4ef4f048a69b6e294e40c63f165297d",
+  "time" : {
+    "start" : 1606834949619,
+    "stop" : 1606834949620,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Разблокировка карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Разблокировка карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Разблокировка должна пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Разблокировка карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "519b7574cae216f4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "3001" ],
+  "name" : "REACT_APP_INTEGRATION_PROXY_PORT"
+}, {
+  "values" : [ "chrome" ],
+  "name" : "SELENIUM_BROWSER"
+}, {
+  "values" : [ "http://localhost:3000" ],
+  "name" : "REACT_APP_INTEGRATION_BASE_URL"
+}, {
+  "values" : [ "http://localhost" ],
+  "name" : "REACT_APP_INTEGRATION_PROXY_HOST"
+} ]

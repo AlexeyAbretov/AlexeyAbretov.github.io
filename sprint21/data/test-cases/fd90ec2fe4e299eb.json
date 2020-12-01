@@ -1,0 +1,158 @@
+{
+  "uid" : "fd90ec2fe4e299eb",
+  "name" : "Должен отображаться текст нотификации устаревшего паспорта в разделе профиля Персональные сведения",
+  "fullName" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера.Должен отображаться текст нотификации устаревшего паспорта в разделе профиля Персональные сведения",
+  "historyId" : "6085f39303afd40c6096cb1d64b715ae",
+  "time" : {
+    "start" : 1606835763494,
+    "stop" : 1606835782186,
+    "duration" : 18692
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835766624,
+        "stop" : 1606835773487,
+        "duration" : 6863
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835766625,
+          "stop" : 1606835768947,
+          "duration" : 2322
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "de9a267d38711a5a",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "de9a267d38711a5a.png",
+          "type" : "image/png",
+          "size" : 2253087
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835768947,
+          "stop" : 1606835773487,
+          "duration" : 4540
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7e12df84cec16c9a",
+          "name" : "Подтверждение учетных данных",
+          "source" : "7e12df84cec16c9a.png",
+          "type" : "image/png",
+          "size" : 2277587
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1606835773487,
+        "stop" : 1606835781602,
+        "duration" : 8115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d668b3e9c2120417",
+        "name" : "Меню перехода в профиль",
+        "source" : "d668b3e9c2120417.png",
+        "type" : "image/png",
+        "size" : 438009
+      }, {
+        "uid" : "9827c427e5add214",
+        "name" : "Результат перехода",
+        "source" : "9827c427e5add214.png",
+        "type" : "image/png",
+        "size" : 213499
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "abab2f5ec52525a0",
+      "name" : "Результат теста",
+      "source" : "abab2f5ec52525a0.png",
+      "type" : "image/png",
+      "size" : 327520
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должен отображаться текст нотификации устаревшего паспорта в разделе профиля Персональные сведения"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-WGKFBNA-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd90ec2fe4e299eb.json",
+  "parameterValues" : [ "2-WGKFBNA-4", "1234", "Basic", "1234" ]
+}

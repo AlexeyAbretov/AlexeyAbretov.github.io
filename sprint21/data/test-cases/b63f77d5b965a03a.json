@@ -1,0 +1,109 @@
+{
+  "uid" : "b63f77d5b965a03a",
+  "name" : "Должна отображаться корректная ошибка при изменении номера карты",
+  "fullName" : "Переводы по номеру карты клиенту банка - интеграционные тесты.Должна отображаться корректная ошибка при изменении номера карты",
+  "historyId" : "1a7c4359501fa187b2cc416591c6c755",
+  "time" : {
+    "start" : 1606832374915,
+    "stop" : 1606832380908,
+    "duration" : 5993
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ElementClickInterceptedError: element click intercepted: Element <a class=\"Link-qfJUS FormLink-krmjhg eORjJe\" data-testid=\"login-form-to-basic-login-link\" color=\"primary\" weight=\"normal\" data-name=\"link\" data-shrink=\"true\" href=\"/login/auth\">...</a> is not clickable at point (433, 354). Other element would receive the click: <div wrap=\"nowrap\" width=\"\" height=\"\" data-name=\"layout\" class=\"Layout-gzNjCU LoginTabs-TomoB kawlXw\">...</div>\n                  (Session info: chrome=87.0.4280.67)",
+  "statusTrace" : "ElementClickInterceptedError: element click intercepted: Element <a class=\"Link-qfJUS FormLink-krmjhg eORjJe\" data-testid=\"login-form-to-basic-login-link\" color=\"primary\" weight=\"normal\" data-name=\"link\" data-shrink=\"true\" href=\"/login/auth\">...</a> is not clickable at point (433, 354). Other element would receive the click: <div wrap=\"nowrap\" width=\"\" height=\"\" data-name=\"layout\" class=\"Layout-gzNjCU LoginTabs-TomoB kawlXw\">...</div>\n                  (Session info: chrome=87.0.4280.67)\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "ElementClickInterceptedError: element click intercepted: Element <a class=\"Link-qfJUS FormLink-krmjhg eORjJe\" data-testid=\"login-form-to-basic-login-link\" color=\"primary\" weight=\"normal\" data-name=\"link\" data-shrink=\"true\" href=\"/login/auth\">...</a> is not clickable at point (433, 354). Other element would receive the click: <div wrap=\"nowrap\" width=\"\" height=\"\" data-name=\"layout\" class=\"Layout-gzNjCU LoginTabs-TomoB kawlXw\">...</div>\n                  (Session info: chrome=87.0.4280.67)",
+    "statusTrace" : "ElementClickInterceptedError: element click intercepted: Element <a class=\"Link-qfJUS FormLink-krmjhg eORjJe\" data-testid=\"login-form-to-basic-login-link\" color=\"primary\" weight=\"normal\" data-name=\"link\" data-shrink=\"true\" href=\"/login/auth\">...</a> is not clickable at point (433, 354). Other element would receive the click: <div wrap=\"nowrap\" width=\"\" height=\"\" data-name=\"layout\" class=\"Layout-gzNjCU LoginTabs-TomoB kawlXw\">...</div>\n                  (Session info: chrome=87.0.4280.67)\n                    at Object.throwDecodedError (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/error.js:550:15)\n                    at parseHttpResponse (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:565:13)\n                    at Executor.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/http.js:491:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at thenableWebDriverProxy.execute (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606832378227,
+        "stop" : 1606832379321,
+        "duration" : 1094
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606832378228,
+          "stop" : 1606832379321,
+          "duration" : 1093
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ba3795031ca12286",
+      "name" : "Результат теста",
+      "source" : "ba3795031ca12286.png",
+      "type" : "image/png",
+      "size" : 2254327
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должна отображаться корректная ошибка при изменении номера карты"
+  }, {
+    "name" : "package",
+    "value" : "Переводы по номеру карты клиенту банка - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "085745-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b63f77d5b965a03a.json",
+  "parameterValues" : [ "085745-1", "1234", "Basic" ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "64f12d34af7caa67",
+  "name" : "Ошибка при входе по продукту - не верный формат телефона",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - не верный формат телефона",
+  "historyId" : "2c00552f3db5c52f05faac3ff254a4d3",
+  "time" : {
+    "start" : 1606835534607,
+    "stop" : 1606835544342,
+    "duration" : 9735
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1606835541809,
+        "stop" : 1606835543072,
+        "duration" : 1263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b23069766469ee78",
+        "name" : "Сообщение об операции",
+        "source" : "b23069766469ee78.png",
+        "type" : "image/png",
+        "size" : 2214928
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5f7ce63c34b58cd",
+      "name" : "Заполнение учетных данных при входе через продукт",
+      "source" : "5f7ce63c34b58cd.png",
+      "type" : "image/png",
+      "size" : 2251010
+    }, {
+      "uid" : "4f6cdbc7fe8ef106",
+      "name" : "Результат теста",
+      "source" : "4f6cdbc7fe8ef106.png",
+      "type" : "image/png",
+      "size" : 2214928
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - не верный формат телефона"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64f12d34af7caa67.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,158 @@
+{
+  "uid" : "8255d76dcf9f96c5",
+  "name" : "Должен успешно пройти подтверждение паспортных данных",
+  "fullName" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера.Должен успешно пройти подтверждение паспортных данных",
+  "historyId" : "859c3721cd1a2c56fd57e187524376f4",
+  "time" : {
+    "start" : 1606835782186,
+    "stop" : 1606835803311,
+    "duration" : 21125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835785192,
+        "stop" : 1606835791972,
+        "duration" : 6780
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835785192,
+          "stop" : 1606835787469,
+          "duration" : 2277
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9aed312b496fd6db",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "9aed312b496fd6db.png",
+          "type" : "image/png",
+          "size" : 2255803
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835787469,
+          "stop" : 1606835791972,
+          "duration" : 4503
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b81d4e30a5266b7a",
+          "name" : "Подтверждение учетных данных",
+          "source" : "b81d4e30a5266b7a.png",
+          "type" : "image/png",
+          "size" : 2277464
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход в профиль",
+      "time" : {
+        "start" : 1606835791972,
+        "stop" : 1606835800147,
+        "duration" : 8175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28608a46878e1ca6",
+        "name" : "Меню перехода в профиль",
+        "source" : "28608a46878e1ca6.png",
+        "type" : "image/png",
+        "size" : 437735
+      }, {
+        "uid" : "4c4a66e0a3386c7b",
+        "name" : "Результат перехода",
+        "source" : "4c4a66e0a3386c7b.png",
+        "type" : "image/png",
+        "size" : 213808
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f35e7eda7fd60afb",
+      "name" : "Результат теста",
+      "source" : "f35e7eda7fd60afb.png",
+      "type" : "image/png",
+      "size" : 283208
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должен успешно пройти подтверждение паспортных данных"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты нотификации смены паспортных данных Интеграционные тесты при наличии оффера"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-WGKFBNA-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8255d76dcf9f96c5.json",
+  "parameterValues" : [ "2-WGKFBNA-4", "1234", "Basic", "1234" ]
+}

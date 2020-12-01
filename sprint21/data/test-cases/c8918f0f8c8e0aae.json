@@ -1,0 +1,173 @@
+{
+  "uid" : "c8918f0f8c8e0aae",
+  "name" : "Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты",
+  "fullName" : "Витрина карт.Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты",
+  "historyId" : "ade068d026e001ae7908d18c7baeb59a",
+  "time" : {
+    "start" : 1606836378375,
+    "stop" : 1606836401897,
+    "duration" : 23522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу витрины карт по прямой ссылке",
+      "time" : {
+        "start" : 1606836381112,
+        "stop" : 1606836391480,
+        "duration" : 10368
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1606836381112,
+          "stop" : 1606836387988,
+          "duration" : 6876
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1606836381112,
+            "stop" : 1606836383383,
+            "duration" : 2271
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "dea88783911382d3",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "dea88783911382d3.png",
+            "type" : "image/png",
+            "size" : 2253637
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1606836383383,
+            "stop" : 1606836387988,
+            "duration" : 4605
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "691c20e2e0738529",
+            "name" : "Подтверждение учетных данных",
+            "source" : "691c20e2e0738529.png",
+            "type" : "image/png",
+            "size" : 2278169
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9848240842d8fd6f",
+        "name" : "Результат перехода на страницу витрины карт по прямой ссылке",
+        "source" : "9848240842d8fd6f.png",
+        "type" : "image/png",
+        "size" : 1361859
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу витрины карт по прямой ссылке",
+      "time" : {
+        "start" : 1606836395941,
+        "stop" : 1606836398420,
+        "duration" : 2479
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c51b63df959e78",
+        "name" : "Результат перехода на страницу витрины карт по прямой ссылке",
+        "source" : "1c51b63df959e78.png",
+        "type" : "image/png",
+        "size" : 1362060
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9e94564e87778f94",
+      "name" : "Результат теста",
+      "source" : "9e94564e87778f94.png",
+      "type" : "image/png",
+      "size" : 1547448
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверка активности кнопки Оформить карту при повторном возвращении на страницу витрины карты"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "136383-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8918f0f8c8e0aae.json",
+  "parameterValues" : [ "136383-1", "1234", "Basic", "1234" ]
+}

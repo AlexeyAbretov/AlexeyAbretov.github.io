@@ -1,0 +1,68 @@
+{
+  "uid" : "acb67c681a9073a7",
+  "name" : "Ошибка при входе по продукту - нет продукта и телефона",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по продукту - нет продукта и телефона",
+  "historyId" : "50e19b172a0f1a900c84e6988e46800",
+  "time" : {
+    "start" : 1606835503370,
+    "stop" : 1606835511506,
+    "duration" : 8136
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ac7be2ef274b2df",
+      "name" : "Заполнение учетных данных при входе через продукт",
+      "source" : "4ac7be2ef274b2df.png",
+      "type" : "image/png",
+      "size" : 2247419
+    }, {
+      "uid" : "d51444b6880d681c",
+      "name" : "Результат теста",
+      "source" : "d51444b6880d681c.png",
+      "type" : "image/png",
+      "size" : 2253936
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по продукту - нет продукта и телефона"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acb67c681a9073a7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,269 @@
+{
+  "uid" : "3486db2650d69165",
+  "name" : "Открытие вклада в Максимальный в долларах",
+  "fullName" : "Открытие накопительного счета - интеграционные тесты.Открытие вклада в Максимальный в долларах",
+  "historyId" : "592edd64d80f2e59b1194e01728b70cb",
+  "time" : {
+    "start" : 1606834767214,
+    "stop" : 1606834822624,
+    "duration" : 55410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на форму открытия Максимальный по прямой ссылке",
+      "time" : {
+        "start" : 1606834770266,
+        "stop" : 1606834793891,
+        "duration" : 23625
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1606834770266,
+          "stop" : 1606834777063,
+          "duration" : 6797
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1606834770266,
+            "stop" : 1606834772543,
+            "duration" : 2277
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "96fbf5efeef48ddf",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "96fbf5efeef48ddf.png",
+            "type" : "image/png",
+            "size" : 2253960
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1606834772544,
+            "stop" : 1606834777063,
+            "duration" : 4519
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "786a1533db938c9d",
+            "name" : "Подтверждение учетных данных",
+            "source" : "786a1533db938c9d.png",
+            "type" : "image/png",
+            "size" : 2278540
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "8c9c3fdfbbb78b04",
+        "name" : "Результат перехода форму открытия вклада Максимальный по прямой ссылке",
+        "source" : "8c9c3fdfbbb78b04.png",
+        "type" : "image/png",
+        "size" : 199522
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы",
+      "time" : {
+        "start" : 1606834793891,
+        "stop" : 1606834807375,
+        "duration" : 13484
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнение формы открытия вклада",
+        "time" : {
+          "start" : 1606834793891,
+          "stop" : 1606834806920,
+          "duration" : 13029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "299af667c846b9d9",
+          "name" : "Заполнение формы - 1",
+          "source" : "299af667c846b9d9.png",
+          "type" : "image/png",
+          "size" : 219097
+        }, {
+          "uid" : "1bc7f7df08d6a0c9",
+          "name" : "Заполнение формы - 2",
+          "source" : "1bc7f7df08d6a0c9.png",
+          "type" : "image/png",
+          "size" : 186317
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d03ed86a34754212",
+        "name" : "Заполнение формы - 3",
+        "source" : "d03ed86a34754212.png",
+        "type" : "image/png",
+        "size" : 186317
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие вклада",
+      "time" : {
+        "start" : 1606834807375,
+        "stop" : 1606834810048,
+        "duration" : 2673
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606834808402,
+          "stop" : 1606834810048,
+          "duration" : 1646
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5037a20da20701bc",
+          "name" : "Подтверждение открытия",
+          "source" : "5037a20da20701bc.png",
+          "type" : "image/png",
+          "size" : 129762
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "213d2661d40acb4c",
+        "name" : "Открытие вклада - нажатие кнопки",
+        "source" : "213d2661d40acb4c.png",
+        "type" : "image/png",
+        "size" : 182800
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "29a95297db8c8644",
+      "name" : "Результат теста",
+      "source" : "29a95297db8c8644.png",
+      "type" : "image/png",
+      "size" : 121184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Открытие вклада в Максимальный в долларах"
+  }, {
+    "name" : "package",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "085745-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Валюта",
+    "value" : "USD"
+  }, {
+    "name" : "Ввод кода подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "amount-input - 300, period-select - period-option-0, payoutTarget-select - payoutTarget-option-0, card-select - 42606840500690000074, bankPhilial-select - bankPhilial-option-0"
+  }, {
+    "name" : "Название вклада",
+    "value" : "Максимальный"
+  }, {
+    "name" : "Перечисление процентов",
+    "value" : "На вклад"
+  }, {
+    "name" : "Период",
+    "value" : "91 день"
+  }, {
+    "name" : "Продукт",
+    "value" : "42606840500690000074"
+  }, {
+    "name" : "Сумма",
+    "value" : "300"
+  }, {
+    "name" : "Филиал",
+    "value" : "АО ОТП Банк"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3486db2650d69165.json",
+  "parameterValues" : [ "085745-1", "1234", "Basic", "1234", "USD", "1234", "amount-input - 300, period-select - period-option-0, payoutTarget-select - payoutTarget-option-0, card-select - 42606840500690000074, bankPhilial-select - bankPhilial-option-0", "Максимальный", "На вклад", "91 день", "42606840500690000074", "300", "АО ОТП Банк" ]
+}

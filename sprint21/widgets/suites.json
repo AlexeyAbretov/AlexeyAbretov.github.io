@@ -1,0 +1,114 @@
+{
+  "total" : 49,
+  "items" : [ {
+    "uid" : "a899af74b7ec507c2f7f0342c3fdf296",
+    "name" : "Депозиты - Калькулятор - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "ab51ecee0e10e155eddabfcd51994555",
+    "name" : "Переводы по номеру карты - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "16d915cd6b65634dec8d840dc1bb76e7",
+    "name" : "PaymentForm - ЖКУ - integration tests",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "58705d0069c5c440448da924ce029e92",
+    "name" : "Переводы по номеру телефона клиенту банка - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e348cdf0dc2d9ffb7e6072c8ea9518aa",
+    "name" : "Переводы между своими счетами - интеграционные тесты",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0fa413f20996d29bb98ff4b3e6bc7d4a",
+    "name" : "Переводы в другой банк физическим лицам - интеграционные тесты",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7d141841e138831f7b701dca5d2833a1",
+    "name" : "Переводы в другой банк организациям - интеграционные тесты",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "43b349b260bfa7abc7f74c695b9a28d2",
+    "name" : "Интеграционные тесты входа в приложение",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 6,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "89a2b047ebbf4105e5f8575b7ad51710",
+    "name" : "Переводы по номеру карты клиенту банка - интеграционные тесты",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "86c808b337054b75b5dafde90a6ba692",
+    "name" : "Витрина карт",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

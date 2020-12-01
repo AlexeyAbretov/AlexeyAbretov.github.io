@@ -1,0 +1,251 @@
+{
+  "uid" : "9db40782543a7fda",
+  "name" : "Выключение уведомлений должно работать корректно",
+  "fullName" : "Изменение настроек уведомлений - интеграционные тесты.Выключение уведомлений должно работать корректно",
+  "historyId" : "92bb51d25e6717073c5395428ee120b5",
+  "time" : {
+    "start" : 1606835630226,
+    "stop" : 1606835716859,
+    "duration" : 86633
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606835633417,
+        "stop" : 1606835695835,
+        "duration" : 62418
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606835633417,
+          "stop" : 1606835635743,
+          "duration" : 2326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b0343e32b1ec8506",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "b0343e32b1ec8506.png",
+          "type" : "image/png",
+          "size" : 2251738
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606835635743,
+          "stop" : 1606835695835,
+          "duration" : 60092
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606835695835,
+        "stop" : 1606835704033,
+        "duration" : 8198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "683e54b261d0f287",
+        "name" : "Переход на страницу продукта",
+        "source" : "683e54b261d0f287.png",
+        "type" : "image/png",
+        "size" : 594811
+      }, {
+        "uid" : "a233eba8824452bf",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "a233eba8824452bf.png",
+        "type" : "image/png",
+        "size" : 598999
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606835704033,
+        "stop" : 1606835707014,
+        "duration" : 2981
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5476fe0ac9d340f9",
+        "name" : "Открытие списка дополнительных действий",
+        "source" : "5476fe0ac9d340f9.png",
+        "type" : "image/png",
+        "size" : 614463
+      }, {
+        "uid" : "8a72f7aaea44f721",
+        "name" : "Переход на форму ",
+        "source" : "8a72f7aaea44f721.png",
+        "type" : "image/png",
+        "size" : 604766
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Форма подтверждения изменений",
+      "time" : {
+        "start" : 1606835707218,
+        "stop" : 1606835707862,
+        "duration" : 644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "718b89fda282e5be",
+        "name" : "Подтверждение отключения",
+        "source" : "718b89fda282e5be.png",
+        "type" : "image/png",
+        "size" : 553503
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение изменения настроек",
+      "time" : {
+        "start" : 1606835707991,
+        "stop" : 1606835710418,
+        "duration" : 2427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6815dd3db890e834",
+        "name" : "Подтверждение изменения настроек",
+        "source" : "6815dd3db890e834.png",
+        "type" : "image/png",
+        "size" : 550586
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение сообщения об операции",
+      "time" : {
+        "start" : 1606835710418,
+        "stop" : 1606835716250,
+        "duration" : 5832
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6fae8386971eeafd",
+        "name" : "Сообщение об операции",
+        "source" : "6fae8386971eeafd.png",
+        "type" : "image/png",
+        "size" : 634762
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a469ba956b0ca80",
+      "name" : "Результат теста",
+      "source" : "a469ba956b0ca80.png",
+      "type" : "image/png",
+      "size" : 634762
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Изменение настроек уведомлений - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Изменение настроек уведомлений - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Выключение уведомлений должно работать корректно"
+  }, {
+    "name" : "package",
+    "value" : "Изменение настроек уведомлений - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5-DA1MP-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "134004"
+  }, {
+    "name" : "Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9db40782543a7fda.json",
+  "parameterValues" : [ "5-DA1MP-4", "1234", "Basic", "1234", "Карты", "134004", "1234" ]
+}

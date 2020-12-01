@@ -1,0 +1,48 @@
+{
+  "uid" : "707ef498ac54c970",
+  "name" : "Ошибка при входе по логину/паролю - блокировка при превышении попыток ввода неверного пароля",
+  "fullName" : "Интеграционные тесты входа в приложение.Ошибка при входе по логину/паролю - блокировка при превышении попыток ввода неверного пароля",
+  "historyId" : "59cb77f94a8afe48d9c5eee25c656159",
+  "time" : {
+    "start" : 1606835486714,
+    "stop" : 1606835486714,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ошибка при входе по логину/паролю - блокировка при превышении попыток ввода неверного пароля"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "707ef498ac54c970.json",
+  "parameterValues" : [ ]
+}

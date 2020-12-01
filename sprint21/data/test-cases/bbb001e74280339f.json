@@ -1,0 +1,91 @@
+{
+  "uid" : "bbb001e74280339f",
+  "name" : "Успешный вход по логину/паролю без ввода кода подтверждения",
+  "fullName" : "Интеграционные тесты входа в приложение.Успешный вход по логину/паролю без ввода кода подтверждения",
+  "historyId" : "44fd3e04a4a0ac025034c8e555dc9f55",
+  "time" : {
+    "start" : 1606835399447,
+    "stop" : 1606835407475,
+    "duration" : 8028
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee3$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/login/containers/__tests__/Login.ispec.js:102:16)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at _callee3$ (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/src/modules/login/containers/__tests__/Login.ispec.js:102:16)\n                    at tryCatch (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:45:40)\n                    at Generator.invoke [as _invoke] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:274:22)\n                    at Generator.prototype.<computed> [as next] (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/regenerator-runtime/runtime.js:97:21)\n                    at asyncGeneratorStep (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n                    at _next (/Users/abretovaa/work/projects/digital/gitlab.local/frontend-2/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "Ввод учетных данных",
+      "time" : {
+        "start" : 1606835402098,
+        "stop" : 1606835404365,
+        "duration" : 2267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dd30ababaa56be5",
+        "name" : "Заполнение учетных данных при входе по логину/паролю",
+        "source" : "6dd30ababaa56be5.png",
+        "type" : "image/png",
+        "size" : 2254622
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a6edb74c3e3d54f",
+      "name" : "Результат теста",
+      "source" : "a6edb74c3e3d54f.png",
+      "type" : "image/png",
+      "size" : 31270
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "testMethod",
+    "value" : "Успешный вход по логину/паролю без ввода кода подтверждения"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bbb001e74280339f.json",
+  "parameterValues" : [ ]
+}

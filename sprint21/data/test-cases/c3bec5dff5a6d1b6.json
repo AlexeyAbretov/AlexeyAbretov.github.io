@@ -1,0 +1,48 @@
+{
+  "uid" : "c3bec5dff5a6d1b6",
+  "name" : "should go to DepositOpenForm when: there are hidden deposits and more button in aside",
+  "fullName" : "Открытие накопительного счета - интеграционные тесты.should go to DepositOpenForm when: there are hidden deposits and more button in aside",
+  "historyId" : "d6e8c5a4d46b97eacbad88c492e5c455",
+  "time" : {
+    "start" : 1606834664591,
+    "stop" : 1606834664591,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Temporarily disabled with xit",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to DepositOpenForm when: there are hidden deposits and more button in aside"
+  }, {
+    "name" : "package",
+    "value" : "Открытие накопительного счета - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3bec5dff5a6d1b6.json",
+  "parameterValues" : [ ]
+}

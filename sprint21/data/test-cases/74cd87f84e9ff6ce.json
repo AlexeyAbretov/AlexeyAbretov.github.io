@@ -1,0 +1,62 @@
+{
+  "uid" : "74cd87f84e9ff6ce",
+  "name" : "Вставка номера телефона из буфера обмена",
+  "fullName" : "Интеграционные тесты входа в приложение только для Firefox.Вставка номера телефона из буфера обмена",
+  "historyId" : "bddc8eebf232ea6526d92a5cac0251d2",
+  "time" : {
+    "start" : 1606834949790,
+    "stop" : 1606834955411,
+    "duration" : 5621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9caded0b9142921",
+      "name" : "Результат теста",
+      "source" : "b9caded0b9142921.png",
+      "type" : "image/png",
+      "size" : 2252565
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты входа в приложение только для Firefox"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты входа в приложение только для Firefox"
+  }, {
+    "name" : "testMethod",
+    "value" : "Вставка номера телефона из буфера обмена"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты входа в приложение только для Firefox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74cd87f84e9ff6ce.json",
+  "parameterValues" : [ ]
+}

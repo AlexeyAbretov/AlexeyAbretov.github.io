@@ -1,0 +1,191 @@
+{
+  "uid" : "67082dc842b3d715",
+  "name" : "Документ выписки должен успешно выгрузится",
+  "fullName" : "Кредитная карта - выписки - интеграционные тесты.Документ выписки должен успешно выгрузится",
+  "historyId" : "2179e67b5e76c55874e25dea14c29c15",
+  "time" : {
+    "start" : 1606836756156,
+    "stop" : 1606836783441,
+    "duration" : 27285
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606836759265,
+        "stop" : 1606836766680,
+        "duration" : 7415
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606836761809,
+          "stop" : 1606836766680,
+          "duration" : 4871
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2e39f4fff5be0700",
+          "name" : "Подтверждение учетных данных",
+          "source" : "2e39f4fff5be0700.png",
+          "type" : "image/png",
+          "size" : 2277718
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "baf05072895c179e",
+        "name" : "Заполнение учетных данных при входе через продукт",
+        "source" : "baf05072895c179e.png",
+        "type" : "image/png",
+        "size" : 2254963
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу продукта",
+      "time" : {
+        "start" : 1606836766680,
+        "stop" : 1606836772344,
+        "duration" : 5664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8cbbca303a4041",
+        "name" : "Переход на страницу продукта",
+        "source" : "f8cbbca303a4041.png",
+        "type" : "image/png",
+        "size" : 431243
+      }, {
+        "uid" : "81cd4bc3f8117cc4",
+        "name" : "Результат перехода на страницу продукта",
+        "source" : "81cd4bc3f8117cc4.png",
+        "type" : "image/png",
+        "size" : 549253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на вкладку \"Выписка\"",
+      "time" : {
+        "start" : 1606836772345,
+        "stop" : 1606836774159,
+        "duration" : 1814
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b52d7d5af648128",
+        "name" : "Содержимое вкладки \"Выписка\"",
+        "source" : "6b52d7d5af648128.png",
+        "type" : "image/png",
+        "size" : 566787
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход по ссылке",
+      "time" : {
+        "start" : 1606836780386,
+        "stop" : 1606836782928,
+        "duration" : 2542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1af1092bbbcb886",
+        "name" : "Результат переход по ссылке",
+        "source" : "e1af1092bbbcb886.png",
+        "type" : "image/png",
+        "size" : 380048
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e0a6539134faec1",
+      "name" : "Результат теста",
+      "source" : "e0a6539134faec1.png",
+      "type" : "image/png",
+      "size" : 380048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Кредитная карта - выписки - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Кредитная карта - выписки - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Документ выписки должен успешно выгрузится"
+  }, {
+    "name" : "package",
+    "value" : "Кредитная карта - выписки - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "5048202890"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "9679702227"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Product"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "5. Категория продукта",
+    "value" : "Карты"
+  }, {
+    "name" : "6. ID продукта",
+    "value" : "15700"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67082dc842b3d715.json",
+  "parameterValues" : [ "5048202890", "9679702227", "Product", "1234", "Карты", "15700" ]
+}

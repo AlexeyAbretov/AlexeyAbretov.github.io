@@ -1,0 +1,152 @@
+{
+  "uid" : "85a92e401f28b54d",
+  "name" : "Просмотр витрины карт - витрина не пустая",
+  "fullName" : "Витрина карт.Просмотр витрины карт - витрина не пустая",
+  "historyId" : "ff3c7df9e6d1b1dfb24b9852ea539fdb",
+  "time" : {
+    "start" : 1606836363300,
+    "stop" : 1606836378375,
+    "duration" : 15075
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу витрины карт по прямой ссылке",
+      "time" : {
+        "start" : 1606836366160,
+        "stop" : 1606836376092,
+        "duration" : 9932
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход в приложение",
+        "time" : {
+          "start" : 1606836366161,
+          "stop" : 1606836373073,
+          "duration" : 6912
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввод учетных данных",
+          "time" : {
+            "start" : 1606836366161,
+            "stop" : 1606836368551,
+            "duration" : 2390
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "62d8925eeae759f9",
+            "name" : "Заполнение учетных данных при входе по логину/паролю",
+            "source" : "62d8925eeae759f9.png",
+            "type" : "image/png",
+            "size" : 2248629
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Подтверждение учетных данных",
+          "time" : {
+            "start" : 1606836368551,
+            "stop" : 1606836373073,
+            "duration" : 4522
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8f13e696388d34a8",
+            "name" : "Подтверждение учетных данных",
+            "source" : "8f13e696388d34a8.png",
+            "type" : "image/png",
+            "size" : 2278133
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b4669d7df8c381fb",
+        "name" : "Результат перехода на страницу витрины карт по прямой ссылке",
+        "source" : "b4669d7df8c381fb.png",
+        "type" : "image/png",
+        "size" : 288562
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "252ed14d530827b0",
+      "name" : "Результат теста",
+      "source" : "252ed14d530827b0.png",
+      "type" : "image/png",
+      "size" : 1338756
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testClass",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "testMethod",
+    "value" : "Просмотр витрины карт - витрина не пустая"
+  }, {
+    "name" : "package",
+    "value" : "Витрина карт"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-1ULEJMV-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85a92e401f28b54d.json",
+  "parameterValues" : [ "2-1ULEJMV-4", "1234", "Basic", "1234" ]
+}

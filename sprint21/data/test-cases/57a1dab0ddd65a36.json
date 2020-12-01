@@ -1,0 +1,230 @@
+{
+  "uid" : "57a1dab0ddd65a36",
+  "name" : "Должна отображаться ошибка при вводе номера карты",
+  "fullName" : "Переводы по номеру карты - интеграционные тесты.Должна отображаться ошибка при вводе номера карты",
+  "historyId" : "cf137fd85f87a69946f324fc67d4239f",
+  "time" : {
+    "start" : 1606832017677,
+    "stop" : 1606832040945,
+    "duration" : 23268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606832020813,
+        "stop" : 1606832027500,
+        "duration" : 6687
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606832020813,
+          "stop" : 1606832023001,
+          "duration" : 2188
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "49b16eb553ca3a13",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "49b16eb553ca3a13.png",
+          "type" : "image/png",
+          "size" : 2254145
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606832023001,
+          "stop" : 1606832027500,
+          "duration" : 4499
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1b2cd89fd497f895",
+          "name" : "Подтверждение учетных данных",
+          "source" : "1b2cd89fd497f895.png",
+          "type" : "image/png",
+          "size" : 2278603
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1606832027500,
+        "stop" : 1606832039116,
+        "duration" : 11616
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1606832027500,
+          "stop" : 1606832029506,
+          "duration" : 2006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b7be8db368c678f",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "b7be8db368c678f.png",
+          "type" : "image/png",
+          "size" : 4500
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1606832029506,
+          "stop" : 1606832039116,
+          "duration" : 9610
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "652d56fd0d66984",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "652d56fd0d66984.png",
+          "type" : "image/png",
+          "size" : 6487
+        }, {
+          "uid" : "ae8b8882a61c5b46",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "ae8b8882a61c5b46.png",
+          "type" : "image/png",
+          "size" : 1565
+        }, {
+          "uid" : "c84f4a8361daad2a",
+          "name" : "Форма перевода",
+          "source" : "c84f4a8361daad2a.png",
+          "type" : "image/png",
+          "size" : 162979
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1606832039117,
+        "stop" : 1606832040354,
+        "duration" : 1237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad345615659c7a3",
+        "name" : "Заполненная формы перевода",
+        "source" : "ad345615659c7a3.png",
+        "type" : "image/png",
+        "size" : 174662
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "66436672b3f49b98",
+      "name" : "Результат теста",
+      "source" : "66436672b3f49b98.png",
+      "type" : "image/png",
+      "size" : 172109
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Переводы по номеру карты - интеграционные тесты"
+  }, {
+    "name" : "testClass",
+    "value" : "Переводы по номеру карты - интеграционные тесты"
+  }, {
+    "name" : "testMethod",
+    "value" : "Должна отображаться ошибка при вводе номера карты"
+  }, {
+    "name" : "package",
+    "value" : "Переводы по номеру карты - интеграционные тесты"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "085745-1"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Номер карты/счета - 5521409990176230, Сумма - "
+  }, {
+    "name" : "Тип перевода",
+    "value" : "transfer_card"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "tab-menu-На карту"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57a1dab0ddd65a36.json",
+  "parameterValues" : [ "085745-1", "1234", "Basic", "1234", "Номер карты/счета - 5521409990176230, Сумма - ", "transfer_card", "tab-menu-На карту" ]
+}

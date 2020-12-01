@@ -1,0 +1,305 @@
+{
+  "uid" : "37cc0e33b03b490",
+  "name" : "Создание бессрочного автоплатежа должно пройти успешно",
+  "fullName" : "Интеграционные тесты автоплатежей.Создание бессрочного автоплатежа должно пройти успешно",
+  "historyId" : "c5f306935bb506cee6a99c40303d622f",
+  "time" : {
+    "start" : 1606836225751,
+    "stop" : 1606836278787,
+    "duration" : 53036
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Вход в приложение",
+      "time" : {
+        "start" : 1606836229028,
+        "stop" : 1606836236074,
+        "duration" : 7046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод учетных данных",
+        "time" : {
+          "start" : 1606836229028,
+          "stop" : 1606836231319,
+          "duration" : 2291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "32552355e8c362b7",
+          "name" : "Заполнение учетных данных при входе по логину/паролю",
+          "source" : "32552355e8c362b7.png",
+          "type" : "image/png",
+          "size" : 2250113
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Подтверждение учетных данных",
+        "time" : {
+          "start" : 1606836231319,
+          "stop" : 1606836236074,
+          "duration" : 4755
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "965ca077587b349d",
+          "name" : "Подтверждение учетных данных",
+          "source" : "965ca077587b349d.png",
+          "type" : "image/png",
+          "size" : 2277464
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на страницу перевода",
+      "time" : {
+        "start" : 1606836236074,
+        "stop" : 1606836248190,
+        "duration" : 12116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Переход на страницу платежей и переводов по кнопке",
+        "time" : {
+          "start" : 1606836236074,
+          "stop" : 1606836241109,
+          "duration" : 5035
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d963303dc5210d6e",
+          "name" : "Кнопка платежей и переводов",
+          "source" : "d963303dc5210d6e.png",
+          "type" : "image/png",
+          "size" : 4500
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Переход на форму перевода",
+        "time" : {
+          "start" : 1606836241109,
+          "stop" : 1606836248190,
+          "duration" : 7081
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d22a60b0cfa72321",
+          "name" : "Кнопка перехода на страницу перевода",
+          "source" : "d22a60b0cfa72321.png",
+          "type" : "image/png",
+          "size" : 5851
+        }, {
+          "uid" : "763dc5d5d12a8b43",
+          "name" : "Кнопка перехода на форму перевода",
+          "source" : "763dc5d5d12a8b43.png",
+          "type" : "image/png",
+          "size" : 4229
+        }, {
+          "uid" : "155e7444282e27de",
+          "name" : "Форма перевода",
+          "source" : "155e7444282e27de.png",
+          "type" : "image/png",
+          "size" : 171438
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы перевода",
+      "time" : {
+        "start" : 1606836248191,
+        "stop" : 1606836249657,
+        "duration" : 1466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ed91ce96418943d",
+        "name" : "Заполненная формы перевода",
+        "source" : "8ed91ce96418943d.png",
+        "type" : "image/png",
+        "size" : 176901
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание формы успешного перевода",
+      "time" : {
+        "start" : 1606836249657,
+        "stop" : 1606836264615,
+        "duration" : 14958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f2b859deb33ab83",
+        "name" : "Ожидание формы успешного перевода",
+        "source" : "8f2b859deb33ab83.png",
+        "type" : "image/png",
+        "size" : 175730
+      }, {
+        "uid" : "8626d907dc0e2c31",
+        "name" : "Результат перевода",
+        "source" : "8626d907dc0e2c31.png",
+        "type" : "image/png",
+        "size" : 134331
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы создания автоплатежа ",
+      "time" : {
+        "start" : 1606836264686,
+        "stop" : 1606836275382,
+        "duration" : 10696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98642a8c33a7d71a",
+        "name" : "Заполнение формы автоплатежа",
+        "source" : "98642a8c33a7d71a.png",
+        "type" : "image/png",
+        "size" : 210053
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Подтверждение создания шаблона",
+      "time" : {
+        "start" : 1606836275453,
+        "stop" : 1606836278044,
+        "duration" : 2591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1daad2749a5f77b",
+        "name" : "Подтверждение создания шаблона",
+        "source" : "d1daad2749a5f77b.png",
+        "type" : "image/png",
+        "size" : 137120
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "766f68ac04f88b89",
+      "name" : "Результат теста",
+      "source" : "766f68ac04f88b89.png",
+      "type" : "image/png",
+      "size" : 121797
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Интеграционные тесты автоплатежей"
+  }, {
+    "name" : "testClass",
+    "value" : "Интеграционные тесты автоплатежей"
+  }, {
+    "name" : "testMethod",
+    "value" : "Создание бессрочного автоплатежа должно пройти успешно"
+  }, {
+    "name" : "package",
+    "value" : "Интеграционные тесты автоплатежей"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1. Логин",
+    "value" : "2-WGKFBNA-4"
+  }, {
+    "name" : "2. Пароль",
+    "value" : "1234"
+  }, {
+    "name" : "3. Тип входа",
+    "value" : "Basic"
+  }, {
+    "name" : "4. Код подтверждения",
+    "value" : "1234"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Название - Тестовый шаблон - 1606836264686, Автоплатеж - , День недели - dayOfTheWeek-option-0"
+  }, {
+    "name" : "Значения формы",
+    "value" : "Телефон - 9263670122, Сумма - 1, Номер карты/счета - 40817810500690007872"
+  }, {
+    "name" : "Код подтверждения создания шаблона",
+    "value" : "1234"
+  }, {
+    "name" : "Тип перевода",
+    "value" : "payment_7"
+  }, {
+    "name" : "Форма перевода",
+    "value" : "favorite-payment-1695"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37cc0e33b03b490.json",
+  "parameterValues" : [ "2-WGKFBNA-4", "1234", "Basic", "1234", "Название - Тестовый шаблон - 1606836264686, Автоплатеж - , День недели - dayOfTheWeek-option-0", "Телефон - 9263670122, Сумма - 1, Номер карты/счета - 40817810500690007872", "1234", "payment_7", "favorite-payment-1695" ]
+}
